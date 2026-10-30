@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T12:05:12",
+ "generated_at": "2026-10-30T09:31:18",
  "tool": "patch_fix4.py",
  "dry_run": false,
  "en_restore": {
@@ -12,7 +12,7 @@
   "assets/bin/Data/a1e9ec10c664743ac927859dda597701": {
    "label": "ui(en)",
    "action": "en_restore",
-   "sha256_before": "6ade40f6227472ed0b68cb532d0aac54d30c6eab9411a48041e2c92f665f9b2f",
+   "sha256_before": "d1695f530e2db0307536489fd24d8e55626ab7ee30ca80030eadbbbb8d9ffc74",
    "sha256_after": "80aafceb0f6ae0bf4460896167884e28e13af9d5801f5e46f413ded9410b4580",
    "changed": true,
    "changed_count": 37,
@@ -250,7 +250,7 @@
   "assets/bin/Data/6c88814b67ea44496a219083a723a1e5": {
    "label": "titleflow(en)",
    "action": "en_restore",
-   "sha256_before": "1e6006e1e16bda8f70251def15ad64367aff70e413f25c4953b7b3e2dd5f2451",
+   "sha256_before": "bffc71ebb7b04c968df51008c07d605310301b9d521428f7468c16295eefe357",
    "sha256_after": "525354ee45e8db2ad1827e7db87644329ab52a93d9357397241c3c900140cb2f",
    "changed": true,
    "changed_count": 43,
@@ -524,7 +524,7 @@
   "assets/bin/Data/1dc4624c9ddde409fb4ffb1b0cb2faeb": {
    "label": "nt(en)",
    "action": "en_restore",
-   "sha256_before": "0708f73257b0b13ec07f3cdb976807b29219744a5c6acc9380ad26f486b47428",
+   "sha256_before": "9fa26754e7afc861c8784f38ca0e3b072baa9ccc2237adac5a79f37a9875e30e",
    "sha256_after": "10e59bbabbc60ade5220f19a9a060f21934c40b121437775039f39aa7b42ee05",
    "changed": true,
    "changed_count": 1,
@@ -546,7 +546,7 @@
   "assets/bin/Data/d3f332a247d3c418d94d377ae81104c7": {
    "label": "nt(ko)",
    "action": "ko_nt_translate",
-   "sha256_before": "014e0e3bf329421b25267ba125eaf55b1dafda92ecfc590a507995440bba4376",
+   "sha256_before": "37db04bd3d0bef7f9166ea1e0b41cd519884ef38726de4b8639dd32984f88e0a",
    "sha256_after": "57d2e6b1f4f4744bdc38871a572528348afcd795ffef69807fd32bd82f1ddf7a",
    "changed": true,
    "changed_count": 67,
