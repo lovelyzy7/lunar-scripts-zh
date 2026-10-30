@@ -26,7 +26,7 @@
     {
       "path": "fix4_orig_en_values.json",
       "bytes": 6315,
-      "sha256": "f317a5bbe2e978b937de846fcac742675974737f49058a5a19212f2a15e7290e",
+      "sha256": "563012e0224e839c53bc002dcc1ca03ce533181dfec7b8364abf6505a5bfffdf",
       "source": "zh-l10n/work/en-apk/fix4_orig_en_values.json",
       "source_sha256": "f317a5bbe2e978b937de846fcac742675974737f49058a5a19212f2a15e7290e",
       "identical_to_source": true
@@ -98,7 +98,7 @@
     {
       "path": "../shared/verify_gate.py",
       "bytes": 23662,
-      "sha256": "7c588349d2974585b6fe08a712b54e3fc3df57ae92b6521950e76c7ea8dead64",
+      "sha256": "beda1424d3500dfa653cfb50404abd9e1d2b31dd93c9debf717bf86b28d65714",
       "source": "authored",
       "source_sha256": null,
       "identical_to_source": null

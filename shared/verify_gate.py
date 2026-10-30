@@ -396,7 +396,9 @@ def check_manifest_precheck(manifest_dir: Path):
         if not p.is_file():
             bad.append({"path": item["path"], "reason": "missing"})
             continue
-        got = G.sha256_file(p)
+        # 摘要对 LF 归一：Windows（autocrlf）检出为 CRLF、CI 为 LF，同一内容
+        # 必须同摘要；MANIFEST.json 的期望值按同式生成，跨平台自洽。
+        got = G.sha256_bytes(p.read_bytes().replace(b"\r\n", b"\n"))
         if got != item["sha256"]:
             bad.append({"path": item["path"], "reason": "sha256",
                         "expected": item["sha256"][:16], "actual": got[:16]})
