@@ -1,0 +1,30 @@
+kind	token	occurrences	example_key	note
+tag_name	<br…>	58883	cage.memory.description.100010	富文本/脚本标签
+tag_name	<TAP…>	9892	MID_a065_0045_00100_01040_1	富文本/脚本标签
+tag_name	<PAGE…>	4032	content.story.0025002.000010	富文本/脚本标签
+tag_name	<style…>	1353	004_00014_4001_v	富文本/脚本标签
+tag_name	<cspace…>	1327	cage.memory.description.100120	富文本/脚本标签
+tag_name	<align…>	614	cage.memory.description.100010	富文本/脚本标签
+tag_name	<NONE…>	196	CID_a01040_1010g_00130_01040_1	富文本/脚本标签
+tag_name	<color…>	40	ui.Outgame.Gacha.Event.Description	富文本/脚本标签
+tag_name	<space…>	38	cage.memory.description.100060	富文本/脚本标签
+tag_name	<size…>	38	costume.emblem.production.001.01	富文本/脚本标签
+tag_name	<WAIT…>	17	PID_a010_4050_00900_02020_1	富文本/脚本标签
+tag_name	<weapon_type_icon…>	12	quest.guerrilla.description.1.0	富文本/脚本标签
+tag_name	<hint…>	11	002_00025_0_v	富文本/脚本标签
+tag_name	<production0…>	8	001_00012_0_v	富文本/脚本标签
+tag_name	<alpha…>	8	005_00015_0_v	富文本/脚本标签
+tag_name	<sprite…>	8	smartphone.chat.group.1001.message.25	富文本/脚本标签
+tag_name	<production2…>	6	002_00014_0_v	富文本/脚本标签
+tag_name	<production1…>	6	002_00014_0_v	富文本/脚本标签
+tag_name	<b…>	4	ui.Outgame.Gacha.Event.Description	富文本/脚本标签
+tag_name	<n…>	1	ui.Outgame.Smartphone.App.Other.06	富文本/脚本标签
+pattern	<br\s*/?>	58883		换行标签
+pattern	</?[A-Za-z][A-Za-z0-9_\-]*(?:=[^<>]*)?>	76494		Unity 富文本标签（TAP/PAGE/NONE/production/hint/…）
+pattern	\{[0-9]+\}	0		.NET 格式占位符 {0}
+pattern	\\n	0		字面转义换行 \n（两字符）
+pattern	<color=#[0-9A-Fa-f]{6,8}>	0		颜色标签
+pattern	<size=[0-9]+>	0		字号标签
+pattern	<cspace=[^<>]+>	0		字距标签
+pattern	<align=\"[^\"]+\">	0		对齐标签
+pattern	<style=\"[^\"]+\">	0		样式标签

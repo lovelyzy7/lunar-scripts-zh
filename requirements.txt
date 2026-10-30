@@ -1,0 +1,7 @@
+# lunar-scripts-zh requirements（叠加在 lunar-scripts-jp 的 requirements 之上）
+# Python 3.10+；打包/文本链用 zh-l10n\.venv 或本仓 venv
+protobuf>=4          # patch_listbin（octo_pb2）/ masterdata 链
+UnityPy>=1.10        # 文本包解包/回写（probe_bundle_repack）
+lz4>=4               # UnityFS LZ4 block
+msgpack              # masterdata 行解析
+requests             # mt_client 供应商调用

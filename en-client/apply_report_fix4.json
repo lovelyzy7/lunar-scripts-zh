@@ -1,0 +1,968 @@
+{
+ "generated_at": "2026-10-29T12:05:12",
+ "tool": "patch_fix4.py",
+ "dry_run": false,
+ "en_restore": {
+  "keys": 81
+ },
+ "ko_nt_translate": {
+  "keys": 67
+ },
+ "files": {
+  "assets/bin/Data/a1e9ec10c664743ac927859dda597701": {
+   "label": "ui(en)",
+   "action": "en_restore",
+   "sha256_before": "6ade40f6227472ed0b68cb532d0aac54d30c6eab9411a48041e2c92f665f9b2f",
+   "sha256_after": "80aafceb0f6ae0bf4460896167884e28e13af9d5801f5e46f413ded9410b4580",
+   "changed": true,
+   "changed_count": 37,
+   "log": [
+    {
+     "asset": "ui",
+     "changed": [
+      {
+       "key": "ui.Title.Menu.Button",
+       "old": "菜单",
+       "new": "Menu",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Service.Agree",
+       "old": "同意",
+       "new": "Yes",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Service.error.title",
+       "old": "错误",
+       "new": "Error",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Service.error.description",
+       "old": "通信失败。\\n将返回标题画面。",
+       "new": "Failed to connect.\\nReturning to title s",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Common.Cancel",
+       "old": "取消",
+       "new": "Cancel",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Common.Close",
+       "old": "关闭",
+       "new": "Close",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Common.Ok",
+       "old": "确认",
+       "new": "OK",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Common.Yes",
+       "old": "是",
+       "new": "Yes",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Common.No",
+       "old": "否",
+       "new": "No",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Common.Maintenance.Parts",
+       "old": "维护中",
+       "new": "Maintenance",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Common.Maintenance.Twitter",
+       "old": "※维护的最新信息请通过官方推特确认。",
+       "new": "Please check our official Facebook accou",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Common.Maintenance.Twitter_2",
+       "old": "※维护的最新信息请通过官方推特确认。",
+       "new": "Please check our official Twitter accoun",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.Notice",
+       "old": "公告",
+       "new": "Notices",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.Contact",
+       "old": "联系我们",
+       "new": "Contact",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.DataLinkage",
+       "old": "数据继承",
+       "new": "Transfer Data",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.DataLinkage.TransferCompletedTitle",
+       "old": "成功",
+       "new": "Success",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.DataLinkage.TransferCompletedDescription",
+       "old": "传输完成。",
+       "new": "Transfer completed.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.DataRecovery",
+       "old": "数据修复",
+       "new": "Restore Data",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.VariousInformation",
+       "old": "其他信息",
+       "new": "Information",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.DataRemove",
+       "old": "删除数据",
+       "new": "Delete Data",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Information",
+       "old": "其他信息",
+       "new": "Information",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Repair",
+       "old": "数据修复",
+       "new": "Restore Data",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Repair.Description",
+       "old": "将进行数据修复。确定吗？",
+       "new": "Are you sure you want to restore data?",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Repair.Result",
+       "old": "数据修复已完成",
+       "new": "Data restored.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.Title.Quit.Title",
+       "old": "结束游戏",
+       "new": "Quit Game",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.Title.Quit.Description",
+       "old": "要结束游戏吗？",
+       "new": "Are you sure you want to quit the game?",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.Menu.Title.Jump.Title",
+       "old": "返回标题",
+       "new": "Title Screen",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Loading.Confirm.Title",
+       "old": "下载确认",
+       "new": "Confirm",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Loading.Confirm.WithSize",
+       "old": "将下载 {0} 数据",
+       "new": "Downloading {0} of data.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Loading.Confirm.Message.NoneLoadData",
+       "old": "没有可加载的数据",
+       "new": "No data to load.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Loading.Warning.Wifi",
+       "old": "<color=#D29797>※根据通信状况可能需要较长时间。建议在 Wi-Fi",
+       "new": "<color=#D29797>This can take time depend",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Loading.Text",
+       "old": "加载中...",
+       "new": "Loading...",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Title",
+       "old": "删除数据",
+       "new": "Delete Data",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Confirm.Message",
+       "old": "数据删除功能可删除您使用的账号功能及\\n游戏数据。\\n要删除当前数据吗？",
+       "new": "The data deletion function can be used t",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Confirm.Attention",
+       "old": "※删除后若仍希望使用当前数据继续游戏，请事先在游戏内菜单「数据继承」中完成继承设",
+       "new": "If you would like to continue playing us",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Delete",
+       "old": "删除",
+       "new": "Delete",
+       "status": "PATCHED"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Complete.Message",
+       "old": "删除已完成。\\n应用将重新启动。\\n\\n如需删除个人信息，请通过「联系我们」与我",
+       "new": "Deletion complete.\\nRestarting applicati",
+       "status": "PATCHED"
+      }
+     ],
+     "changed_count": 37
+    }
+   ]
+  },
+  "assets/bin/Data/6c88814b67ea44496a219083a723a1e5": {
+   "label": "titleflow(en)",
+   "action": "en_restore",
+   "sha256_before": "1e6006e1e16bda8f70251def15ad64367aff70e413f25c4953b7b3e2dd5f2451",
+   "sha256_after": "525354ee45e8db2ad1827e7db87644329ab52a93d9357397241c3c900140cb2f",
+   "changed": true,
+   "changed_count": 43,
+   "log": [
+    {
+     "asset": "titleflow",
+     "changed": [
+      {
+       "key": "titleflow.dialog.ageverification.title",
+       "old": "年龄确认",
+       "new": "Confirm Age",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.personalizeadd.title",
+       "old": "广告",
+       "new": "Ad Tracking",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.ageverification.text",
+       "old": "您的年龄是否满16岁？",
+       "new": "Is your age 16 years or over?",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.personalizeadd.text",
+       "old": "是否愿意共享您的个人信息\\n以查看符合您兴趣的广告？\\n您可随时在[设置]菜单中",
+       "new": "Would you like to share your personal\\ni",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.confirm.ban.cbt.title",
+       "old": "卸载请求",
+       "new": "Uninstallation Request",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.title",
+       "old": "注册玩家名",
+       "new": "Register Name",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.registry",
+       "old": "注册",
+       "new": "Register",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.description",
+       "old": "请输入玩家名",
+       "new": "Please input a player name.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.annotation",
+       "old": "请输入10个字符以内\\n　名称可随时更改",
+       "new": "Your name can contain up to 10 character",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.confirm.ban.title",
+       "old": "使用停止通知",
+       "new": "Suspension of Use",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.confirm.ban.inquiry",
+       "old": "咨询",
+       "new": "Contact",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.maintenance.title",
+       "old": "维护中",
+       "new": "Maintenance",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.maintenance.description",
+       "old": "目前正在维护中，无法使用\\n\\n预定结束时间\\n{0}\\n\\n※维护的最新信息请",
+       "new": "The system is currently undergoing maint",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.maintenance.to.title",
+       "old": "返回标题",
+       "new": "To Title Screen",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.maintenance.to.twitter",
+       "old": "前往推特",
+       "new": "To Twitter",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.title",
+       "old": "从中断处继续",
+       "new": "Continue",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.description",
+       "old": "要从中断的数据继续吗？\\n※若放弃，途中获得的道具等将会丢失",
+       "new": "Continue from where you left off?\\nYou w",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.continue",
+       "old": "继续",
+       "new": "Continue",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.giveup",
+       "old": "放弃",
+       "new": "Quit",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.network.error.title",
+       "old": "网络错误",
+       "new": "Network Error",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.network.error.description",
+       "old": "发生网络连接错误",
+       "new": "Network connection error.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.network.error.retry",
+       "old": "重试",
+       "new": "Retry",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.network.error.to.title",
+       "old": "返回标题",
+       "new": "To Title Screen",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.update.application.title",
+       "old": "应用更新",
+       "new": "App Update",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.update.application.description",
+       "old": "已发布新版本的应用\\n请从商店更新至最新应用",
+       "new": "A new version of this app is available. ",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.update.application.to.store",
+       "old": "前往商店",
+       "new": "To App Store",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.confirm.download.title",
+       "old": "下载确认",
+       "new": "Confirm",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.confirm.description",
+       "old": "将开始约{0}MB的数据下载\\n数据较大，建议使用 Wi-Fi 下载",
+       "new": "Commencing data download of {0} MB.\\nWe ",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.title",
+       "old": "下载设置",
+       "new": "Download Settings",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.voice.subtitle",
+       "old": "语音下载",
+       "new": "Download Voices",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.voice.description",
+       "old": "可体验全语音剧情。#ON/OFF设置可在游戏开始后重新设定",
+       "new": "Voice acting is available for the story.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.voice.toggle.on",
+       "old": "ON(约{0}MB)",
+       "new": "ON ({0} MB)",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.description.subtitle",
+       "old": "将开始约{0}MB的数据下载",
+       "new": "Starting data download of {0} MB.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.description.description",
+       "old": "数据较大，建议在 Wi-Fi 环境下下载",
+       "new": "We recommend downloading over Wi-Fi due ",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.serial.title",
+       "old": "序列号",
+       "new": "Serial Code",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.serial.send",
+       "old": "发送",
+       "new": "Send",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.serial.description",
+       "old": "请输入序列号",
+       "new": "Please input serial code.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.serial.empty",
+       "old": "未输入序列号",
+       "new": "No serial code inputted.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.serial.error",
+       "old": "序列号不正确",
+       "new": "Incorrect serial code.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.dialog.serial.used",
+       "old": "输入的序列号已被使用",
+       "new": "This serial code has already been used.",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.taptostart",
+       "old": "点击开始",
+       "new": "TAP TO START",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.predownload.preceding",
+       "old": "预下载",
+       "new": "PREDOWNLOAD",
+       "status": "PATCHED"
+      },
+      {
+       "key": "titleflow.predownload.playmovie",
+       "old": "播放影片",
+       "new": "Play Cutscene",
+       "status": "PATCHED"
+      }
+     ],
+     "changed_count": 43
+    }
+   ]
+  },
+  "assets/bin/Data/1dc4624c9ddde409fb4ffb1b0cb2faeb": {
+   "label": "nt(en)",
+   "action": "en_restore",
+   "sha256_before": "0708f73257b0b13ec07f3cdb976807b29219744a5c6acc9380ad26f486b47428",
+   "sha256_after": "10e59bbabbc60ade5220f19a9a060f21934c40b121437775039f39aa7b42ee05",
+   "changed": true,
+   "changed_count": 1,
+   "log": [
+    {
+     "asset": "nt",
+     "changed": [
+      {
+       "key": "nt.Network.Error.Title",
+       "old": "错误",
+       "new": "Error",
+       "status": "PATCHED"
+      }
+     ],
+     "changed_count": 1
+    }
+   ]
+  },
+  "assets/bin/Data/d3f332a247d3c418d94d377ae81104c7": {
+   "label": "nt(ko)",
+   "action": "ko_nt_translate",
+   "sha256_before": "014e0e3bf329421b25267ba125eaf55b1dafda92ecfc590a507995440bba4376",
+   "sha256_after": "57d2e6b1f4f4744bdc38871a572528348afcd795ffef69807fd32bd82f1ddf7a",
+   "changed": true,
+   "changed_count": 67,
+   "patched": 67,
+   "skipped": 0,
+   "log": [
+    {
+     "asset": "nt",
+     "changed": [
+      {
+       "key": "nt.Network.1020013",
+       "old": "이 데이터는 CBT 전용 플레이 데이터입니다.\\n애플리케이션을 삭제한 후",
+       "new": "此存档仅供CBT测试使用。\\n请卸载本应用后重新安装NieR Re[in]car",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Title.DataUpdate",
+       "old": "갱신",
+       "new": "刷新",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.Default",
+       "old": "오류가 발생했습니다[{0}]",
+       "new": "发生错误。\\n【{0}】",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.NoTransition",
+       "old": "기능별 오류&목적지 없음: {0}",
+       "new": "功能错误。无跳转目标。{0}",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.LackCapacity",
+       "old": "게임을 플레이하기 위해\\n필요한 용량이 부족합니다.\\n\\n불필요한 애플리",
+       "new": "设备存储空间不足，\\n无法运行游戏。\\n\\n请删除不必要的应用或数据\\n以腾出空",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.FatalDownload",
+       "old": "다운로드에 실패했습니다.",
+       "new": "下载失败。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.MasterDownload",
+       "old": "새로운 데이터 취득에 실패했습니다.",
+       "new": "获取新数据失败。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.AssetLoad",
+       "old": "데이터 다운로드에 실패했습니다.",
+       "new": "数据下载失败。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.AssetFatalError",
+       "old": "데이터 다운로드에 실패했습니다.\\n타이틀로 돌아갑니다.",
+       "new": "数据下载失败。\\n返回标题画面。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.BridgeUser",
+       "old": "플레이어 연동에 실패했습니다.",
+       "new": "玩家数据继承失败。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.Connect",
+       "old": "통신에 실패했습니다.",
+       "new": "通信失败。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.Error.Message.PermissionDenied",
+       "old": "이 애플리케이션은 현재 이 국가 또는 지역에서는 이용하실 수 없습니다.",
+       "new": "您所在的国家或地区无法使用本应用。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.100000",
+       "old": "현재 점검 중입니다.",
+       "new": "目前正在进行维护。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.100001",
+       "old": "현재 점검 중입니다.",
+       "new": "目前正在进行维护。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.101003",
+       "old": "사용할 수 없는 단어가 포함되어 있습니다.",
+       "new": "包含不可使用的词语。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.102002",
+       "old": "잘못된 플레이 데이터가 확인되어\\n이용을 정지 중입니다.\\n문의 사항이 ",
+       "new": "检测到异常存档。\\n已暂停使用。\\n如有疑问请联系：",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.103000",
+       "old": "새로운 버전이 있습니다.\\n스토어에서 업데이트해주세요.",
+       "new": "发现新版本。\\n请通过商店更新游戏。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.103001",
+       "old": "타이틀로 돌아갑니다.",
+       "new": "返回标题画面。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.104000",
+       "old": "새로운 데이터가 업데이트되었습니다. 타이틀로 돌아갑니다.",
+       "new": "新数据已更新。返回标题画面。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.105000",
+       "old": "기간이 아닙니다.",
+       "new": "不在活动期间。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.105001",
+       "old": "이벤트 기간이 종료되어 보상을 받을 수 없습니다.",
+       "new": "活动已结束，无法领取奖励。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.200011",
+       "old": "일정 시간이 경과할 때까지 플레이어 이름을 변경할 수 없습니다.",
+       "new": "需要等待一段时间后\\n才能再次修改玩家名称。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.200012",
+       "old": "일정 시간이 경과할 때까지 코멘트를 변경할 수 없습니다.",
+       "new": "需要等待一段时间后\\n才能再次修改评论。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.200013",
+       "old": "일정 시간이 경과할 때까지 즐겨찾기를 변경할 수 없습니다.",
+       "new": "需要等待一段时间后\\n才能再次修改收藏。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.200018",
+       "old": "스태미나가 부족합니다.",
+       "new": "体力不足。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.200019",
+       "old": "스태미나가 상한에 도달했습니다.",
+       "new": "体力已满。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.200021",
+       "old": "BP가 부족합니다.",
+       "new": "BP不足。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.200022",
+       "old": "BP가 상한에 도달했습니다.",
+       "new": "BP已满。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.201001",
+       "old": "날짜가 바뀌어 상품이 갱신되었습니다.\\n다시 시도해주세요.",
+       "new": "日期已变更，商品已刷新。\\n请重新尝试。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.201002",
+       "old": "소지 상한에 도달하여 더는 구입할 수 없습니다.",
+       "new": "已达持有上限，无法继续购买。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.201003",
+       "old": "이미 구입한 상품을 구입하려 하여, 받을 수 없었습니다.",
+       "new": "因已购买过该商品，\\n无法领取。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.201100",
+       "old": "이미 구입한 상품을 구입하려 하여, 받을 수 없습니다.\\n메뉴를 통해 문",
+       "new": "因已购买过该商品，\\n无法领取。\\n请通过菜单咨询。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.202001",
+       "old": "이 퀘스트는 존재하지 않습니다.",
+       "new": "该任务不存在。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.202002",
+       "old": "이 퀘스트는 이미 시작되었습니다.",
+       "new": "该任务已完成。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.202004",
+       "old": "이 퀘스트는 개방되지 않았습니다.",
+       "new": "该任务尚未解锁。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.202005",
+       "old": "오늘의 클리어 횟수를 초과했습니다.",
+       "new": "今日通关次数已用完。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.203001",
+       "old": "소지하지 않은 선물이 있습니다.",
+       "new": "有尚未领取的礼物。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204001",
+       "old": "이미 친구 신청을 보낸 플레이어입니다.",
+       "new": "已向该玩家发送过好友申请。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204002",
+       "old": "친구 수가 상한에 도달했습니다.",
+       "new": "好友数量已达上限。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204003",
+       "old": "이미 친구인 플레이어입니다.",
+       "new": "该玩家已是您的好友。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204004",
+       "old": "플레이어를 찾을 수 없습니다.",
+       "new": "找不到该玩家。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204005",
+       "old": "이미 응원을 보냈습니다.",
+       "new": "已发送过声援。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204006",
+       "old": "플레이어를 찾을 수 없습니다.",
+       "new": "找不到该玩家。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204007",
+       "old": "이미 응원을 받았습니다.",
+       "new": "已收到过声援。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204008",
+       "old": "대상 친구 수가 상한에 도달하여\\n신청할 수 없습니다.",
+       "new": "对方好友数已达上限，\\n无法发送申请。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204009",
+       "old": "신청한 플레이어의 친구 수가 상한에 도달했습니다.",
+       "new": "发送申请的玩家好友数已达上限。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204010",
+       "old": "오늘의 상한에 도달하여 응원을 보낼 수 없습니다",
+       "new": "今日次数已达上限，\\n无法继续发送声援。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.204011",
+       "old": "오늘의 상한에 도달하여 응원을 받을 수 없습니다",
+       "new": "今日次数已达上限，\\n无法继续接收声援。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.205001",
+       "old": "캐릭터가 편성되어 있지 않습니다.",
+       "new": "角色未编入队伍。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.290000",
+       "old": "접속이 원활하지 않습니다. 잠시 후 다시 시도하세요.",
+       "new": "当前访问拥挤，请稍后重试。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.290021",
+       "old": "잘못된 플레이 데이터가 확인되어\\n이용을 정지 중입니다.\\n문의 사항이 ",
+       "new": "检测到异常存档。\\n已暂停使用。\\n如有疑问请联系：",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.290024",
+       "old": "플레이어 작성에 실패했습니다.",
+       "new": "创建玩家失败。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.290030",
+       "old": "젬이 부족합니다.",
+       "new": "宝石不足。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.290043",
+       "old": "결제 금액이 상한에 도달했습니다.",
+       "new": "消费金额已达上限。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.400000",
+       "old": "공지가 없습니다.",
+       "new": "暂无公告。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.900000",
+       "old": "처리에 실패했습니다. 타이틀로 돌아갑니다.",
+       "new": "处理失败。返回标题画面。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.900001",
+       "old": "네트워크 연결에 실패했습니다. 다시 실행합니다",
+       "new": "连接失败。正在重试。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.900002",
+       "old": "처리에 실패했습니다.",
+       "new": "处理失败。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.menu",
+       "old": "메뉴 화면에서 통신 오류가 발생했습니다.",
+       "new": "菜单界面发生通信错误。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.home_top",
+       "old": "홈 화면에서 통신 오류가 발생했습니다.",
+       "new": "主页界面发生通信错误。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.organization",
+       "old": "편성 화면에서 통신 오류가 발생했습니다.",
+       "new": "编队界面发生通信错误。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.arena_top",
+       "old": "아레나 화면에서 통신 오류가 발생했습니다.",
+       "new": "竞技场界面发生通信错误。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.enhance_top",
+       "old": "강화 화면에서 통신 오류가 발생했습니다.",
+       "new": "强化界面发生通信错误。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.shop_top",
+       "old": "상점 화면에서 통신 오류가 발생했습니다.",
+       "new": "商店界面发生通信错误。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.gacha_top",
+       "old": "뽑기 화면에서 통신 오류가 발생했습니다.",
+       "new": "扭蛋界面发生通信错误。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.quest_top",
+       "old": "퀘스트 화면에서 통신 오류가 발생했습니다.",
+       "new": "任务界面发生通信错误。",
+       "status": "PATCHED"
+      },
+      {
+       "key": "nt.Network.search_top",
+       "old": "탐색 화면에서 통신 오류가 발생했습니다.",
+       "new": "探索界面发生通信错误。",
+       "status": "PATCHED"
+      }
+     ],
+     "changed_count": 67
+    }
+   ]
+  }
+ },
+ "ok": true
+}

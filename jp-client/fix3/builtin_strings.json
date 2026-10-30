@@ -1,0 +1,994 @@
+{
+  "schema": "fix3-builtin-strings/v1",
+  "generated_at": "2026-10-25",
+  "source_apk": "resources/NieR Re[in]carnation_3.7.1_JP.apk",
+  "source_apk_note": "只读原版；本表只描述值级精确替换（value == source 才替换，子串不碰）。fix3b：S09-S47 为漏译弹窗/按钮/标题类补充（含 metadata stringLiteral 按钮簇 #20419-20424）",
+  "layers": {
+    "textasset": {
+      "files": {
+        "assets/bin/Data/35005335013ad4314b0ac8afbfe27b9c": "ui(ja)",
+        "assets/bin/Data/5296ae89c03c14825a9f664b0c355ccc": "titleflow(ja)",
+        "assets/bin/Data/ed79b6250ad8541b1ba6f2a229fcc9bf": "nt(ja)"
+      },
+      "format": "key:value 行文本 TextAsset（值内换行为字面 \\n 两字符）",
+      "not_touched": [
+        "ui(ko)=311a825b…",
+        "ui(en)=a1e9ec10…",
+        "titleflow(ko)=3286caf7…",
+        "titleflow(en)=6c88814b…",
+        "nt(en)=1dc4624c…",
+        "nt(ko)=d3f332a2…"
+      ]
+    },
+    "metadata": {
+      "files": {
+        "assets/bin/Data/Managed/Metadata/global-metadata.dat": "stringLiteral 表项"
+      },
+      "format": "v24 global-metadata，stringLiteral 表项 (uint32 length, uint32 dataIndex) → stringLiteralData",
+      "mechanism": "同值表项原地替换：len(new)<=len(old)，写新值+尾部 NUL 填充，回写 length 字段；不移动数据、不改节偏移"
+    }
+  },
+  "placeholders": {
+    "note": "{0} 为运行时占位符，译文原样保留；\\n 为文本表内字面换行转义，原样保留；全角空格 U+3000 原样保留",
+    "withsize_semantics": "ui.Loading.Confirm.WithSize 的 {0} 为“含单位的尺寸串”（EN: Downloading {0} of data.）；titleflow.dialog.confirm.description 的 {0} 为纯数字（EN: of {0} MB.）"
+  },
+  "entries": [
+    {
+      "id": "T01",
+      "tier": "apply",
+      "family": "title-menu",
+      "source_ja": "お知らせ",
+      "target_zh": "公告",
+      "expected_textasset": 1,
+      "expected_metadata": 1,
+      "expected_total": 2,
+      "keys": [
+        "ui.Outgame.Menu.Notice"
+      ],
+      "note": ""
+    },
+    {
+      "id": "T02",
+      "tier": "apply",
+      "family": "title-menu",
+      "source_ja": "お問い合わせ",
+      "target_zh": "联系我们",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Menu.Contact"
+      ],
+      "note": "另有 4 处长句内子串（nt 网络错误×2、ui 删除数据完成提示×1、titleflow BAN 提示問い合わせる 等）不在值级替换范围，本轮不动"
+    },
+    {
+      "id": "T03",
+      "tier": "apply",
+      "family": "title-menu",
+      "source_ja": "データ引継ぎ",
+      "target_zh": "数据继承",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Menu.DataLinkage"
+      ],
+      "note": "ui.Outgame.DeleteData.Confirm.Attention 长句内含「データ引継ぎ」子串，本轮不动"
+    },
+    {
+      "id": "T04",
+      "tier": "apply",
+      "family": "title-menu",
+      "source_ja": "データ修復",
+      "target_zh": "数据修复",
+      "expected_textasset": 2,
+      "expected_metadata": 0,
+      "expected_total": 2,
+      "keys": [
+        "ui.Outgame.Menu.DataRecovery",
+        "ui.Outgame.Menu.Top.Repair"
+      ],
+      "note": ""
+    },
+    {
+      "id": "T05",
+      "tier": "apply",
+      "family": "title-menu",
+      "source_ja": "各種情報",
+      "target_zh": "其他信息",
+      "expected_textasset": 2,
+      "expected_metadata": 0,
+      "expected_total": 2,
+      "keys": [
+        "ui.Outgame.Menu.VariousInformation",
+        "ui.Outgame.Menu.Top.Information"
+      ],
+      "note": ""
+    },
+    {
+      "id": "T06",
+      "tier": "apply",
+      "family": "title-menu",
+      "source_ja": "データ削除",
+      "target_zh": "删除数据",
+      "expected_textasset": 2,
+      "expected_metadata": 0,
+      "expected_total": 2,
+      "keys": [
+        "ui.Outgame.Menu.DataRemove",
+        "ui.Outgame.DeleteData.Title"
+      ],
+      "note": ""
+    },
+    {
+      "id": "T07",
+      "tier": "apply",
+      "family": "button",
+      "source_ja": "閉じる",
+      "target_zh": "关闭",
+      "expected_textasset": 1,
+      "expected_metadata": 1,
+      "expected_total": 2,
+      "keys": [
+        "ui.Outgame.Common.Close"
+      ],
+      "note": "stringliteral 0x7978C78 同值 1 条一并替换（全局内置）"
+    },
+    {
+      "id": "T08",
+      "tier": "apply",
+      "family": "download-dialog",
+      "source_ja": "ダウンロード確認",
+      "target_zh": "下载确认",
+      "expected_textasset": 2,
+      "expected_metadata": 0,
+      "expected_total": 2,
+      "keys": [
+        "ui.Loading.Confirm.Title",
+        "titleflow.dialog.confirm.download.title"
+      ],
+      "note": "两张表各 1 次"
+    },
+    {
+      "id": "T09",
+      "tier": "apply",
+      "family": "download-dialog",
+      "source_ja": "約{0}MBのデータダウンロードを開始します\\nデータサイズが大きいため、Wi-Fi接続でのダウンロードをお勧めします",
+      "target_zh": "将开始约{0}MB的数据下载\\n数据较大，建议使用 Wi-Fi 下载",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.confirm.description"
+      ],
+      "note": "原文含字面 \\n 与 {0}（数字占位）；任务模板中的 65 为运行时 {0} 值、空格为 \\n 渲染"
+    },
+    {
+      "id": "T10",
+      "tier": "apply",
+      "family": "download-dialog",
+      "source_ja": "{0}のデータをダウンロードします",
+      "target_zh": "将下载 {0} 数据",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Loading.Confirm.WithSize"
+      ],
+      "note": "任务模板写作「{n} MBのデータ…」；实测 ja 无 MB 字面，{0} 为含单位尺寸串（EN: Downloading {0} of data.），故译文不重复 MB，保留 {0} 占位形态"
+    },
+    {
+      "id": "T11",
+      "tier": "apply",
+      "family": "player-name",
+      "source_ja": "プレイヤー名 登録",
+      "target_zh": "注册玩家名",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.enter.user.name.title"
+      ],
+      "note": "原文含半角空格"
+    },
+    {
+      "id": "T12",
+      "tier": "apply",
+      "family": "player-name",
+      "source_ja": "プレイヤー名を入力してください",
+      "target_zh": "请输入玩家名",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.enter.user.name.description"
+      ],
+      "note": ""
+    },
+    {
+      "id": "T13",
+      "tier": "apply",
+      "family": "player-name",
+      "source_ja": "※10文字以内で入力してください\\n　名前は後からでも変更する事ができます",
+      "target_zh": "请输入10个字符以内\\n　名称可随时更改",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.enter.user.name.annotation"
+      ],
+      "note": "任务中两条短句在表内实为同一 key 的一个值（字面 \\n + 全角空格 U+3000 分隔）；两段都译，分隔符保留"
+    },
+    {
+      "id": "T14",
+      "tier": "apply",
+      "family": "player-name",
+      "source_ja": "登録する",
+      "target_zh": "注册",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.enter.user.name.registry"
+      ],
+      "note": ""
+    },
+    {
+      "id": "T15",
+      "tier": "apply",
+      "family": "button",
+      "source_ja": "キャンセル",
+      "target_zh": "取消",
+      "expected_textasset": 1,
+      "expected_metadata": 1,
+      "expected_total": 2,
+      "keys": [
+        "ui.Outgame.Common.Cancel"
+      ],
+      "note": "stringliteral 0x78F0D38 同值 1 条一并替换（全局内置）"
+    },
+    {
+      "id": "K01",
+      "tier": "keep",
+      "family": "legal-music",
+      "source_ja": "本作は美しい音楽が流れます\\nぜひ音を出してお楽しみください",
+      "target_zh": "",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Title.Splash.Note.Sound"
+      ],
+      "note": "图片1/2 音乐告知——按用户要求保持日文不动"
+    },
+    {
+      "id": "K02",
+      "tier": "keep",
+      "family": "legal-music",
+      "source_ja": "利用規約",
+      "target_zh": "",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Menu.Information.TermOfService"
+      ],
+      "note": "法律告知——保持日文"
+    },
+    {
+      "id": "K03",
+      "tier": "keep",
+      "family": "legal-music",
+      "source_ja": "プライバシーポリシー",
+      "target_zh": "",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Menu.Information.PrivacyPolicy"
+      ],
+      "note": "法律告知——保持日文"
+    },
+    {
+      "id": "K04",
+      "tier": "keep",
+      "family": "legal-music",
+      "source_ja": "ライセンス",
+      "target_zh": "",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Menu.Information.License"
+      ],
+      "note": "法律/授权告知——保持日文"
+    },
+    {
+      "id": "K05",
+      "tier": "keep",
+      "family": "legal-music",
+      "source_ja": "titleflow.dialog.termofservice.*",
+      "target_zh": "",
+      "expected_textasset": 2,
+      "expected_metadata": 0,
+      "expected_total": 2,
+      "keys": [
+        "titleflow.dialog.termofservice.title",
+        "titleflow.dialog.termofservice.text"
+      ],
+      "note": "用户規約弹窗——保持日文（含链接富文本）"
+    },
+    {
+      "id": "S01",
+      "tier": "supplement",
+      "family": "download-setting",
+      "source_ja": "約{0}MBのデータダウンロードを開始します",
+      "target_zh": "将开始约{0}MB的数据下载",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.download.setting.description.subtitle"
+      ],
+      "note": "下载设置弹窗（与 T09 首句同短语）；建议下轮同批应用"
+    },
+    {
+      "id": "S02",
+      "tier": "supplement",
+      "family": "download-setting",
+      "source_ja": "データサイズが大きいためWi-Fi環境でのダウンロードをお勧めします",
+      "target_zh": "数据较大，建议在 Wi-Fi 环境下下载",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.download.setting.description.description"
+      ],
+      "note": "下载设置弹窗正文（无 、 与 T09 次句略有差异）"
+    },
+    {
+      "id": "S03",
+      "tier": "supplement",
+      "family": "download-setting",
+      "source_ja": "ダウンロード設定",
+      "target_zh": "下载设置",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.download.setting.title"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "tier": "supplement",
+      "family": "dialog-misc",
+      "source_ja": "データ修復をします。よろしいですか？",
+      "target_zh": "将进行数据修复。确定吗？",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Menu.Top.Repair.Description"
+      ],
+      "note": "数据修复确认弹窗（标题菜单流程内）"
+    },
+    {
+      "id": "S05",
+      "tier": "supplement",
+      "family": "dialog-misc",
+      "source_ja": "データ修復が完了しました",
+      "target_zh": "数据修复已完成",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Menu.Top.Repair.Result"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "tier": "supplement",
+      "family": "dialog-misc",
+      "source_ja": "メニュー",
+      "target_zh": "菜单",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Title.Menu.Button"
+      ],
+      "note": "标题 MENU 按钮"
+    },
+    {
+      "id": "S07",
+      "tier": "supplement",
+      "family": "dialog-misc",
+      "source_ja": "削除する",
+      "target_zh": "删除",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.DeleteData.Delete"
+      ],
+      "note": "删除数据弹窗按钮"
+    },
+    {
+      "id": "S08",
+      "tier": "supplement",
+      "family": "dialog-misc",
+      "source_ja": "同意する",
+      "target_zh": "同意",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Service.Agree"
+      ],
+      "note": "服务错误重试按钮"
+    },
+    {
+      "id": "S09",
+      "tier": "supplement",
+      "family": "quit-dialog",
+      "source_ja": "ゲーム終了",
+      "target_zh": "结束游戏",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Menu.Title.Quit.Title"
+      ],
+      "note": "标题画面「游戏终了」弹窗标题（任务点名漏译）"
+    },
+    {
+      "id": "S10",
+      "tier": "supplement",
+      "family": "quit-dialog",
+      "source_ja": "ゲームを終了しますか？",
+      "target_zh": "要结束游戏吗？",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Menu.Title.Quit.Description"
+      ],
+      "note": "标题画面「游戏终了」弹窗正文（任务点名漏译；按钮 取消/OK 已由 T15/keep 覆盖）"
+    },
+    {
+      "id": "S11",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "タイトルへ",
+      "target_zh": "返回标题",
+      "expected_textasset": 3,
+      "expected_metadata": 0,
+      "expected_total": 3,
+      "keys": [
+        "ui.Outgame.Menu.Title.Jump.Title",
+        "titleflow.dialog.maintenance.to.title",
+        "titleflow.dialog.network.error.to.title"
+      ],
+      "note": "「前往标题」按钮，值级全局 3 处：ui 跳转 + titleflow 维护/网络错误弹窗各 1"
+    },
+    {
+      "id": "S12",
+      "tier": "supplement",
+      "family": "error-dialog",
+      "source_ja": "エラー",
+      "target_zh": "错误",
+      "expected_textasset": 2,
+      "expected_metadata": 0,
+      "expected_total": 2,
+      "keys": [
+        "ui.Outgame.Service.error.title",
+        "nt.Network.Error.Title"
+      ],
+      "note": "服务错误弹窗标题；值级全局另命中 nt.Network.Error.Title 1 处（nt 表本轮不在扫描范围，仅此同值顺带）"
+    },
+    {
+      "id": "S13",
+      "tier": "supplement",
+      "family": "error-dialog",
+      "source_ja": "通信に失敗しました。\\nタイトルへ戻ります。",
+      "target_zh": "通信失败。\\n将返回标题画面。",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.Service.error.description"
+      ],
+      "note": "服务错误弹窗正文（字面 \\n 分隔）"
+    },
+    {
+      "id": "S14",
+      "tier": "supplement",
+      "family": "maintenance",
+      "source_ja": "メンテナンス中",
+      "target_zh": "维护中",
+      "expected_textasset": 2,
+      "expected_metadata": 0,
+      "expected_total": 2,
+      "keys": [
+        "ui.Outgame.Common.Maintenance.Parts",
+        "titleflow.dialog.maintenance.title"
+      ],
+      "note": "维护状态/维护弹窗标题，值级全局 2 处"
+    },
+    {
+      "id": "S15",
+      "tier": "supplement",
+      "family": "maintenance",
+      "source_ja": "※メンテナンスの最新情報については公式ツイッターよりご確認ください。",
+      "target_zh": "※维护的最新信息请通过官方推特确认。",
+      "expected_textasset": 2,
+      "expected_metadata": 0,
+      "expected_total": 2,
+      "keys": [
+        "ui.Outgame.Common.Maintenance.Twitter",
+        "ui.Outgame.Common.Maintenance.Twitter_2"
+      ],
+      "note": "维护提示（ui 表内 Twitter/Twitter_2 同值 2 处）"
+    },
+    {
+      "id": "S16",
+      "tier": "supplement",
+      "family": "loading-dialog",
+      "source_ja": "ロードするデータがありませんでした",
+      "target_zh": "没有可加载的数据",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Loading.Confirm.Message.NoneLoadData"
+      ],
+      "note": "加载确认弹窗空数据提示"
+    },
+    {
+      "id": "S17",
+      "tier": "supplement",
+      "family": "warning",
+      "source_ja": "<color=#D29797>※通信状況により時間がかかる場合があります。Wi-Fi環境でのダウンロードをお勧めします</color>",
+      "target_zh": "<color=#D29797>※根据通信状况可能需要较长时间。建议在 Wi-Fi 环境下下载</color>",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Loading.Warning.Wifi"
+      ],
+      "note": "下载确认弹窗 Wi-Fi 警告（保留 <color=#D29797> 富文本标记）"
+    },
+    {
+      "id": "S18",
+      "tier": "supplement",
+      "family": "delete-dialog",
+      "source_ja": "データ削除機能は、ご使用のアカウント機能および\\nゲームデータを削除する機能です。\\n現在のデータを削除しますか？",
+      "target_zh": "数据删除功能可删除您使用的账号功能及\\n游戏数据。\\n要删除当前数据吗？",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.DeleteData.Confirm.Message"
+      ],
+      "note": "删除数据确认弹窗正文（含 现在的データを削除しますか？ 确认问句）"
+    },
+    {
+      "id": "S19",
+      "tier": "supplement",
+      "family": "delete-dialog",
+      "source_ja": "※削除後に再度現在のデータでプレイをご希望の場合は事前にゲーム内メニュー「データ引継ぎ」から引継ぎ設定を行ってください。\\n※アカウント連携を行っていない場合は、削除後のデータ復元、データ引継ぎはできません。",
+      "target_zh": "※删除后若仍希望使用当前数据继续游戏，请事先在游戏内菜单「数据继承」中完成继承设置。\\n※未关联账号的情况下，删除后无法恢复数据或进行数据继承。",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.DeleteData.Confirm.Attention"
+      ],
+      "note": "删除数据确认弹窗注意段（含「データ引継ぎ」菜单名引用，按 T03 译作「数据继承」）"
+    },
+    {
+      "id": "S20",
+      "tier": "supplement",
+      "family": "ban-dialog",
+      "source_ja": "利用停止の案内",
+      "target_zh": "使用停止通知",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.confirm.ban.title"
+      ],
+      "note": "BAN/停用通知弹窗标题"
+    },
+    {
+      "id": "S21",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "問い合わせる",
+      "target_zh": "咨询",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.confirm.ban.inquiry"
+      ],
+      "note": "BAN 弹窗咨询按钮（按钮 2 字；不与 T02 译文 联系我们 重复，避免值级命中计数串扰）"
+    },
+    {
+      "id": "S22",
+      "tier": "supplement",
+      "family": "maintenance",
+      "source_ja": "現在メンテナンス中のため、ご利用いただけません\\n\\n終了予定時刻\\n{0}\\n\\n※メンテナンスの最新情報については公式ツイッターよりご確認ください",
+      "target_zh": "目前正在维护中，无法使用\\n\\n预定结束时间\\n{0}\\n\\n※维护的最新信息请通过官方推特确认",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.maintenance.description"
+      ],
+      "note": "维护弹窗正文（含 {0} 结束时刻占位；字面 \\n 分隔）"
+    },
+    {
+      "id": "S23",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "ツイッターへ",
+      "target_zh": "前往推特",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.maintenance.to.twitter"
+      ],
+      "note": "维护弹窗「前往推特」按钮"
+    },
+    {
+      "id": "S24",
+      "tier": "supplement",
+      "family": "quest-suspend",
+      "source_ja": "中断から再開",
+      "target_zh": "从中断处继续",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.confirm.suspended.quest.title"
+      ],
+      "note": "任务中断继续确认弹窗标题"
+    },
+    {
+      "id": "S25",
+      "tier": "supplement",
+      "family": "quest-suspend",
+      "source_ja": "中断したデータから再開しますか？\\n※諦めると途中で獲得したアイテムなどは失われます",
+      "target_zh": "要从中断的数据继续吗？\\n※若放弃，途中获得的道具等将会丢失",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.confirm.suspended.quest.description"
+      ],
+      "note": "任务中断继续确认弹窗正文"
+    },
+    {
+      "id": "S26",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "続ける",
+      "target_zh": "继续",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.confirm.suspended.quest.continue"
+      ],
+      "note": "中断继续按钮"
+    },
+    {
+      "id": "S27",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "諦める",
+      "target_zh": "放弃",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.confirm.suspended.quest.giveup"
+      ],
+      "note": "中断放弃按钮"
+    },
+    {
+      "id": "S28",
+      "tier": "supplement",
+      "family": "network-error",
+      "source_ja": "ネットワークエラー",
+      "target_zh": "网络错误",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.network.error.title"
+      ],
+      "note": "网络错误弹窗标题"
+    },
+    {
+      "id": "S29",
+      "tier": "supplement",
+      "family": "network-error",
+      "source_ja": "ネットワーク接続エラーが発生しました",
+      "target_zh": "发生网络连接错误",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.network.error.description"
+      ],
+      "note": "网络错误弹窗正文"
+    },
+    {
+      "id": "S30",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "リトライ",
+      "target_zh": "重试",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.network.error.retry"
+      ],
+      "note": "网络错误重试按钮"
+    },
+    {
+      "id": "S31",
+      "tier": "supplement",
+      "family": "update-dialog",
+      "source_ja": "アプリ更新",
+      "target_zh": "应用更新",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.update.application.title"
+      ],
+      "note": "应用更新弹窗标题"
+    },
+    {
+      "id": "S32",
+      "tier": "supplement",
+      "family": "update-dialog",
+      "source_ja": "新しいバージョンのアプリが配信されています\\nストアから最新のアプリに更新してください",
+      "target_zh": "已发布新版本的应用\\n请从商店更新至最新应用",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.update.application.description"
+      ],
+      "note": "应用更新弹窗正文"
+    },
+    {
+      "id": "S33",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "ストアへ",
+      "target_zh": "前往商店",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.update.application.to.store"
+      ],
+      "note": "应用更新「前往商店」按钮"
+    },
+    {
+      "id": "S34",
+      "tier": "supplement",
+      "family": "download-setting",
+      "source_ja": "ボイスのダウンロード",
+      "target_zh": "语音下载",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.download.setting.voice.subtitle"
+      ],
+      "note": "下载设置弹窗语音区标题"
+    },
+    {
+      "id": "S35",
+      "tier": "supplement",
+      "family": "download-setting",
+      "source_ja": "フルボイスによるストーリーをお楽しみいただけます。#ON/OFF設定はゲーム開始後にも再設定可能です",
+      "target_zh": "可体验全语音剧情。#ON/OFF设置可在游戏开始后重新设定",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.download.setting.voice.description"
+      ],
+      "note": "下载设置弹窗语音说明（保留 #ON/OFF 字面，原文即含 # 前缀、无 \\n）"
+    },
+    {
+      "id": "S36",
+      "tier": "supplement",
+      "family": "download-setting",
+      "source_ja": "ON(約{0}MB)",
+      "target_zh": "ON(约{0}MB)",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.download.setting.voice.toggle.on"
+      ],
+      "note": "语音下载开关键标签（ON(約{0}MB) → ON(约{0}MB)，仅 約→约）"
+    },
+    {
+      "id": "S37",
+      "tier": "supplement",
+      "family": "serial-dialog",
+      "source_ja": "シリアルコード",
+      "target_zh": "序列号",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.serial.title"
+      ],
+      "note": "序列号弹窗标题"
+    },
+    {
+      "id": "S38",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "送信",
+      "target_zh": "发送",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.serial.send"
+      ],
+      "note": "序列号发送按钮"
+    },
+    {
+      "id": "S39",
+      "tier": "supplement",
+      "family": "serial-dialog",
+      "source_ja": "シリアルコードを入力してください",
+      "target_zh": "请输入序列号",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.serial.description"
+      ],
+      "note": "序列号输入提示"
+    },
+    {
+      "id": "S40",
+      "tier": "supplement",
+      "family": "serial-dialog",
+      "source_ja": "シリアルコードが入力されていません",
+      "target_zh": "未输入序列号",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.serial.empty"
+      ],
+      "note": "序列号空值提示"
+    },
+    {
+      "id": "S41",
+      "tier": "supplement",
+      "family": "serial-dialog",
+      "source_ja": "シリアルコードが正しくありません",
+      "target_zh": "序列号不正确",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.serial.error"
+      ],
+      "note": "序列号错误提示"
+    },
+    {
+      "id": "S42",
+      "tier": "supplement",
+      "family": "serial-dialog",
+      "source_ja": "入力されたシリアルコードは使用済みです",
+      "target_zh": "输入的序列号已被使用",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "titleflow.dialog.serial.used"
+      ],
+      "note": "序列号已使用提示"
+    },
+    {
+      "id": "S43",
+      "tier": "supplement",
+      "family": "movie-button",
+      "source_ja": "ムービー再生",
+      "target_zh": "播放影片",
+      "expected_textasset": 1,
+      "expected_metadata": 1,
+      "expected_total": 2,
+      "keys": [
+        "titleflow.predownload.playmovie"
+      ],
+      "note": "影片播放按钮（titleflow 预下载界面 + metadata stringLiteral #20419 各 1）"
+    },
+    {
+      "id": "S44",
+      "tier": "supplement",
+      "family": "movie-button",
+      "source_ja": "ムービー再生中",
+      "target_zh": "播放影片中",
+      "expected_textasset": 0,
+      "expected_metadata": 1,
+      "expected_total": 1,
+      "keys": [
+        "metadata.stringLiteral#20420"
+      ],
+      "note": "影片播放中状态（仅 metadata stringLiteral #20420；与 #20419 同 UI 串簇）"
+    },
+    {
+      "id": "S45",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "おしらせを開く",
+      "target_zh": "打开公告",
+      "expected_textasset": 0,
+      "expected_metadata": 1,
+      "expected_total": 1,
+      "keys": [
+        "metadata.stringLiteral#20422"
+      ],
+      "note": "打开公告按钮（仅 metadata stringLiteral #20422；与 お知らせ/閉じる/キャンセル 同簇 #20411-20424）"
+    },
+    {
+      "id": "S46",
+      "tier": "supplement",
+      "family": "button",
+      "source_ja": "ツイッターを開く",
+      "target_zh": "打开推特",
+      "expected_textasset": 0,
+      "expected_metadata": 1,
+      "expected_total": 1,
+      "keys": [
+        "metadata.stringLiteral#20424"
+      ],
+      "note": "打开推特按钮（仅 metadata stringLiteral #20424；同上簇）"
+    },
+    {
+      "id": "S47",
+      "tier": "supplement",
+      "family": "delete-dialog",
+      "source_ja": "削除が完了いたしました。\\nアプリを再起動します。\\n\\n個人情報削除をご要望の場合は、お問い合わせからご連絡ください。",
+      "target_zh": "删除已完成。\\n应用将重新启动。\\n\\n如需删除个人信息，请通过「联系我们」与我们联系。",
+      "expected_textasset": 1,
+      "expected_metadata": 0,
+      "expected_total": 1,
+      "keys": [
+        "ui.Outgame.DeleteData.Complete.Message"
+      ],
+      "note": "删除完成弹窗正文（关闭删除数据弹窗族最后一处漏译）"
+    }
+  ],
+  "residual_untranslated_keys_estimate": {
+    "note": "fix3b（S09-S47）后 ja 表残余：ui 4 处（Splash 法律/未成年告知，图片1/2 家族按裁定不译）、titleflow 2 处（termofservice.* K05 keep）、nt 66 处（网络错误表，留 fix2 批量；nt.Network.Error.Title 已随 S12 同值顺带译出）。另有 K01-K04 keep 各 1 处按裁定保持日文。metadata 短日文未入表：サンプル/所持上限/プッシュ通知系（配置类）/年号/调试串等，见 probe_fix3b_scan.json",
+    "after_fix3b": {
+      "ui_ja_remaining": 4,
+      "titleflow_ja_remaining": 2,
+      "nt_ja_remaining": 66,
+      "metadata_short_ja_unlisted": 70
+    }
+  }
+}

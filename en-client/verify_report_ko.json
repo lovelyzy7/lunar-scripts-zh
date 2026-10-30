@@ -1,0 +1,392 @@
+{
+ "generated_at": "2026-10-29T12:05:08",
+ "tool": "patch_fix3_ko.py verify",
+ "files": {
+  "ui(ko)": {
+   "ok": true,
+   "checks": {
+    "ui": {
+     "keys_found": 31,
+     "zh_hits": 31,
+     "bad": [],
+     "old_value_residual_keys": [],
+     "old_value_residual_total": 0,
+     "line_count": 65,
+     "keys": {
+      "ui.Outgame.Menu.Notice": {
+       "value": "公告",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.Contact": {
+       "value": "联系",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.DataLinkage": {
+       "value": "数据继承",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.DataRecovery": {
+       "value": "数据修复",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.Top.Repair": {
+       "value": "数据修复",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.VariousInformation": {
+       "value": "其他信息",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.Top.Information": {
+       "value": "其他信息",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.DataRemove": {
+       "value": "删除数据",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.DeleteData.Title": {
+       "value": "删除数据",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Common.Close": {
+       "value": "关闭",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Loading.Confirm.Title": {
+       "value": "下载确认",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Loading.Confirm.WithSize": {
+       "value": "将下载 {0} 数据",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Common.Cancel": {
+       "value": "取消",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.Top.Repair.Description": {
+       "value": "将进行数据修复。确定吗？",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.Top.Repair.Result": {
+       "value": "数据修复已完成",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Title.Menu.Button": {
+       "value": "菜单",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.DeleteData.Delete": {
+       "value": "删除",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Service.Agree": {
+       "value": "同意",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.Title.Quit.Title": {
+       "value": "结束游戏",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.Title.Quit.Description": {
+       "value": "要结束游戏吗？",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.Title.Jump.Title": {
+       "value": "返回标题",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Service.error.title": {
+       "value": "错误",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Service.error.description": {
+       "value": "通信失败。\\n将返回标题画面。",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Common.Maintenance.Parts": {
+       "value": "维护中",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Common.Maintenance.Twitter": {
+       "value": "※维护的最新信息请通过官方推特确认。",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Common.Maintenance.Twitter_2": {
+       "value": "※维护的最新信息请通过官方推特确认。",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Loading.Confirm.Message.NoneLoadData": {
+       "value": "没有可加载的数据",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Loading.Warning.Wifi": {
+       "value": "<color=#D29797>※根据通信状况可能需要较长时间。建议在 Wi-Fi 环境下下载</color>",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.DeleteData.Confirm.Message": {
+       "value": "数据删除功能可删除您使用的账号功能及\\n游戏数据。\\n要删除当前数据吗？",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.DeleteData.Confirm.Attention": {
+       "value": "※删除后若仍希望使用当前数据继续游戏，请事先在游戏内菜单「数据继承」中完成继承设置。\\n※未关联账号的情况下，删除后无法恢复数据或进行数据继承。",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.DeleteData.Complete.Message": {
+       "value": "删除已完成。\\n应用将重新启动。\\n\\n如需删除个人信息，请通过「联系我们」与我们联系。",
+       "is_zh": true,
+       "old_value_residual": false
+      }
+     }
+    }
+   }
+  },
+  "titleflow(ko)": {
+   "ok": true,
+   "checks": {
+    "titleflow": {
+     "keys_found": 36,
+     "zh_hits": 36,
+     "bad": [],
+     "old_value_residual_keys": [],
+     "old_value_residual_total": 0,
+     "line_count": 73,
+     "keys": {
+      "titleflow.dialog.confirm.download.title": {
+       "value": "下载确认",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.confirm.description": {
+       "value": "将开始约{0}MB的数据下载\\n数据较大，建议使用 Wi-Fi 下载",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.enter.user.name.title": {
+       "value": "注册玩家名",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.enter.user.name.description": {
+       "value": "请输入玩家名",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.enter.user.name.annotation": {
+       "value": "请输入10个字符以内\\n　名称可随时更改",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.enter.user.name.registry": {
+       "value": "注册",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.download.setting.description.subtitle": {
+       "value": "将开始约{0}MB的数据下载",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.download.setting.description.description": {
+       "value": "数据较大，建议在 Wi-Fi 环境下下载",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.download.setting.title": {
+       "value": "下载设置",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.maintenance.to.title": {
+       "value": "返回标题",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.network.error.to.title": {
+       "value": "返回标题",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.maintenance.title": {
+       "value": "维护中",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.confirm.ban.title": {
+       "value": "使用停止通知",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.confirm.ban.inquiry": {
+       "value": "咨询",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.maintenance.description": {
+       "value": "目前正在维护中，无法使用\\n\\n预定结束时间\\n{0}\\n\\n※维护的最新信息请通过官方推特确认",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.maintenance.to.twitter": {
+       "value": "去推特",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.confirm.suspended.quest.title": {
+       "value": "从中断处继续",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.confirm.suspended.quest.description": {
+       "value": "要从中断的数据继续吗？\\n※若放弃，途中获得的道具等将会丢失",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.confirm.suspended.quest.continue": {
+       "value": "继续",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.confirm.suspended.quest.giveup": {
+       "value": "放弃",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.network.error.title": {
+       "value": "网络错误",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.network.error.description": {
+       "value": "发生网络连接错误",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.network.error.retry": {
+       "value": "重试",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.update.application.title": {
+       "value": "应用更新",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.update.application.description": {
+       "value": "已发布新版本的应用\\n请从商店更新至最新应用",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.update.application.to.store": {
+       "value": "前往商店",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.download.setting.voice.subtitle": {
+       "value": "语音下载",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.download.setting.voice.description": {
+       "value": "可体验全语音剧情。#ON/OFF设置可在游戏开始后重新设定",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.download.setting.voice.toggle.on": {
+       "value": "ON(约{0}MB)",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.serial.title": {
+       "value": "序列号",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.serial.send": {
+       "value": "发送",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.serial.description": {
+       "value": "请输入序列号",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.serial.empty": {
+       "value": "未输入序列号",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.serial.error": {
+       "value": "序列号不正确",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.serial.used": {
+       "value": "输入的序列号已被使用",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.predownload.playmovie": {
+       "value": "播放影片",
+       "is_zh": true,
+       "old_value_residual": false
+      }
+     }
+    }
+   }
+  },
+  "nt(ko)": {
+   "ok": true,
+   "checks": {
+    "nt": {
+     "keys_found": 1,
+     "zh_hits": 1,
+     "bad": [],
+     "old_value_residual_keys": [],
+     "old_value_residual_total": 0,
+     "line_count": 77,
+     "keys": {
+      "nt.Network.Error.Title": {
+       "value": "错误",
+       "is_zh": true,
+       "old_value_residual": false
+      }
+     }
+    }
+   }
+  }
+ },
+ "ok": true
+}

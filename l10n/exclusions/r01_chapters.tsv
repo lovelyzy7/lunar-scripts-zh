@@ -1,0 +1,41 @@
+order	key	season	route	chapter	value_ja	screenshot_images	evidence	note
+1	quest.main.chapter_number.1.1.0	1	1	0	-		非地图显示项（列表不显示，截图无此项属正常）	占位/样例值，地图章节列表不显示
+2	quest.main.chapter_number.1.1.1	1	1	1	プロローグ		截图外补全（数据完整包含，截图未拍到）	列表最上方：图片1 自『一章：風砂の章』起，序章行未入镜
+3	quest.main.chapter_number.1.1.2	1	1	2	一章：風砂の章	1	截图内（图片1）	
+4	quest.main.chapter_number.1.1.3	1	1	3	二章：砂礫の章	1	截图内（图片1）	
+5	quest.main.chapter_number.1.1.4	1	1	4	三章：硬砂の章	1	截图内（图片1）	
+6	quest.main.chapter_number.1.1.5	1	1	5	四章：流水の章	1	截图内（图片1）	
+7	quest.main.chapter_number.1.1.6	1	1	6	五章：冠雪の章	1	截图内（图片1）	
+8	quest.main.chapter_number.1.1.7	1	1	7	六章：刻石の章	1	截图内（图片1）	
+9	quest.main.chapter_number.1.1.8	1	1	8	中間プロローグ	1,2	截图内（图片1、2）	
+10	quest.main.chapter_number.1.1.9	1	1	9	七章：紅枯の章	2	截图内（图片2）	
+11	quest.main.chapter_number.1.1.10	1	1	10	八章：積葉の章	2	截图内（图片2）	
+12	quest.main.chapter_number.1.1.11	1	1	11	九章：炎砂の章	2	截图内（图片2）	
+13	quest.main.chapter_number.1.1.12	1	1	12	十章：煌粒の章	2	截图内（图片2）	
+14	quest.main.chapter_number.1.1.13	1	1	13	十一章：水煙の章	2	截图内（图片2）	
+15	quest.main.chapter_number.1.1.14	1	1	14	十二章：白秋の章	2	截图内（图片2）	
+16	quest.main.chapter_number.1.1.999	1	1	999	サンプル		非地图显示项（列表不显示，截图无此项属正常）	占位/样例值，地图章节列表不显示
+17	quest.main.chapter_number.2.1.1	2	1	1	陽ノ序章	4	截图内（图片4）	
+18	quest.main.chapter_number.2.1.2	2	1	2	陽ノ壱：朝暉の章	4	截图内（图片4）	
+19	quest.main.chapter_number.2.1.3	2	1	3	陽ノ弐：明昼の章	4	截图内（图片4）	
+20	quest.main.chapter_number.2.1.4	2	1	4	陽ノ参：黄昏の章	4	截图内（图片4）	
+21	quest.main.chapter_number.2.1.5	2	1	5	月ノ幕間	4	截图内（图片4）	
+22	quest.main.chapter_number.2.1.6	2	1	6	月ノ肆：宵闇の章	4	截图内（图片4）	
+23	quest.main.chapter_number.2.1.7	2	1	7	月ノ伍：暮夜の章	4	截图内（图片4）	
+24	quest.main.chapter_number.2.1.8	2	1	8	月ノ陸：暁天の章		截图外补全（数据完整包含，截图未拍到）	列表底部：图片3/4/5 的下一项（用户所述『底部还有一两个章节没截到』即此项）
+25	quest.main.chapter_number.2.2.1	2	2	1	月ノ序章	3	截图内（图片3）	
+26	quest.main.chapter_number.2.2.2	2	2	2	月ノ壱：宵闇の章	3	截图内（图片3）	
+27	quest.main.chapter_number.2.2.3	2	2	3	月ノ弐：暮夜の章	3	截图内（图片3）	
+28	quest.main.chapter_number.2.2.4	2	2	4	月ノ参：暁天の章	3	截图内（图片3）	
+29	quest.main.chapter_number.2.2.5	2	2	5	陽ノ幕間	3	截图内（图片3）	
+30	quest.main.chapter_number.2.2.6	2	2	6	陽ノ肆：朝暉の章	3	截图内（图片3）	
+31	quest.main.chapter_number.2.2.7	2	2	7	陽ノ伍：明昼の章	3	截图内（图片3）	
+32	quest.main.chapter_number.2.2.8	2	2	8	陽ノ陸：黄昏の章		截图外补全（数据完整包含，截图未拍到）	列表底部：图片3/4/5 的下一项（用户所述『底部还有一两个章节没截到』即此项）
+33	quest.main.chapter_number.3.1.1	3	1	1	幕開	5	截图内（图片5）	
+34	quest.main.chapter_number.3.1.2	3	1	2	序ノ壱：青藍の章	5	截图内（图片5）	
+35	quest.main.chapter_number.3.1.3	3	1	3	序ノ弐：紅緋の章	5	截图内（图片5）	
+36	quest.main.chapter_number.3.1.4	3	1	4	序ノ参：翠緑の章	5	截图内（图片5）	
+37	quest.main.chapter_number.3.1.5	3	1	5	序ノ肆：琥珀の章	5	截图内（图片5）	
+38	quest.main.chapter_number.3.1.6	3	1	6	二ノ幕：回帰の章	5	截图内（图片5）	
+39	quest.main.chapter_number.3.1.7	3	1	7	三ノ幕：輪廻の章	5	截图内（图片5）	
+40	quest.main.chapter_number.3.1.8	3	1	8	終ノ幕：転生の章		截图外补全（数据完整包含，截图未拍到）	列表底部：图片3/4/5 的下一项（用户所述『底部还有一两个章节没截到』即此项）

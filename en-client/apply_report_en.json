@@ -1,0 +1,578 @@
+{
+ "generated_at": "2026-10-29T12:05:03",
+ "tool": "patch_fix3_en.py",
+ "tier": "all",
+ "dry_run": false,
+ "keys": {
+  "ui.Outgame.Menu.Notice": "公告",
+  "ui.Outgame.Menu.Contact": "联系我们",
+  "ui.Outgame.Menu.DataLinkage": "数据继承",
+  "ui.Outgame.Menu.DataRecovery": "数据修复",
+  "ui.Outgame.Menu.Top.Repair": "数据修复",
+  "ui.Outgame.Menu.VariousInformation": "其他信息",
+  "ui.Outgame.Menu.Top.Information": "其他信息",
+  "ui.Outgame.Menu.DataRemove": "删除数据",
+  "ui.Outgame.DeleteData.Title": "删除数据",
+  "ui.Outgame.Common.Close": "关闭",
+  "ui.Loading.Confirm.Title": "下载确认",
+  "titleflow.dialog.confirm.download.title": "下载确认",
+  "titleflow.dialog.confirm.description": "将开始约{0}MB的数据下载\\n数据较大，建议使用 Wi-Fi 下载",
+  "ui.Loading.Confirm.WithSize": "将下载 {0} 数据",
+  "titleflow.dialog.enter.user.name.title": "注册玩家名",
+  "titleflow.dialog.enter.user.name.description": "请输入玩家名",
+  "titleflow.dialog.enter.user.name.annotation": "请输入10个字符以内\\n　名称可随时更改",
+  "titleflow.dialog.enter.user.name.registry": "注册",
+  "ui.Outgame.Common.Cancel": "取消",
+  "titleflow.dialog.download.setting.description.subtitle": "将开始约{0}MB的数据下载",
+  "titleflow.dialog.download.setting.description.description": "数据较大，建议在 Wi-Fi 环境下下载",
+  "titleflow.dialog.download.setting.title": "下载设置",
+  "ui.Outgame.Menu.Top.Repair.Description": "将进行数据修复。确定吗？",
+  "ui.Outgame.Menu.Top.Repair.Result": "数据修复已完成",
+  "ui.Title.Menu.Button": "菜单",
+  "ui.Outgame.DeleteData.Delete": "删除",
+  "ui.Outgame.Service.Agree": "同意",
+  "ui.Outgame.Menu.Title.Quit.Title": "结束游戏",
+  "ui.Outgame.Menu.Title.Quit.Description": "要结束游戏吗？",
+  "ui.Outgame.Menu.Title.Jump.Title": "返回标题",
+  "titleflow.dialog.maintenance.to.title": "返回标题",
+  "titleflow.dialog.network.error.to.title": "返回标题",
+  "ui.Outgame.Service.error.title": "错误",
+  "nt.Network.Error.Title": "错误",
+  "ui.Outgame.Service.error.description": "通信失败。\\n将返回标题画面。",
+  "ui.Outgame.Common.Maintenance.Parts": "维护中",
+  "titleflow.dialog.maintenance.title": "维护中",
+  "ui.Outgame.Common.Maintenance.Twitter": "※维护的最新信息请通过官方推特确认。",
+  "ui.Outgame.Common.Maintenance.Twitter_2": "※维护的最新信息请通过官方推特确认。",
+  "ui.Loading.Confirm.Message.NoneLoadData": "没有可加载的数据",
+  "ui.Loading.Warning.Wifi": "<color=#D29797>※根据通信状况可能需要较长时间。建议在 Wi-Fi 环境下下载</color>",
+  "ui.Outgame.DeleteData.Confirm.Message": "数据删除功能可删除您使用的账号功能及\\n游戏数据。\\n要删除当前数据吗？",
+  "ui.Outgame.DeleteData.Confirm.Attention": "※删除后若仍希望使用当前数据继续游戏，请事先在游戏内菜单「数据继承」中完成继承设置。\\n※未关联账号的情况下，删除后无法恢复数据或进行数据继承。",
+  "titleflow.dialog.confirm.ban.title": "使用停止通知",
+  "titleflow.dialog.confirm.ban.inquiry": "咨询",
+  "titleflow.dialog.maintenance.description": "目前正在维护中，无法使用\\n\\n预定结束时间\\n{0}\\n\\n※维护的最新信息请通过官方推特确认",
+  "titleflow.dialog.maintenance.to.twitter": "前往推特",
+  "titleflow.dialog.confirm.suspended.quest.title": "从中断处继续",
+  "titleflow.dialog.confirm.suspended.quest.description": "要从中断的数据继续吗？\\n※若放弃，途中获得的道具等将会丢失",
+  "titleflow.dialog.confirm.suspended.quest.continue": "继续",
+  "titleflow.dialog.confirm.suspended.quest.giveup": "放弃",
+  "titleflow.dialog.network.error.title": "网络错误",
+  "titleflow.dialog.network.error.description": "发生网络连接错误",
+  "titleflow.dialog.network.error.retry": "重试",
+  "titleflow.dialog.update.application.title": "应用更新",
+  "titleflow.dialog.update.application.description": "已发布新版本的应用\\n请从商店更新至最新应用",
+  "titleflow.dialog.update.application.to.store": "前往商店",
+  "titleflow.dialog.download.setting.voice.subtitle": "语音下载",
+  "titleflow.dialog.download.setting.voice.description": "可体验全语音剧情。#ON/OFF设置可在游戏开始后重新设定",
+  "titleflow.dialog.download.setting.voice.toggle.on": "ON(约{0}MB)",
+  "titleflow.dialog.serial.title": "序列号",
+  "titleflow.dialog.serial.send": "发送",
+  "titleflow.dialog.serial.description": "请输入序列号",
+  "titleflow.dialog.serial.empty": "未输入序列号",
+  "titleflow.dialog.serial.error": "序列号不正确",
+  "titleflow.dialog.serial.used": "输入的序列号已被使用",
+  "titleflow.predownload.playmovie": "播放影片",
+  "ui.Outgame.DeleteData.Complete.Message": "删除已完成。\\n应用将重新启动。\\n\\n如需删除个人信息，请通过「联系我们」与我们联系。"
+ },
+ "meta_repl": {
+  "お知らせ": "公告",
+  "閉じる": "关闭",
+  "キャンセル": "取消",
+  "ムービー再生": "播放影片",
+  "ムービー再生中": "播放影片中",
+  "おしらせを開く": "打开公告",
+  "ツイッターを開く": "打开推特"
+ },
+ "files": {
+  "assets/bin/Data/a1e9ec10c664743ac927859dda597701": {
+   "label": "ui(en)",
+   "sha256_before": "e2f6c5f2aba3d9450b29011301d7a3d6642a6f599111df3bf68061f809979edc",
+   "sha256_after": "9c34a7c4c98294f405cce34f4b6055393cc900261bdc6c6442ad440ee48489f2",
+   "changed": true,
+   "changed_count": 31,
+   "log": [
+    {
+     "asset": "ui",
+     "changed": [
+      {
+       "key": "ui.Title.Menu.Button",
+       "old": "Menu",
+       "new": "菜单"
+      },
+      {
+       "key": "ui.Outgame.Service.Agree",
+       "old": "Yes",
+       "new": "同意"
+      },
+      {
+       "key": "ui.Outgame.Service.error.title",
+       "old": "Error",
+       "new": "错误"
+      },
+      {
+       "key": "ui.Outgame.Service.error.description",
+       "old": "Failed to connect.\\nReturning to title screen.",
+       "new": "通信失败。\\n将返回标题画面。"
+      },
+      {
+       "key": "ui.Outgame.Common.Cancel",
+       "old": "Cancel",
+       "new": "取消"
+      },
+      {
+       "key": "ui.Outgame.Common.Close",
+       "old": "Close",
+       "new": "关闭"
+      },
+      {
+       "key": "ui.Outgame.Common.Maintenance.Parts",
+       "old": "Maintenance",
+       "new": "维护中"
+      },
+      {
+       "key": "ui.Outgame.Common.Maintenance.Twitter",
+       "old": "Please check our official Facebook account for maintenance updates.",
+       "new": "※维护的最新信息请通过官方推特确认。"
+      },
+      {
+       "key": "ui.Outgame.Common.Maintenance.Twitter_2",
+       "old": "Please check our official Twitter account for maintenance updates.",
+       "new": "※维护的最新信息请通过官方推特确认。"
+      },
+      {
+       "key": "ui.Outgame.Menu.Notice",
+       "old": "Notices",
+       "new": "公告"
+      },
+      {
+       "key": "ui.Outgame.Menu.Contact",
+       "old": "Contact",
+       "new": "联系我们"
+      },
+      {
+       "key": "ui.Outgame.Menu.DataLinkage",
+       "old": "Transfer Data",
+       "new": "数据继承"
+      },
+      {
+       "key": "ui.Outgame.Menu.DataRecovery",
+       "old": "Restore Data",
+       "new": "数据修复"
+      },
+      {
+       "key": "ui.Outgame.Menu.VariousInformation",
+       "old": "Information",
+       "new": "其他信息"
+      },
+      {
+       "key": "ui.Outgame.Menu.DataRemove",
+       "old": "Delete Data",
+       "new": "删除数据"
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Information",
+       "old": "Information",
+       "new": "其他信息"
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Repair",
+       "old": "Restore Data",
+       "new": "数据修复"
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Repair.Description",
+       "old": "Are you sure you want to restore data?",
+       "new": "将进行数据修复。确定吗？"
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Repair.Result",
+       "old": "Data restored.",
+       "new": "数据修复已完成"
+      },
+      {
+       "key": "ui.Outgame.Menu.Title.Quit.Title",
+       "old": "Quit Game",
+       "new": "结束游戏"
+      },
+      {
+       "key": "ui.Outgame.Menu.Title.Quit.Description",
+       "old": "Are you sure you want to quit the game?",
+       "new": "要结束游戏吗？"
+      },
+      {
+       "key": "ui.Outgame.Menu.Title.Jump.Title",
+       "old": "Title Screen",
+       "new": "返回标题"
+      },
+      {
+       "key": "ui.Loading.Confirm.Title",
+       "old": "Confirm",
+       "new": "下载确认"
+      },
+      {
+       "key": "ui.Loading.Confirm.WithSize",
+       "old": "Downloading {0} of data.",
+       "new": "将下载 {0} 数据"
+      },
+      {
+       "key": "ui.Loading.Confirm.Message.NoneLoadData",
+       "old": "No data to load.",
+       "new": "没有可加载的数据"
+      },
+      {
+       "key": "ui.Loading.Warning.Wifi",
+       "old": "<color=#D29797>This can take time depending on your connection. We recommend downloading over Wi-Fi.</color>",
+       "new": "<color=#D29797>※根据通信状况可能需要较长时间。建议在 Wi-Fi 环境下下载</color>"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Title",
+       "old": "Delete Data",
+       "new": "删除数据"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Confirm.Message",
+       "old": "The data deletion function can be used to delete your account functionality and game data.\\nErase your current data?",
+       "new": "数据删除功能可删除您使用的账号功能及\\n游戏数据。\\n要删除当前数据吗？"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Confirm.Attention",
+       "old": "If you would like to continue playing using your current data following the deletion, please adjust your Data Transfer settings accessible via the in-game menu.\\nNote that it is not possible to restore or transfer your data after deletion unless your account is linked.",
+       "new": "※删除后若仍希望使用当前数据继续游戏，请事先在游戏内菜单「数据继承」中完成继承设置。\\n※未关联账号的情况下，删除后无法恢复数据或进行数据继承。"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Delete",
+       "old": "Delete",
+       "new": "删除"
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Complete.Message",
+       "old": "Deletion complete.\\nRestarting application.\\n\\nIn the event that you wish to permanently remove your personal data, please contact us.",
+       "new": "删除已完成。\\n应用将重新启动。\\n\\n如需删除个人信息，请通过「联系我们」与我们联系。"
+      }
+     ],
+     "changed_count": 31
+    }
+   ]
+  },
+  "assets/bin/Data/6c88814b67ea44496a219083a723a1e5": {
+   "label": "titleflow(en)",
+   "sha256_before": "574e2f3d3db3237953e99d9f79a0d0baa43db048dbeb773290f79112a10c312c",
+   "sha256_after": "91c8f7e70311d735f9dd9815a0dea0f0a3478c8cdd2c4a9717101e2825281957",
+   "changed": true,
+   "changed_count": 36,
+   "log": [
+    {
+     "asset": "titleflow",
+     "changed": [
+      {
+       "key": "titleflow.dialog.enter.user.name.title",
+       "old": "Register Name",
+       "new": "注册玩家名"
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.registry",
+       "old": "Register",
+       "new": "注册"
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.description",
+       "old": "Please input a player name.",
+       "new": "请输入玩家名"
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.annotation",
+       "old": "Your name can contain up to 10 characters.\\nThis can be changed later.",
+       "new": "请输入10个字符以内\\n　名称可随时更改"
+      },
+      {
+       "key": "titleflow.dialog.confirm.ban.title",
+       "old": "Suspension of Use",
+       "new": "使用停止通知"
+      },
+      {
+       "key": "titleflow.dialog.confirm.ban.inquiry",
+       "old": "Contact",
+       "new": "咨询"
+      },
+      {
+       "key": "titleflow.dialog.maintenance.title",
+       "old": "Maintenance",
+       "new": "维护中"
+      },
+      {
+       "key": "titleflow.dialog.maintenance.description",
+       "old": "The system is currently undergoing maintenance.\\n\\nThe planned end time is:\\n{0}\\n\\nPlease see our official Facebook account for maintenance updates.",
+       "new": "目前正在维护中，无法使用\\n\\n预定结束时间\\n{0}\\n\\n※维护的最新信息请通过官方推特确认"
+      },
+      {
+       "key": "titleflow.dialog.maintenance.to.title",
+       "old": "To Title Screen",
+       "new": "返回标题"
+      },
+      {
+       "key": "titleflow.dialog.maintenance.to.twitter",
+       "old": "To Twitter",
+       "new": "前往推特"
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.title",
+       "old": "Continue",
+       "new": "从中断处继续"
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.description",
+       "old": "Continue from where you left off?\\nYou will lose any earned items if you quit.",
+       "new": "要从中断的数据继续吗？\\n※若放弃，途中获得的道具等将会丢失"
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.continue",
+       "old": "Continue",
+       "new": "继续"
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.giveup",
+       "old": "Quit",
+       "new": "放弃"
+      },
+      {
+       "key": "titleflow.dialog.network.error.title",
+       "old": "Network Error",
+       "new": "网络错误"
+      },
+      {
+       "key": "titleflow.dialog.network.error.description",
+       "old": "Network connection error.",
+       "new": "发生网络连接错误"
+      },
+      {
+       "key": "titleflow.dialog.network.error.retry",
+       "old": "Retry",
+       "new": "重试"
+      },
+      {
+       "key": "titleflow.dialog.network.error.to.title",
+       "old": "To Title Screen",
+       "new": "返回标题"
+      },
+      {
+       "key": "titleflow.dialog.update.application.title",
+       "old": "App Update",
+       "new": "应用更新"
+      },
+      {
+       "key": "titleflow.dialog.update.application.description",
+       "old": "A new version of this app is available. \\nPlease update it via the app store.",
+       "new": "已发布新版本的应用\\n请从商店更新至最新应用"
+      },
+      {
+       "key": "titleflow.dialog.update.application.to.store",
+       "old": "To App Store",
+       "new": "前往商店"
+      },
+      {
+       "key": "titleflow.dialog.confirm.download.title",
+       "old": "Confirm",
+       "new": "下载确认"
+      },
+      {
+       "key": "titleflow.dialog.confirm.description",
+       "old": "Commencing data download of {0} MB.\\nWe recommend downloading over Wi-Fi due to the size of the download.",
+       "new": "将开始约{0}MB的数据下载\\n数据较大，建议使用 Wi-Fi 下载"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.title",
+       "old": "Download Settings",
+       "new": "下载设置"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.voice.subtitle",
+       "old": "Download Voices",
+       "new": "语音下载"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.voice.description",
+       "old": "Voice acting is available for the story.\\nVoices settings can be adjusted after the game starts.",
+       "new": "可体验全语音剧情。#ON/OFF设置可在游戏开始后重新设定"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.voice.toggle.on",
+       "old": "ON ({0} MB)",
+       "new": "ON(约{0}MB)"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.description.subtitle",
+       "old": "Starting data download of {0} MB.",
+       "new": "将开始约{0}MB的数据下载"
+      },
+      {
+       "key": "titleflow.dialog.download.setting.description.description",
+       "old": "We recommend downloading over Wi-Fi due to the large amount of data.",
+       "new": "数据较大，建议在 Wi-Fi 环境下下载"
+      },
+      {
+       "key": "titleflow.dialog.serial.title",
+       "old": "Serial Code",
+       "new": "序列号"
+      },
+      {
+       "key": "titleflow.dialog.serial.send",
+       "old": "Send",
+       "new": "发送"
+      },
+      {
+       "key": "titleflow.dialog.serial.description",
+       "old": "Please input serial code.",
+       "new": "请输入序列号"
+      },
+      {
+       "key": "titleflow.dialog.serial.empty",
+       "old": "No serial code inputted.",
+       "new": "未输入序列号"
+      },
+      {
+       "key": "titleflow.dialog.serial.error",
+       "old": "Incorrect serial code.",
+       "new": "序列号不正确"
+      },
+      {
+       "key": "titleflow.dialog.serial.used",
+       "old": "This serial code has already been used.",
+       "new": "输入的序列号已被使用"
+      },
+      {
+       "key": "titleflow.predownload.playmovie",
+       "old": "Play Cutscene",
+       "new": "播放影片"
+      }
+     ],
+     "changed_count": 36
+    }
+   ]
+  },
+  "assets/bin/Data/1dc4624c9ddde409fb4ffb1b0cb2faeb": {
+   "label": "nt(en)",
+   "sha256_before": "3db86689c0e384ff3f9dc89a21344bfcd21df35237ab6caf3e0f646ecf87292f",
+   "sha256_after": "0708f73257b0b13ec07f3cdb976807b29219744a5c6acc9380ad26f486b47428",
+   "changed": true,
+   "changed_count": 1,
+   "log": [
+    {
+     "asset": "nt",
+     "changed": [
+      {
+       "key": "nt.Network.Error.Title",
+       "old": "Error",
+       "new": "错误"
+      }
+     ],
+     "changed_count": 1
+    }
+   ]
+  },
+  "assets/bin/Data/Managed/Metadata/global-metadata.dat": {
+   "sha256_before": "6134f1b93d0bd3dffc8c9e6a1c105b6ab550d04210e0f71d402338d7467954ee",
+   "sha256_after": "057b84e8d51c8ec6ab77a37d7b97ba36d555ab1ef1a4e602e3578e41c4855485",
+   "changed": true,
+   "log": [
+    {
+     "old": "お知らせ",
+     "new": "公告",
+     "status": "PATCHED",
+     "entries": [
+      20959
+     ],
+     "entry_offsets": [
+      "0x29000"
+     ],
+     "data_indexes": [
+      "0x9e35d"
+     ]
+    },
+    {
+     "old": "閉じる",
+     "new": "关闭",
+     "status": "PATCHED",
+     "entries": [
+      20951
+     ],
+     "entry_offsets": [
+      "0x28fc0"
+     ],
+     "data_indexes": [
+      "0x9e2a4"
+     ]
+    },
+    {
+     "old": "キャンセル",
+     "new": "取消",
+     "status": "PATCHED",
+     "entries": [
+      20949
+     ],
+     "entry_offsets": [
+      "0x28fb0"
+     ],
+     "data_indexes": [
+      "0x9e289"
+     ]
+    },
+    {
+     "old": "ムービー再生",
+     "new": "播放影片",
+     "status": "PATCHED",
+     "entries": [
+      20957
+     ],
+     "entry_offsets": [
+      "0x28ff0"
+     ],
+     "data_indexes": [
+      "0x9e336"
+     ]
+    },
+    {
+     "old": "ムービー再生中",
+     "new": "播放影片中",
+     "status": "PATCHED",
+     "entries": [
+      20958
+     ],
+     "entry_offsets": [
+      "0x28ff8"
+     ],
+     "data_indexes": [
+      "0x9e348"
+     ]
+    },
+    {
+     "old": "おしらせを開く",
+     "new": "打开公告",
+     "status": "PATCHED",
+     "entries": [
+      20960
+     ],
+     "entry_offsets": [
+      "0x29008"
+     ],
+     "data_indexes": [
+      "0x9e369"
+     ]
+    },
+    {
+     "old": "ツイッターを開く",
+     "new": "打开推特",
+     "status": "PATCHED",
+     "entries": [
+      20962
+     ],
+     "entry_offsets": [
+      "0x29018"
+     ],
+     "data_indexes": [
+      "0x9e385"
+     ]
+    }
+   ]
+  }
+ },
+ "ok": true
+}

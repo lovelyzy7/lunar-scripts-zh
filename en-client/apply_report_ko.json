@@ -1,0 +1,761 @@
+{
+ "generated_at": "2026-10-29T12:05:06",
+ "tool": "patch_fix3_ko.py",
+ "tier": "all",
+ "dry_run": false,
+ "keys": {
+  "ui.Outgame.Menu.Notice": "公告",
+  "ui.Outgame.Menu.Contact": "联系",
+  "ui.Outgame.Menu.DataLinkage": "数据继承",
+  "ui.Outgame.Menu.DataRecovery": "数据修复",
+  "ui.Outgame.Menu.Top.Repair": "数据修复",
+  "ui.Outgame.Menu.VariousInformation": "其他信息",
+  "ui.Outgame.Menu.Top.Information": "其他信息",
+  "ui.Outgame.Menu.DataRemove": "删除数据",
+  "ui.Outgame.DeleteData.Title": "删除数据",
+  "ui.Outgame.Common.Close": "关闭",
+  "ui.Loading.Confirm.Title": "下载确认",
+  "titleflow.dialog.confirm.download.title": "下载确认",
+  "titleflow.dialog.confirm.description": "将开始约{0}MB的数据下载\\n数据较大，建议使用 Wi-Fi 下载",
+  "ui.Loading.Confirm.WithSize": "将下载 {0} 数据",
+  "titleflow.dialog.enter.user.name.title": "注册玩家名",
+  "titleflow.dialog.enter.user.name.description": "请输入玩家名",
+  "titleflow.dialog.enter.user.name.annotation": "请输入10个字符以内\\n　名称可随时更改",
+  "titleflow.dialog.enter.user.name.registry": "注册",
+  "ui.Outgame.Common.Cancel": "取消",
+  "titleflow.dialog.download.setting.description.subtitle": "将开始约{0}MB的数据下载",
+  "titleflow.dialog.download.setting.description.description": "数据较大，建议在 Wi-Fi 环境下下载",
+  "titleflow.dialog.download.setting.title": "下载设置",
+  "ui.Outgame.Menu.Top.Repair.Description": "将进行数据修复。确定吗？",
+  "ui.Outgame.Menu.Top.Repair.Result": "数据修复已完成",
+  "ui.Title.Menu.Button": "菜单",
+  "ui.Outgame.DeleteData.Delete": "删除",
+  "ui.Outgame.Service.Agree": "同意",
+  "ui.Outgame.Menu.Title.Quit.Title": "结束游戏",
+  "ui.Outgame.Menu.Title.Quit.Description": "要结束游戏吗？",
+  "ui.Outgame.Menu.Title.Jump.Title": "返回标题",
+  "titleflow.dialog.maintenance.to.title": "返回标题",
+  "titleflow.dialog.network.error.to.title": "返回标题",
+  "ui.Outgame.Service.error.title": "错误",
+  "nt.Network.Error.Title": "错误",
+  "ui.Outgame.Service.error.description": "通信失败。\\n将返回标题画面。",
+  "ui.Outgame.Common.Maintenance.Parts": "维护中",
+  "titleflow.dialog.maintenance.title": "维护中",
+  "ui.Outgame.Common.Maintenance.Twitter": "※维护的最新信息请通过官方推特确认。",
+  "ui.Outgame.Common.Maintenance.Twitter_2": "※维护的最新信息请通过官方推特确认。",
+  "ui.Loading.Confirm.Message.NoneLoadData": "没有可加载的数据",
+  "ui.Loading.Warning.Wifi": "<color=#D29797>※根据通信状况可能需要较长时间。建议在 Wi-Fi 环境下下载</color>",
+  "ui.Outgame.DeleteData.Confirm.Message": "数据删除功能可删除您使用的账号功能及\\n游戏数据。\\n要删除当前数据吗？",
+  "ui.Outgame.DeleteData.Confirm.Attention": "※删除后若仍希望使用当前数据继续游戏，请事先在游戏内菜单「数据继承」中完成继承设置。\\n※未关联账号的情况下，删除后无法恢复数据或进行数据继承。",
+  "titleflow.dialog.confirm.ban.title": "使用停止通知",
+  "titleflow.dialog.confirm.ban.inquiry": "咨询",
+  "titleflow.dialog.maintenance.description": "目前正在维护中，无法使用\\n\\n预定结束时间\\n{0}\\n\\n※维护的最新信息请通过官方推特确认",
+  "titleflow.dialog.maintenance.to.twitter": "去推特",
+  "titleflow.dialog.confirm.suspended.quest.title": "从中断处继续",
+  "titleflow.dialog.confirm.suspended.quest.description": "要从中断的数据继续吗？\\n※若放弃，途中获得的道具等将会丢失",
+  "titleflow.dialog.confirm.suspended.quest.continue": "继续",
+  "titleflow.dialog.confirm.suspended.quest.giveup": "放弃",
+  "titleflow.dialog.network.error.title": "网络错误",
+  "titleflow.dialog.network.error.description": "发生网络连接错误",
+  "titleflow.dialog.network.error.retry": "重试",
+  "titleflow.dialog.update.application.title": "应用更新",
+  "titleflow.dialog.update.application.description": "已发布新版本的应用\\n请从商店更新至最新应用",
+  "titleflow.dialog.update.application.to.store": "前往商店",
+  "titleflow.dialog.download.setting.voice.subtitle": "语音下载",
+  "titleflow.dialog.download.setting.voice.description": "可体验全语音剧情。#ON/OFF设置可在游戏开始后重新设定",
+  "titleflow.dialog.download.setting.voice.toggle.on": "ON(约{0}MB)",
+  "titleflow.dialog.serial.title": "序列号",
+  "titleflow.dialog.serial.send": "发送",
+  "titleflow.dialog.serial.description": "请输入序列号",
+  "titleflow.dialog.serial.empty": "未输入序列号",
+  "titleflow.dialog.serial.error": "序列号不正确",
+  "titleflow.dialog.serial.used": "输入的序列号已被使用",
+  "titleflow.predownload.playmovie": "播放影片",
+  "ui.Outgame.DeleteData.Complete.Message": "删除已完成。\\n应用将重新启动。\\n\\n如需删除个人信息，请通过「联系我们」与我们联系。"
+ },
+ "ko_override": {
+  "ui.Outgame.Menu.Contact": {
+   "zh": "联系",
+   "en_value": "联系我们",
+   "reason": "ko 原值「문의」6B < EN 段现值「联系我们」12B；T01 机制 len(new)<=len(old)，取同义短译「联系」6B"
+  },
+  "titleflow.dialog.maintenance.to.twitter": {
+   "zh": "去推特",
+   "en_value": "前往推特",
+   "reason": "ko 原值「Twitter로」10B < EN 段现值「前往推特」12B；T01 机制 len(new)<=len(old)，取同义短译「去推特」9B"
+  }
+ },
+ "length_rule": "T01 机制：len(new utf-8) <= len(old utf-8)，超长用 KO_OVERRIDE 短译或 SKIP_TOO_LONG",
+ "files": {
+  "assets/bin/Data/311a825b7b4ba4b7b854ee567c51d486": {
+   "label": "ui(ko)",
+   "sha256_before": "18b51ea5b293fb132e877fa508616abd9171229183384e3fbd13e1bd8db9a926",
+   "sha256_after": "59cd1d6eb3337b9bafeef104cc4d6c50572f64bf581c71605407c81ea2d983ff",
+   "changed": true,
+   "changed_count": 31,
+   "skipped_count": 0,
+   "log": [
+    {
+     "asset": "ui",
+     "changed": [
+      {
+       "key": "ui.Title.Menu.Button",
+       "old": "메뉴",
+       "new": "菜单",
+       "old_bytes": 6,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Service.Agree",
+       "old": "동의함",
+       "new": "同意",
+       "old_bytes": 9,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Service.error.title",
+       "old": "오류",
+       "new": "错误",
+       "old_bytes": 6,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Service.error.description",
+       "old": "통신에 실패했습니다.\\n타이틀로 돌아갑니다.",
+       "new": "通信失败。\\n将返回标题画面。",
+       "old_bytes": 60,
+       "new_bytes": 41,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Common.Cancel",
+       "old": "취소",
+       "new": "取消",
+       "old_bytes": 6,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Common.Close",
+       "old": "닫기",
+       "new": "关闭",
+       "old_bytes": 6,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Common.Maintenance.Parts",
+       "old": "점검 중",
+       "new": "维护中",
+       "old_bytes": 10,
+       "new_bytes": 9,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Common.Maintenance.Twitter",
+       "old": "※점검 관련 최신 정보는 공식 Facebook를\\n<space=24>확인하세요.",
+       "new": "※维护的最新信息请通过官方推特确认。",
+       "old_bytes": 80,
+       "new_bytes": 54,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Common.Maintenance.Twitter_2",
+       "old": "※점검 관련 최신 정보는 공식 Twitter를\\n<space=24>확인하세요.",
+       "new": "※维护的最新信息请通过官方推特确认。",
+       "old_bytes": 79,
+       "new_bytes": 54,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.Notice",
+       "old": "공지",
+       "new": "公告",
+       "old_bytes": 6,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.Contact",
+       "old": "문의",
+       "new": "联系",
+       "old_bytes": 6,
+       "new_bytes": 6,
+       "shortened": true
+      },
+      {
+       "key": "ui.Outgame.Menu.DataLinkage",
+       "old": "데이터 인계",
+       "new": "数据继承",
+       "old_bytes": 16,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.DataRecovery",
+       "old": "데이터 복원",
+       "new": "数据修复",
+       "old_bytes": 16,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.VariousInformation",
+       "old": "각종 정보",
+       "new": "其他信息",
+       "old_bytes": 13,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.DataRemove",
+       "old": "데이터 삭제",
+       "new": "删除数据",
+       "old_bytes": 16,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Information",
+       "old": "각종 정보",
+       "new": "其他信息",
+       "old_bytes": 13,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Repair",
+       "old": "데이터 복원",
+       "new": "数据修复",
+       "old_bytes": 16,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Repair.Description",
+       "old": "데이터를 복원합니다. 진행하시겠습니까?",
+       "new": "将进行数据修复。确定吗？",
+       "old_bytes": 55,
+       "new_bytes": 36,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.Top.Repair.Result",
+       "old": "데이터 복원이 완료되었습니다",
+       "new": "数据修复已完成",
+       "old_bytes": 41,
+       "new_bytes": 21,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.Title.Quit.Title",
+       "old": "게임 종료",
+       "new": "结束游戏",
+       "old_bytes": 13,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.Title.Quit.Description",
+       "old": "게임을 종료하겠습니까?",
+       "new": "要结束游戏吗？",
+       "old_bytes": 32,
+       "new_bytes": 21,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.Menu.Title.Jump.Title",
+       "old": "타이틀로",
+       "new": "返回标题",
+       "old_bytes": 12,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Loading.Confirm.Title",
+       "old": "다운로드 확인",
+       "new": "下载确认",
+       "old_bytes": 19,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Loading.Confirm.WithSize",
+       "old": "{0}의 데이터를 다운로드합니다",
+       "new": "将下载 {0} 数据",
+       "old_bytes": 41,
+       "new_bytes": 20,
+       "shortened": false
+      },
+      {
+       "key": "ui.Loading.Confirm.Message.NoneLoadData",
+       "old": "불러올 데이터가 없습니다",
+       "new": "没有可加载的数据",
+       "old_bytes": 35,
+       "new_bytes": 24,
+       "shortened": false
+      },
+      {
+       "key": "ui.Loading.Warning.Wifi",
+       "old": "<color=#D29797>※네트워크 상황에 따라 시간이 걸릴 수 있습니다. Wi-Fi 환경에서 다운로드할 것을 권장합니다</color>",
+       "new": "<color=#D29797>※根据通信状况可能需要较长时间。建议在 Wi-Fi 环境下下载</color>",
+       "old_bytes": 148,
+       "new_bytes": 102,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Title",
+       "old": "데이터 삭제",
+       "new": "删除数据",
+       "old_bytes": 16,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Confirm.Message",
+       "old": "데이터 삭제 기능은 사용 중인 계정 기능 및 게임 데이터를 삭제하는 기능입니다.\\n현재 데이터를 삭제하시겠습니까?",
+       "new": "数据删除功能可删除您使用的账号功能及\\n游戏数据。\\n要删除当前数据吗？",
+       "old_bytes": 155,
+       "new_bytes": 100,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Confirm.Attention",
+       "old": "※삭제 후에 다시 현재 데이터로 플레이를 희망하시는 경우는 사전에 게임 내 메뉴 '데이터 연동'에서 연동을 설정해 주세요.\\n※계정을 연동하지 않으면 삭제 후 데이터 복원, 데이터 연동이 불가능합니다.",
+       "new": "※删除后若仍希望使用当前数据继续游戏，请事先在游戏内菜单「数据继承」中完成继承设置。\\n※未关联账号的情况下，删除后无法恢复数据或进行数据继承。",
+       "old_bytes": 272,
+       "new_bytes": 212,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Delete",
+       "old": "삭제하다",
+       "new": "删除",
+       "old_bytes": 12,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "ui.Outgame.DeleteData.Complete.Message",
+       "old": "삭제가 완료되었습니다.\\n애플리케이션을 다시 실행합니다.\\n\\n개인 정보 삭제를 희망하시는 경우는 문의를 통하여 신청해 주세요.",
+       "new": "删除已完成。\\n应用将重新启动。\\n\\n如需删除个人信息，请通过「联系我们」与我们联系。",
+       "old_bytes": 173,
+       "new_bytes": 120,
+       "shortened": false
+      }
+     ],
+     "skipped": [],
+     "changed_count": 31,
+     "skipped_count": 0
+    }
+   ]
+  },
+  "assets/bin/Data/3286caf719be04314bd3208e16bc0e0e": {
+   "label": "titleflow(ko)",
+   "sha256_before": "45b1d9f9e9955a8254216f876c8a07de63b36a60287fefbcc4a8d8fd6fd5933d",
+   "sha256_after": "8b529605576488c6a3d7d7aba757727907179d15d95e014b38d500155297aa71",
+   "changed": true,
+   "changed_count": 36,
+   "skipped_count": 0,
+   "log": [
+    {
+     "asset": "titleflow",
+     "changed": [
+      {
+       "key": "titleflow.dialog.enter.user.name.title",
+       "old": "플레이어 이름 등록",
+       "new": "注册玩家名",
+       "old_bytes": 26,
+       "new_bytes": 15,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.registry",
+       "old": "등록하기",
+       "new": "注册",
+       "old_bytes": 12,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.description",
+       "old": "플레이어 이름을 입력하세요",
+       "new": "请输入玩家名",
+       "old_bytes": 38,
+       "new_bytes": 18,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.enter.user.name.annotation",
+       "old": "※10자 이내로 입력해 주세요\\n이름은 나중에 변경할 수 있습니다",
+       "new": "请输入10个字符以内\\n　名称可随时更改",
+       "old_bytes": 86,
+       "new_bytes": 52,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.confirm.ban.title",
+       "old": "이용 정지 안내",
+       "new": "使用停止通知",
+       "old_bytes": 20,
+       "new_bytes": 18,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.confirm.ban.inquiry",
+       "old": "문의하기",
+       "new": "咨询",
+       "old_bytes": 12,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.maintenance.title",
+       "old": "서비스 점검 공지",
+       "new": "维护中",
+       "old_bytes": 23,
+       "new_bytes": 9,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.maintenance.description",
+       "old": "현재 점검 중이므로 이용할 수 없습니다\\n\\n종료 예정 시각\\n{0}\\n\\n※점검 관련 최신 정보는 공식 Facebook를 확인해 주세요",
+       "new": "目前正在维护中，无法使用\\n\\n预定结束时间\\n{0}\\n\\n※维护的最新信息请通过官方推特确认",
+       "old_bytes": 158,
+       "new_bytes": 118,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.maintenance.to.title",
+       "old": "타이틀로",
+       "new": "返回标题",
+       "old_bytes": 12,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.maintenance.to.twitter",
+       "old": "Twitter로",
+       "new": "去推特",
+       "old_bytes": 10,
+       "new_bytes": 9,
+       "shortened": true
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.title",
+       "old": "중단 시점부터 다시 시작",
+       "new": "从中断处继续",
+       "old_bytes": 33,
+       "new_bytes": 18,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.description",
+       "old": "중단한 데이터부터 다시 시작합니까?\\n※포기하면 도중에 획득한 아이템 등은 사라집니다",
+       "new": "要从中断的数据继续吗？\\n※若放弃，途中获得的道具等将会丢失",
+       "old_bytes": 119,
+       "new_bytes": 86,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.continue",
+       "old": "계속하기",
+       "new": "继续",
+       "old_bytes": 12,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.confirm.suspended.quest.giveup",
+       "old": "포기하기",
+       "new": "放弃",
+       "old_bytes": 12,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.network.error.title",
+       "old": "네트워크 오류",
+       "new": "网络错误",
+       "old_bytes": 19,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.network.error.description",
+       "old": "네트워크 접속 오류가 발생했습니다",
+       "new": "发生网络连接错误",
+       "old_bytes": 48,
+       "new_bytes": 24,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.network.error.retry",
+       "old": "다시 시도",
+       "new": "重试",
+       "old_bytes": 13,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.network.error.to.title",
+       "old": "타이틀로",
+       "new": "返回标题",
+       "old_bytes": 12,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.update.application.title",
+       "old": "애플리케이션 업데이트",
+       "new": "应用更新",
+       "old_bytes": 31,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.update.application.description",
+       "old": "새로운 버전의 애플리케이션이 있습니다\\n스토어에서 최신 애플리케이션으로 업데이트해 주세요",
+       "new": "已发布新版本的应用\\n请从商店更新至最新应用",
+       "old_bytes": 129,
+       "new_bytes": 62,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.update.application.to.store",
+       "old": "스토어로",
+       "new": "前往商店",
+       "old_bytes": 12,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.confirm.download.title",
+       "old": "다운로드 확인",
+       "new": "下载确认",
+       "old_bytes": 19,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.confirm.description",
+       "old": "약 {0}MB의 데이터를 다운로드합니다\\n데이터 용량이 크므로 WiFi 연결 후 다운로드할 것을 권장합니다",
+       "new": "将开始约{0}MB的数据下载\\n数据较大，建议使用 Wi-Fi 下载",
+       "old_bytes": 133,
+       "new_bytes": 74,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.download.setting.title",
+       "old": "다운로드 설정",
+       "new": "下载设置",
+       "old_bytes": 19,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.download.setting.voice.subtitle",
+       "old": "음성 다운로드",
+       "new": "语音下载",
+       "old_bytes": 19,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.download.setting.voice.description",
+       "old": "풀 보이스로 스토리를 즐길 수 있습니다. #ON/OFF 설정은 게임 시작 후에도 다시 설정할 수 있습니다",
+       "new": "可体验全语音剧情。#ON/OFF设置可在游戏开始后重新设定",
+       "old_bytes": 130,
+       "new_bytes": 73,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.download.setting.voice.toggle.on",
+       "old": "ON(약 {0}MB)",
+       "new": "ON(约{0}MB)",
+       "old_bytes": 13,
+       "new_bytes": 12,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.download.setting.description.subtitle",
+       "old": "약 {0}MB의 데이터를 다운로드합니다",
+       "new": "将开始约{0}MB的数据下载",
+       "old_bytes": 47,
+       "new_bytes": 32,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.download.setting.description.description",
+       "old": "데이터 용량이 크므로 WiFi 연결 후 다운로드할 것을 권장합니다",
+       "new": "数据较大，建议在 Wi-Fi 环境下下载",
+       "old_bytes": 84,
+       "new_bytes": 46,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.serial.title",
+       "old": "시리얼 코드",
+       "new": "序列号",
+       "old_bytes": 16,
+       "new_bytes": 9,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.serial.send",
+       "old": "보내기",
+       "new": "发送",
+       "old_bytes": 9,
+       "new_bytes": 6,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.serial.description",
+       "old": "시리얼 코드를 입력해 주세요",
+       "new": "请输入序列号",
+       "old_bytes": 39,
+       "new_bytes": 18,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.serial.empty",
+       "old": "시리얼 코드가 입력되어 있지 않습니다",
+       "new": "未输入序列号",
+       "old_bytes": 52,
+       "new_bytes": 18,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.serial.error",
+       "old": "시리얼 코드가 올바르지 않습니다",
+       "new": "序列号不正确",
+       "old_bytes": 45,
+       "new_bytes": 18,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.dialog.serial.used",
+       "old": "입력한 시리얼 코드는 이미 사용되었습니다",
+       "new": "输入的序列号已被使用",
+       "old_bytes": 58,
+       "new_bytes": 30,
+       "shortened": false
+      },
+      {
+       "key": "titleflow.predownload.playmovie",
+       "old": "무비 재생",
+       "new": "播放影片",
+       "old_bytes": 13,
+       "new_bytes": 12,
+       "shortened": false
+      }
+     ],
+     "skipped": [],
+     "changed_count": 36,
+     "skipped_count": 0
+    }
+   ]
+  },
+  "assets/bin/Data/d3f332a247d3c418d94d377ae81104c7": {
+   "label": "nt(ko)",
+   "sha256_before": "ea62e5bd3176e2f2c5158cd1a0685db247ea67a21c719b15c5862e4db8331a32",
+   "sha256_after": "014e0e3bf329421b25267ba125eaf55b1dafda92ecfc590a507995440bba4376",
+   "changed": true,
+   "changed_count": 1,
+   "skipped_count": 0,
+   "log": [
+    {
+     "asset": "nt",
+     "changed": [
+      {
+       "key": "nt.Network.Error.Title",
+       "old": "오류",
+       "new": "错误",
+       "old_bytes": 6,
+       "new_bytes": 6,
+       "shortened": false
+      }
+     ],
+     "skipped": [],
+     "changed_count": 1,
+     "skipped_count": 0
+    }
+   ]
+  }
+ },
+ "ok": true,
+ "old_ko_values": {
+  "ui.Title.Menu.Button": "메뉴",
+  "ui.Outgame.Service.Agree": "동의함",
+  "ui.Outgame.Service.error.title": "오류",
+  "ui.Outgame.Service.error.description": "통신에 실패했습니다.\\n타이틀로 돌아갑니다.",
+  "ui.Outgame.Common.Cancel": "취소",
+  "ui.Outgame.Common.Close": "닫기",
+  "ui.Outgame.Common.Maintenance.Parts": "점검 중",
+  "ui.Outgame.Common.Maintenance.Twitter": "※점검 관련 최신 정보는 공식 Facebook를\\n<space=24>확인하세요.",
+  "ui.Outgame.Common.Maintenance.Twitter_2": "※점검 관련 최신 정보는 공식 Twitter를\\n<space=24>확인하세요.",
+  "ui.Outgame.Menu.Notice": "공지",
+  "ui.Outgame.Menu.Contact": "문의",
+  "ui.Outgame.Menu.DataLinkage": "데이터 인계",
+  "ui.Outgame.Menu.DataRecovery": "데이터 복원",
+  "ui.Outgame.Menu.VariousInformation": "각종 정보",
+  "ui.Outgame.Menu.DataRemove": "데이터 삭제",
+  "ui.Outgame.Menu.Top.Information": "각종 정보",
+  "ui.Outgame.Menu.Top.Repair": "데이터 복원",
+  "ui.Outgame.Menu.Top.Repair.Description": "데이터를 복원합니다. 진행하시겠습니까?",
+  "ui.Outgame.Menu.Top.Repair.Result": "데이터 복원이 완료되었습니다",
+  "ui.Outgame.Menu.Title.Quit.Title": "게임 종료",
+  "ui.Outgame.Menu.Title.Quit.Description": "게임을 종료하겠습니까?",
+  "ui.Outgame.Menu.Title.Jump.Title": "타이틀로",
+  "ui.Loading.Confirm.Title": "다운로드 확인",
+  "ui.Loading.Confirm.WithSize": "{0}의 데이터를 다운로드합니다",
+  "ui.Loading.Confirm.Message.NoneLoadData": "불러올 데이터가 없습니다",
+  "ui.Loading.Warning.Wifi": "<color=#D29797>※네트워크 상황에 따라 시간이 걸릴 수 있습니다. Wi-Fi 환경에서 다운로드할 것을 권장합니다</color>",
+  "ui.Outgame.DeleteData.Title": "데이터 삭제",
+  "ui.Outgame.DeleteData.Confirm.Message": "데이터 삭제 기능은 사용 중인 계정 기능 및 게임 데이터를 삭제하는 기능입니다.\\n현재 데이터를 삭제하시겠습니까?",
+  "ui.Outgame.DeleteData.Confirm.Attention": "※삭제 후에 다시 현재 데이터로 플레이를 희망하시는 경우는 사전에 게임 내 메뉴 '데이터 연동'에서 연동을 설정해 주세요.\\n※계정을 연동하지 않으면 삭제 후 데이터 복원, 데이터 연동이 불가능합니다.",
+  "ui.Outgame.DeleteData.Delete": "삭제하다",
+  "ui.Outgame.DeleteData.Complete.Message": "삭제가 완료되었습니다.\\n애플리케이션을 다시 실행합니다.\\n\\n개인 정보 삭제를 희망하시는 경우는 문의를 통하여 신청해 주세요.",
+  "titleflow.dialog.enter.user.name.title": "플레이어 이름 등록",
+  "titleflow.dialog.enter.user.name.registry": "등록하기",
+  "titleflow.dialog.enter.user.name.description": "플레이어 이름을 입력하세요",
+  "titleflow.dialog.enter.user.name.annotation": "※10자 이내로 입력해 주세요\\n이름은 나중에 변경할 수 있습니다",
+  "titleflow.dialog.confirm.ban.title": "이용 정지 안내",
+  "titleflow.dialog.confirm.ban.inquiry": "문의하기",
+  "titleflow.dialog.maintenance.title": "서비스 점검 공지",
+  "titleflow.dialog.maintenance.description": "현재 점검 중이므로 이용할 수 없습니다\\n\\n종료 예정 시각\\n{0}\\n\\n※점검 관련 최신 정보는 공식 Facebook를 확인해 주세요",
+  "titleflow.dialog.maintenance.to.title": "타이틀로",
+  "titleflow.dialog.maintenance.to.twitter": "Twitter로",
+  "titleflow.dialog.confirm.suspended.quest.title": "중단 시점부터 다시 시작",
+  "titleflow.dialog.confirm.suspended.quest.description": "중단한 데이터부터 다시 시작합니까?\\n※포기하면 도중에 획득한 아이템 등은 사라집니다",
+  "titleflow.dialog.confirm.suspended.quest.continue": "계속하기",
+  "titleflow.dialog.confirm.suspended.quest.giveup": "포기하기",
+  "titleflow.dialog.network.error.title": "네트워크 오류",
+  "titleflow.dialog.network.error.description": "네트워크 접속 오류가 발생했습니다",
+  "titleflow.dialog.network.error.retry": "다시 시도",
+  "titleflow.dialog.network.error.to.title": "타이틀로",
+  "titleflow.dialog.update.application.title": "애플리케이션 업데이트",
+  "titleflow.dialog.update.application.description": "새로운 버전의 애플리케이션이 있습니다\\n스토어에서 최신 애플리케이션으로 업데이트해 주세요",
+  "titleflow.dialog.update.application.to.store": "스토어로",
+  "titleflow.dialog.confirm.download.title": "다운로드 확인",
+  "titleflow.dialog.confirm.description": "약 {0}MB의 데이터를 다운로드합니다\\n데이터 용량이 크므로 WiFi 연결 후 다운로드할 것을 권장합니다",
+  "titleflow.dialog.download.setting.title": "다운로드 설정",
+  "titleflow.dialog.download.setting.voice.subtitle": "음성 다운로드",
+  "titleflow.dialog.download.setting.voice.description": "풀 보이스로 스토리를 즐길 수 있습니다. #ON/OFF 설정은 게임 시작 후에도 다시 설정할 수 있습니다",
+  "titleflow.dialog.download.setting.voice.toggle.on": "ON(약 {0}MB)",
+  "titleflow.dialog.download.setting.description.subtitle": "약 {0}MB의 데이터를 다운로드합니다",
+  "titleflow.dialog.download.setting.description.description": "데이터 용량이 크므로 WiFi 연결 후 다운로드할 것을 권장합니다",
+  "titleflow.dialog.serial.title": "시리얼 코드",
+  "titleflow.dialog.serial.send": "보내기",
+  "titleflow.dialog.serial.description": "시리얼 코드를 입력해 주세요",
+  "titleflow.dialog.serial.empty": "시리얼 코드가 입력되어 있지 않습니다",
+  "titleflow.dialog.serial.error": "시리얼 코드가 올바르지 않습니다",
+  "titleflow.dialog.serial.used": "입력한 시리얼 코드는 이미 사용되었습니다",
+  "titleflow.predownload.playmovie": "무비 재생",
+  "nt.Network.Error.Title": "오류"
+ },
+ "changed_total": 68
+}

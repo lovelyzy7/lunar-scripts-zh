@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-10-29T12:05:04",
+ "files": {
+  "ui(en)": {
+   "hits": 31,
+   "bad": [],
+   "missing_keys_count": 37
+  },
+  "titleflow(en)": {
+   "hits": 36,
+   "bad": [],
+   "missing_keys_count": 32
+  },
+  "nt(en)": {
+   "hits": 1,
+   "bad": [],
+   "missing_keys_count": 67
+  }
+ },
+ "metadata": {
+  "お知らせ": {
+   "old_remaining": 0,
+   "new_hits": 1,
+   "ok": true
+  },
+  "閉じる": {
+   "old_remaining": 0,
+   "new_hits": 1,
+   "ok": true
+  },
+  "キャンセル": {
+   "old_remaining": 0,
+   "new_hits": 1,
+   "ok": true
+  },
+  "ムービー再生": {
+   "old_remaining": 0,
+   "new_hits": 1,
+   "ok": true
+  },
+  "ムービー再生中": {
+   "old_remaining": 0,
+   "new_hits": 1,
+   "ok": true
+  },
+  "おしらせを開く": {
+   "old_remaining": 0,
+   "new_hits": 1,
+   "ok": true
+  },
+  "ツイッターを開く": {
+   "old_remaining": 0,
+   "new_hits": 1,
+   "ok": true
+  }
+ },
+ "ok": true
+}

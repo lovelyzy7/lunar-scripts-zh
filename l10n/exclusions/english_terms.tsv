@@ -1,0 +1,83 @@
+kind	term	type	decision	boundary	protect_regex	ja_occurrences	ja_rows	ja_unique_values	en_occurrences	en_rows	en_unique_values	ja_example_key	en_example_key	note
+literal	NieR	brand	keep	word	(?<![A-Za-z0-9])NieR(?![A-Za-z0-9])	58	58	40	88	88	55	gacha.title.limited_08	gacha.title.limited_57	系列品牌名。
+literal	FFXIV	brand	keep	word	(?<![A-Za-z0-9])FFXIV(?![A-Za-z0-9])	43	43	35	41	41	34	movie.title.name.100004	gacha.title.limited_510	最终幻想 XIV 联动。
+literal	Automata	brand	keep	word	(?<![A-Za-z0-9])Automata(?![A-Za-z0-9])	42	42	29	78	78	39	gacha.title.limited_45	gacha.title.limited_150	NieR:Automata。
+literal	NieR:Automata	brand	keep	literal	NieR:Automata	27	27	14	23	23	10	gacha.title.limited_45	gacha.title.limited_150	品牌全称。
+literal	P5R	brand	keep	word	(?<![A-Za-z0-9])P5R(?![A-Za-z0-9])	18	18	17	23	23	21	gacha.title.limited_406	gacha.title.limited_406	Persona 5 Royal 联动。
+literal	Replicant	brand	keep	word	(?<![A-Za-z0-9])Replicant(?![A-Za-z0-9])	18	18	13	49	49	30	gacha.title.limited_08	gacha.title.limited_165	NieR Replicant。
+literal	SINoALICE	brand	keep	literal	SINoALICE	17	17	16	20	20	17	gacha.title.limited_419	gacha.title.limited_419	SINoALICE 联动。
+literal	DQX	brand	keep	word	(?<![A-Za-z0-9])DQX(?![A-Za-z0-9])	6	6	6	9	9	8	consumable_item.name.118203	gacha.title.limited_566	勇者斗恶龙 X 联动缩写（若出现）。
+literal	DRAG-ON DRAGOON	brand	keep	literal	DRAG\-ON\ DRAGOON	6	6	5	0	0	0	gacha.title.limited_31		龙背上的骑兵联动。
+literal	DOD	brand	keep	word	(?<![A-Za-z0-9])DOD(?![A-Za-z0-9])	1	1	1	0	0	0	movie.title.name.100006		DRAG-ON DRAGOON 缩写。
+literal	NEW	button	keep	word	(?<![A-Za-z0-9])NEW(?![A-Za-z0-9])	24	24	2	2	2	1	costume.emblem.production.001.11	ui.Outgame.Mission.DailyMissionV2.New	新标记；UI Label。
+literal	AUTO	button	keep	word	(?<![A-Za-z0-9])AUTO(?![A-Za-z0-9])	14	14	12	0	0	0	bt.auto.toast.lock.prohibited		自动周回；如『AUTO周回』。
+literal	CLEAR	button	keep	word	(?<![A-Za-z0-9])CLEAR(?![A-Za-z0-9])	4	4	2	3	3	1	ui.Outgame.Report.Clear	ui.Outgame.Quest.LimitContent.QuestClear	通关标记 CLEAR!/CLEAR。
+literal	OK	button	keep	word	(?<![A-Za-z0-9])OK(?![A-Za-z0-9])	4	4	1	5	5	2	bt.menu.button.ok	bt.menu.button.ok	确认按钮；bt.menu.button.ok / dialog_button。
+literal	SKIP	button	keep	word	(?<![A-Za-z0-9])SKIP(?![A-Za-z0-9])	4	4	4	0	0	0	help.item.name.1005		跳过；ui.Outgame.Common.Skip / ストーリーSKIP。
+literal	CLEAR!	button	keep	literal	CLEAR!	1	1	1	0	0	0	ui.Outgame.Report.Clear		带感叹号形态（ui.Outgame.Report.Clear）。
+literal	TAP	markup	keep	literal	TAP	9892	9892	9776	9925	9925	9783	MID_a065_0045_00100_01040_1	MID_a065_0045_00100_01040_1	剧情脚本内联标签 <TAP>，不是 UI 文案。
+literal	PAGE	markup	keep	literal	PAGE	4032	4032	3971	4006	4006	3936	content.story.0025002.000010	MID_a065_0045_00200_01040_1	剧情脚本内联标签 <PAGE>。
+literal	NONE	markup	keep	literal	NONE	196	196	196	196	196	196	CID_a01040_1010g_00130_01040_1	CID_a01040_1010g_00130_01040_1	剧情脚本内联标签 <NONE>。
+literal	Si'F	model	keep	literal	Si'F	97	97	27	103	103	30	weapon.name.wp002013.11	weapon.name.wp005518.1	武器型号 Si'F-08 / Si'F-ADVtest。
+literal	EID	model	keep	prefix	(?<![A-Za-z])EID(?![A-Za-z])	43	43	42	41	41	38	costume.emblem.production.name.001	costume.emblem.production.name.001	纹章编号 EID:011552EF。
+literal	WR0a	model	keep	literal	WR0a	25	25	13	26	26	13	mission.name.2820	mission.name.2820	武器型号；任务名『試作型裁断槍：WR0aのレベル…』。
+literal	BSE	model	keep	prefix	(?<![A-Za-z])BSE(?![A-Za-z])	22	22	10	22	22	10	weapon.name.wp003503.11	weapon.name.wp003503.11	武器型号 BSE_TypeLS。
+literal	AGW	model	keep	prefix	(?<![A-Za-z])AGW(?![A-Za-z])	16	16	4	16	16	4	weapon.name.wp005008.1	weapon.name.wp005008.1	武器型号 AGW-E14。
+literal	POD	model	keep	word	(?<![A-Za-z0-9])POD(?![A-Za-z0-9])	15	2	2	0	0	0	costume.description.ch004003		机械伙伴 POD 系列。
+literal	AI	model	keep	word	(?<![A-Za-z0-9])AI(?![A-Za-z0-9])	12	9	8	91	76	69	MID_c030_0080_00200_02150_1	quest.event.chapter.story.06.0016.0010	『AI dolls』等。
+literal	F66x	model	keep	literal	F66x	3	3	3	96	96	73	actor.object.name.175	actor.object.name.19052	actor 内部名（cage.memory 日志中出现）。
+literal	2.5	numbering	keep	literal	2\.5	1016	988	416	1043	1015	467	ability.description.long.2002308	ability.description.long.2008406	2.5 Year Anniversary。
+literal	1.5	numbering	keep	literal	1\.5	853	825	331	872	844	369	ability.description.long.2002303	ability.description.long.2008282	1.5 Year Anniversary。
+literal	No	numbering	keep	prefix	(?<![A-Za-z])No(?![A-Za-z])	457	457	244	1118	1082	682	cage.memory.library.title.100010	ability.description.long.10000013	无点号形态（en 槽常见）。
+literal	No.	numbering	keep	literal	No\.	455	455	242	688	687	348	cage.memory.library.title.100010	cage.memory.library.title.100010	编号；No.01..No.25（cage/report 图书馆条目）。
+literal	Anniversary	numbering	keep	word	(?<![A-Za-z0-9])Anniversary(?![A-Za-z0-9])	147	147	125	123	123	91	gacha.title.limited_49	gacha.title.limited_58	周年活动名保留英文。
+literal	Vol	numbering	keep	prefix	(?<![A-Za-z])Vol(?![A-Za-z])	71	71	67	123	123	106	gacha.title.limited_45	gacha.title.limited_95	『Vol.2』。
+literal	Vol.	numbering	keep	literal	Vol\.	71	71	67	123	123	106	gacha.title.limited_45	gacha.title.limited_95	卷号『Vol. 1』。
+literal	Rank	numbering	keep	prefix	(?<![A-Za-z])Rank(?![A-Za-z])	48	48	46	94	94	68	ability.name.9150001	ability.name.9150001	能力名/说明中的 Rank1..Rank5（『結界：虚弱の呪陣・Rank1』）。
+literal	1st	numbering	keep	word	(?<![A-Za-z0-9])1st(?![A-Za-z0-9])	45	45	30	39	33	33	gacha.title.step_up_508001	movie.title.name.100002	序数；1st Anniversary。
+literal	vol.	numbering	keep	literal	vol\.	42	42	33	5	5	5	gacha.title.limited_95	gacha.title.limited_475	小写形式。
+literal	2nd	numbering	keep	word	(?<![A-Za-z0-9])2nd(?![A-Za-z0-9])	39	39	34	43	43	38	gacha.title.limited_463	gacha.title.limited_463	序数；2nd Anniversary。
+literal	ver.	numbering	keep	literal	ver\.	39	39	31	317	290	276	gacha.title.limited_08	BID_004010_1010b_00200_02100_1	版本『ver.1.22』。
+literal	Year	numbering	keep	word	(?<![A-Za-z0-9])Year(?![A-Za-z0-9])	37	37	35	221	217	175	gacha.title.limited_194	costume.emblem.production.name.012	周年；n Year Anniversary。
+literal	ver	numbering	keep	prefix	(?<![A-Za-z])ver(?![A-Za-z])	36	36	28	21	21	16	gacha.title.limited_08	gacha.title.limited_165	无点号小写形式兜底（ver.1.22 已由 ver. 覆盖）。
+literal	Half	numbering	keep	word	(?<![A-Za-z0-9])Half(?![A-Za-z0-9])	15	15	15	47	47	24	gacha.title.limited_49	campaign.name.01.03.01	Half Anniversary。
+literal	3rd	numbering	keep	word	(?<![A-Za-z0-9])3rd(?![A-Za-z0-9])	8	8	8	39	37	24	gacha.title.step_up_612001	gacha.title.common_200003	序数；3rd Anniversary。
+literal	DL	numbering	keep	word	(?<![A-Za-z0-9])DL(?![A-Za-z0-9])	8	8	8	0	0	0	gacha.title.limited_14		下载量『1000万DL突破記念』。
+literal	Ver	numbering	keep	prefix	(?<![A-Za-z])Ver(?![A-Za-z])	6	6	2	8	8	4	weapon.name.wp002074.1	gacha.title.limited_160	版本。
+literal	GW	numbering	keep	word	(?<![A-Za-z0-9])GW(?![A-Za-z0-9])	3	3	3	0	0	0	gacha.title.limited_16		黄金周『GW特別版』。
+literal	Season	numbering	keep	word	(?<![A-Za-z0-9])Season(?![A-Za-z0-9])	0	0	0	104	104	86		help.item.name.108	赛季；Season001。
+literal	Ver.	numbering	keep	literal	Ver\.	0	0	0	2	2	2		gacha.title.limited_160	版本『Ver.1.2』。
+literal	QUEST	score	keep	prefix	(?<![A-Za-z])QUEST(?![A-Za-z])	407	407	340	32	32	31	bt.auto.toast.lock	mission.label.1304	关卡编号；QUEST 1 / QUEST EX / QUEST10。
+literal	F	score	keep	word	(?<![A-Za-z0-9])F(?![A-Za-z0-9])	126	125	55	193	192	113	quest.event.chapter.story.01.0040.0001	actor.object.name.201	评分 F（若出现）。
+literal	WAVE	score	keep	word	(?<![A-Za-z0-9])WAVE(?![A-Za-z0-9])	98	97	72	0	0	0	ability.description.long.5000091		波次；技能描述『WAVE開始時…』98 处。
+literal	A	score	keep	word	(?<![A-Za-z0-9])A(?![A-Za-z0-9])	88	87	64	2657	2503	1922	actor.object.name.201	ability.name.5000071	评分 A1..A10。
+literal	B	score	keep	word	(?<![A-Za-z0-9])B(?![A-Za-z0-9])	63	60	58	183	180	148	actor.object.name.202	actor.object.name.202	评分 B1..B10；也用于 B1F 楼层（B1F 整体保护）。
+literal	Ex	score	keep	word	(?<![A-Za-z0-9])Ex(?![A-Za-z0-9])	61	61	53	40	40	33	mission.name.500013	cage.memory.title.200040	Exハード 等难度记号（日文槽也保留 Ex）。
+literal	C	score	keep	word	(?<![A-Za-z0-9])C(?![A-Za-z0-9])	48	48	48	132	131	114	actor.object.name.215	actor.object.name.215	评分 C1..C10。
+literal	D	score	keep	word	(?<![A-Za-z0-9])D(?![A-Za-z0-9])	24	24	24	66	66	59	actor.object.name.216	actor.object.name.216	评分 D1..D10。
+literal	SS	score	keep	prefix	(?<![A-Za-z])SS(?![A-Za-z])	17	17	16	17	17	16	loginbonus.title.login_bonus_1056	loginbonus.title.login_bonus_1056	战斗评分 SS1..SS10。
+literal	SSS	score	keep	prefix	(?<![A-Za-z])SSS(?![A-Za-z])	13	13	12	13	13	12	mission.name.470051	mission.name.470051	战斗评分 SSS1..SSS10。
+literal	EX	score	keep	word	(?<![A-Za-z0-9])EX(?![A-Za-z0-9])	11	11	8	48	48	38	mission.name.1011205	mission.name.500013	大写 EX（QUEST EX）。
+literal	E	score	keep	word	(?<![A-Za-z0-9])E(?![A-Za-z0-9])	10	10	10	28	28	26	actor.object.name.229	actor.object.name.229	评分 E（若出现）。
+literal	S	score	keep	word	(?<![A-Za-z0-9])S(?![A-Za-z0-9])	8	8	8	69	64	47	bt.drop.description.3	bt.drop.description.3	评分 S1..S10。
+literal	HP	stat	keep	prefix	(?<![A-Za-z])HP(?![A-Za-z])	9616	8449	3856	17582	14537	5795	ability.description.long.1000613	ability.description.long.2008776	生命值；ja/en 均有，常与数字/％连写（HP70%）。
+literal	Lv	stat	keep	prefix	(?<![A-Za-z])Lv(?![A-Za-z])	594	594	563	483	483	458	characterBoard.release.condition.title.06	gacha.title.event_304_01	等级；ja 495 处。带点号形态另见 Lv.。
+literal	Lv.	stat	keep	literal	Lv\.	465	465	445	479	479	454	gacha.title.event_301_01	gacha.title.event_304_01	带点号形态（ガチャ标题『…ガチャ Lv.1』）。
+literal	BP	stat	keep	prefix	(?<![A-Za-z])BP(?![A-Za-z])	27	27	24	26	26	22	nt.Network.200021	bt.menu.description.retire.arena	Battle Point；恢复药/上限提示。
+literal	EXP	stat	keep	prefix	(?<![A-Za-z])EXP(?![A-Za-z])	1	1	1	45	45	45	ui.Outgame.Header.Supplement.StaminaAndExp	CollectionBonus.Effect.001	经验值；ja 槽 1 处（UI Header），en 槽 45 处。
+literal	AP	stat	keep	prefix	(?<![A-Za-z])AP(?![A-Za-z])	0	0	0	0	0	0			用户示例；本次全量文本未命中，白名单预置。
+literal	ATK	stat	keep	prefix	(?<![A-Za-z])ATK(?![A-Za-z])	0	0	0	92	92	45		important_item.description.220001	攻击力（en 槽 92 处；ja 槽用『攻撃力』）。
+literal	CP	stat	keep	prefix	(?<![A-Za-z])CP(?![A-Za-z])	0	0	0	0	0	0			用户示例；本次全量文本未命中，白名单预置。
+literal	DEF	stat	keep	prefix	(?<![A-Za-z])DEF(?![A-Za-z])	0	0	0	102	102	50		important_item.description.220001	防御力（en 槽 102 处；ja 槽用『防御力』）。
+literal	km	unit	keep	prefix	(?<![A-Za-z])km(?![A-Za-z])	16	16	16	24	24	19	mission.name.1307	mission.name.900620	距离单位；任务『檻を 4.1km 歩く』（数字紧邻）。
+pattern	\[[0-9A-Fa-f]{8}\]	model	keep	regex	\[[0-9A-Fa-f]{8}\]	0	0	0	0	0	0			十六进制 ID 形态（如 EID 等）。
+pattern	No\.\d{1,3}	numbering	keep	regex	No\.\d{1,3}	455	455	242	241	241	27	cage.memory.library.title.100010	cage.memory.library.title.300010	编号 No.01..No.25。
+pattern	Vol\.\s*\d{1,2}	numbering	keep	regex	Vol\.\s*\d{1,2}	71	71	67	123	123	106	gacha.title.limited_45	gacha.title.limited_95	卷号 Vol. 1。
+pattern	[{][0-9]+[}]	placeholder	keep	regex	[{][0-9]+[}]	474	357	280	505	390	313	bt.menu.description.retire	bt.menu.description.retire	.NET 占位符 {0}/{1}。
+pattern	(?:SSS|SS|S|A|B|C|D|E|F)\d{1,2}	score	keep	regex	(?:SSS|SS|S|A|B|C|D|E|F)\d{1,2}	273	213	203	402	332	266	actor.object.name.27	actor.object.name.19052	战斗评分等级+数字（SS10/S1/A3…）；任务名中出现。
+pattern	QUEST\d{1,3}	score	keep	regex	QUEST\d{1,3}	236	236	213	0	0	0	bt.auto.toast.lock		关卡编号 QUEST1..QUEST50/QUEST10（无空格形态）。
+pattern	B\d{1,2}F	score	keep	regex	B\d{1,2}F	50	50	50	0	0	0	quest.name.301		楼层记号 B1F..B50F（quest.name）。
+pattern	Lv\.\s*\d{1,3}	stat	keep	regex	Lv\.\s*\d{1,3}	462	462	443	462	462	443	gacha.title.event_301_01	gacha.title.event_304_01	等级 Lv.1。
+pattern	[■□]+	symbol	keep	regex	[■□]+	1418	355	163	1457	354	157	actor.object.name.90015	actor.object.name.90015	遮蔽字/占位方块（如『鉄■■ノ如キ■■』），翻译必须保留相同数量。
+pattern	[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]+	symbol	keep	regex	[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]+	280	267	122	21	21	21	important_item.name.220008	mission.name.210040	罗马数字形态（武器名『・Ⅳ』等）。
+pattern	[★☆]+	symbol	keep	regex	[★☆]+	231	149	89	216	145	85	gacha.title.limited_15	gacha.stepup.step_up.step.text.1	稀有度星级符号，保留原样。

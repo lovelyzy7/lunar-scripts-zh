@@ -1,0 +1,46 @@
+# lunar-scripts-zh 提交范围控制（沿用 lunar-scripts-jp / zh-l10n 既有约定）
+# 红线：项目最最后一次性提交之前不 git init/add/commit/push。
+
+# ===== 密钥与本地配置（绝不提交） =====
+# providers.json = 翻译供应商真实密钥（zh-l10n\config\providers.json 同源），禁止入库
+providers.json
+config/providers.json
+config/*.local.json
+local/config.json
+*.keystore
+!keys/*.keystore
+!jp-client/keys/*.keystore
+
+# ===== Python / 环境 =====
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+uv-cache/
+pipshim/
+
+# ===== 大体积产物 / 临时文件（只入库脚本与文档） =====
+work/
+out/
+out2/
+jp-client/build/
+jp-client/out/
+*.bin.e
+*.assetbundle
+*.otf
+*.ttf
+*.ttc
+*.apk
+*.idsig
+*.7z
+*.zip
+*.log
+*.tmp
+*.bak
+
+# ===== ��©��2026-10-30�� =====
+build/
+!en-client/keys/*.keystore
+!en-client/keys/nier-en.keystore

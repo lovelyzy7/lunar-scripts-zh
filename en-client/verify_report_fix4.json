@@ -1,0 +1,29 @@
+{
+ "generated_at": "2026-10-29T12:05:15",
+ "files": {
+  "ui(en)": {
+   "action": "en_restore",
+   "hits": 37,
+   "bad": [],
+   "missing_keys_count": 44
+  },
+  "titleflow(en)": {
+   "action": "en_restore",
+   "hits": 43,
+   "bad": [],
+   "missing_keys_count": 38
+  },
+  "nt(en)": {
+   "action": "en_restore",
+   "hits": 1,
+   "bad": [],
+   "missing_keys_count": 80
+  },
+  "nt(ko)": {
+   "action": "ko_nt_translate",
+   "hits": 67,
+   "bad": []
+  }
+ },
+ "ok": true
+}

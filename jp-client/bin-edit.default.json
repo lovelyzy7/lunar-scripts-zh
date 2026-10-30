@@ -1,0 +1,10 @@
+{
+  "notes": "默认 = 原版 lunar-scripts patch_masterdata.py 全量编辑面（逐项对应 notebook「Patch Master Data」实际做的编辑）。false 关掉任意一项即可；m_omikuji 恒跳过（原版 SKIP_TABLES 语义）。",
+  "edits": {
+    "extend_end_dates": true,
+    "empty_maintenance": true,
+    "add_labyrinth_unlock": true,
+    "window_labyrinth_seasons": true,
+    "dedup_gimmick_schedules": true
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-10-30T02:26:04+0800",
+  "description": "en-client/ 权威副本 + 自撰文件清单（来源=本机只读素材或 authored；构建前校验 sha256；镜像 jp-client/MANIFEST.json 口径）",
+  "counts": {
+    "files": 24,
+    "copies": 4,
+    "authored": 20,
+    "bytes": 319128
+  },
+  "reference_facts": {
+    "original_apk": {
+      "path": "resources/NieR Re[in]carnation 3.7.1_EN.apk",
+      "sha256": "9ded0797ee607b6892b531ba3a02f4c4510774f5fe098ccada78ccff881c9209",
+      "bytes": 263571029
+    },
+    "expected_cert_sha256": "7d792c3cfefd73223764206edebd9526618638ff152165df5fbecd356aa4a173",
+    "product_name_contract": "nier-en.apk",
+    "keystore": {
+      "file": "keys/nier-en.keystore",
+      "alias": "androiddebugkey",
+      "pass": "android",
+      "lineage": "NieR-Re-In-carnation-Mod_Menu/en-client/keys/debug.keystore（复制收编，原件保留）"
+    }
+  },
+  "items": [
+    {
+      "path": "fix4_orig_en_values.json",
+      "bytes": 6315,
+      "sha256": "f317a5bbe2e978b937de846fcac742675974737f49058a5a19212f2a15e7290e",
+      "source": "zh-l10n/work/en-apk/fix4_orig_en_values.json",
+      "source_sha256": "f317a5bbe2e978b937de846fcac742675974737f49058a5a19212f2a15e7290e",
+      "identical_to_source": true
+    },
+    {
+      "path": "keys/nier-en.keystore",
+      "bytes": 2618,
+      "sha256": "d02ede230d2f49bab2ec873f323233351533f20a0c0ed1ce85bc8356a6c3cbc0",
+      "source": "NieR-Re-In-carnation-Mod_Menu/en-client/keys/debug.keystore",
+      "source_sha256": "d02ede230d2f49bab2ec873f323233351533f20a0c0ed1ce85bc8356a6c3cbc0",
+      "identical_to_source": true
+    },
+    {
+      "path": "patches/patch_apk_en.py",
+      "bytes": 34537,
+      "sha256": "5b7ab0fa6f94f39f3e0949cf91072fbfdf96dee132a6c965098b538929e72ca9",
+      "source": "lunar-scripts/android/patch_apk.py",
+      "source_sha256": "5b7ab0fa6f94f39f3e0949cf91072fbfdf96dee132a6c965098b538929e72ca9",
+      "identical_to_source": true
+    },
+    {
+      "path": "patches/patch_auth_dynamic_en.py",
+      "bytes": 22120,
+      "sha256": "987325640b6074a2e7199f9306a47c029d285fce07cf32e65e6394290a63ed08",
+      "source": "NieR-Re-In-carnation-Mod_Menu/en-client/tools/patch_auth_dynamic_en.py",
+      "source_sha256": "987325640b6074a2e7199f9306a47c029d285fce07cf32e65e6394290a63ed08",
+      "identical_to_source": true
+    },
+    {
+      "path": "../shared/__init__.py",
+      "bytes": 290,
+      "sha256": "b2f9cd4c9324539133959a3206f271023e625a77cbeeb4ea322836f5d8be7ee8",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/detect_client.py",
+      "bytes": 14720,
+      "sha256": "157dfd8474cd6e4da06cc6ff53ad34ac570289027259c2785ea439d312351623",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/gate_defs.py",
+      "bytes": 12137,
+      "sha256": "f3ffcf7dcd9b406b257558b98225546660aedfa139706f3e65f5bad249eee02c",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/manifest_sidecar.py",
+      "bytes": 6518,
+      "sha256": "f70b18f0e1c43ada91a11609fd0ff3afbde802bbba44f631cad328f35e6338e8",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/test_detect_client.py",
+      "bytes": 7281,
+      "sha256": "947e9975dfb4a3ddf4fe583da8108a9451c4f932549fdd807208a80bc3c57c97",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/verify_gate.py",
+      "bytes": 23662,
+      "sha256": "7c588349d2974585b6fe08a712b54e3fc3df57ae92b6521950e76c7ea8dead64",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "README-EN.md",
+      "bytes": 18097,
+      "sha256": "7b5b575bd9a3949f2817324bc6c59376d85ba4ee15170d4582186d9f5be5aeb1",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "_gen_manifest.py",
+      "bytes": 4615,
+      "sha256": "579c46a39d315f027787791b57c41bf765956a73968e33e5fd2cd21a714d0d64",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "build_en_zh.py",
+      "bytes": 59564,
+      "sha256": "af49a42f1731bfe6f292ab79fb2ebe9584a75d60af16c12f9bd3b1f92b38411d",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "check_ko_en_consistency.py",
+      "bytes": 2957,
+      "sha256": "6e4373803f87d44f4fa0e45dc182dbdb8ec27b3dfbf4165579b379f2127c23c8",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "check_ko_len_rule.py",
+      "bytes": 1451,
+      "sha256": "354ecfab66496354dbbbb6975b9d26159b612caa512b27e56262465f33fd7a7c",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "check_ko_scripts.py",
+      "bytes": 1989,
+      "sha256": "cff69f6d9f09cfb229e5a22c1a844680ad8102754e0d0491f33c03051ca13d7a",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "keys/README.md",
+      "bytes": 2027,
+      "sha256": "78f67739f54d3c715fd4bda64606732d13163c2867c4501a0f0a72ed89fd8a7e",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "patch_fix3_en.py",
+      "bytes": 16869,
+      "sha256": "60057e9fe053bc0ca5915a443c2a828132d2f0387cd0c741ff423488b9e6713d",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "patch_fix3_ko.py",
+      "bytes": 12963,
+      "sha256": "5a6a50f15000a78d3079444f6c200148584e45a51f032e8011188d6b9c06e5d6",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "patch_fix3l.py",
+      "bytes": 15725,
+      "sha256": "d707b3b7d7c975b0a35367c6d56e278fb183dd09767db44225840213e7ca80ec",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "patch_fix4.py",
+      "bytes": 18906,
+      "sha256": "533465f49918dffe9f2915ed6976bd6f774acb6ed477cfdba56f8c81b5291eb5",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "patch_listbin_named.py",
+      "bytes": 6761,
+      "sha256": "12e3cc1047a35ef7fe92a302cd4f8c5d5cbf03a5f45471e4c03852a2d74805d3",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "scan_untranslated.py",
+      "bytes": 8253,
+      "sha256": "61a028e23073148b1591ab8e49d12d4bd05cfda2aac9a1a934a2428dbca165fd",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "verify_en_build.py",
+      "bytes": 18753,
+      "sha256": "83e05ce4f974ccaba14902b31abe3be530d86f480aa6aa4fcdc1c27f48eb6b65",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    }
+  ]
+}

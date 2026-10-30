@@ -1,0 +1,197 @@
+{
+ "generated_at": "2026-10-29T12:05:11",
+ "tool": "patch_fix3l.py verify",
+ "files": {
+  "ui(en)": {
+   "ok": true,
+   "checks": {
+    "ui": {
+     "keys_found": 6,
+     "zh_hits": 6,
+     "bad": [],
+     "old_value_residual_keys": [],
+     "old_value_residual_total": 0,
+     "line_count": 65,
+     "keys": {
+      "ui.Outgame.Common.Yes": {
+       "value": "是",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Common.No": {
+       "value": "否",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Common.Ok": {
+       "value": "确认",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.DataLinkage.TransferCompletedTitle": {
+       "value": "成功",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.DataLinkage.TransferCompletedDescription": {
+       "value": "传输完成。",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Loading.Text": {
+       "value": "加载中...",
+       "is_zh": true,
+       "old_value_residual": false
+      }
+     }
+    }
+   }
+  },
+  "titleflow(en)": {
+   "ok": true,
+   "checks": {
+    "titleflow": {
+     "keys_found": 7,
+     "zh_hits": 7,
+     "bad": [],
+     "old_value_residual_keys": [],
+     "old_value_residual_total": 0,
+     "line_count": 73,
+     "keys": {
+      "titleflow.dialog.ageverification.title": {
+       "value": "年龄确认",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.ageverification.text": {
+       "value": "您的年龄是否满16岁？",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.personalizeadd.title": {
+       "value": "广告",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.personalizeadd.text": {
+       "value": "是否愿意共享您的个人信息\\n以查看符合您兴趣的广告？\\n您可随时在[设置]菜单中\\n更改您的选择。\\n收集的数据详情及第三方广告\\n供应商的政策可<link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>在此</u></color></link>查看。",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.confirm.ban.cbt.title": {
+       "value": "卸载请求",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.taptostart": {
+       "value": "点击开始",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.predownload.preceding": {
+       "value": "预下载",
+       "is_zh": true,
+       "old_value_residual": false
+      }
+     }
+    }
+   }
+  },
+  "ui(ko)": {
+   "ok": true,
+   "checks": {
+    "ui": {
+     "keys_found": 6,
+     "zh_hits": 6,
+     "bad": [],
+     "old_value_residual_keys": [],
+     "old_value_residual_total": 0,
+     "line_count": 65,
+     "keys": {
+      "ui.Outgame.Common.Yes": {
+       "value": "是",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Common.No": {
+       "value": "否",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Common.Ok": {
+       "value": "确认",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.DataLinkage.TransferCompletedTitle": {
+       "value": "成功",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Outgame.Menu.DataLinkage.TransferCompletedDescription": {
+       "value": "传输完成。",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "ui.Loading.Text": {
+       "value": "加载中",
+       "is_zh": true,
+       "old_value_residual": false
+      }
+     }
+    }
+   }
+  },
+  "titleflow(ko)": {
+   "ok": true,
+   "checks": {
+    "titleflow": {
+     "keys_found": 7,
+     "zh_hits": 7,
+     "bad": [],
+     "old_value_residual_keys": [],
+     "old_value_residual_total": 0,
+     "line_count": 73,
+     "keys": {
+      "titleflow.dialog.ageverification.title": {
+       "value": "年龄确认",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.ageverification.text": {
+       "value": "是否满16岁？",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.personalizeadd.title": {
+       "value": "广告",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.personalizeadd.text": {
+       "value": "是否愿意共享您的个人信息\\n以查看符合您兴趣的广告？\\n您可随时在[设置]菜单中\\n更改您的选择。\\n收集的数据详情及第三方广告\\n供应商的政策可<link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>在此</u></color></link>查看。",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.dialog.confirm.ban.cbt.title": {
+       "value": "卸载请求",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.taptostart": {
+       "value": "点击开始",
+       "is_zh": true,
+       "old_value_residual": false
+      },
+      "titleflow.predownload.preceding": {
+       "value": "预下载",
+       "is_zh": true,
+       "old_value_residual": false
+      }
+     }
+    }
+   }
+  }
+ },
+ "ok": true
+}

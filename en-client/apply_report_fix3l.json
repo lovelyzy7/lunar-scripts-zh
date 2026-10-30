@@ -1,0 +1,367 @@
+{
+ "generated_at": "2026-10-29T12:05:09",
+ "tool": "patch_fix3l.py",
+ "dry_run": false,
+ "keys": {
+  "titleflow.dialog.ageverification.title": {
+   "en": "年龄确认",
+   "ko": "年龄确认",
+   "note": "Confirm Age / 연령 확인 → 年龄确认；ko 12B≤13B ✓"
+  },
+  "titleflow.dialog.ageverification.text": {
+   "en": "您的年龄是否满16岁？",
+   "ko": "是否满16岁？",
+   "note": "Is your age 16 years or over? / 16세 이상입니까?；ko 22B 原文装不下「您的年龄是否满16岁？」29B，短译「是否满16岁？」17B"
+  },
+  "ui.Outgame.Common.Yes": {
+   "en": "是",
+   "ko": "是",
+   "note": "Yes / 예 → 是；ko 3B≤3B ✓"
+  },
+  "ui.Outgame.Common.No": {
+   "en": "否",
+   "ko": "否",
+   "note": "No / 아니오 → 否；ko 3B≤9B ✓"
+  },
+  "ui.Outgame.Common.Ok": {
+   "en": "确认",
+   "ko": "确认",
+   "note": "OK / 확인 → 确认；ko 6B≤6B ✓（확□ = 확인 漏网键）"
+  },
+  "titleflow.dialog.personalizeadd.title": {
+   "en": "广告",
+   "ko": "广告",
+   "note": "Ad Tracking / 광고 → 广告；ko 6B≤6B ✓"
+  },
+  "titleflow.dialog.personalizeadd.text": {
+   "en": "是否愿意共享您的个人信息\\n以查看符合您兴趣的广告？\\n您可随时在[设置]菜单中\\n更改您的选择。\\n收集的数据详情及第三方广告\\n供应商的政策可<link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>在此</u></color></link>查看。",
+   "ko": "是否愿意共享您的个人信息\\n以查看符合您兴趣的广告？\\n您可随时在[设置]菜单中\\n更改您的选择。\\n收集的数据详情及第三方广告\\n供应商的政策可<link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>在此</u></color></link>查看。",
+   "note": "广告个性化说明；保留 \\n 字面与 <link>/<color>/<u> 富文本标记"
+  },
+  "ui.Outgame.Menu.DataLinkage.TransferCompletedTitle": {
+   "en": "成功",
+   "ko": "成功",
+   "note": "Success / 성공 → 成功；ko 6B≤6B ✓"
+  },
+  "ui.Outgame.Menu.DataLinkage.TransferCompletedDescription": {
+   "en": "传输完成。",
+   "ko": "传输完成。",
+   "note": "Transfer completed. / 전송이 완료되었습니다. → 传输完成。；ko 15B≤32B ✓"
+  },
+  "titleflow.dialog.confirm.ban.cbt.title": {
+   "en": "卸载请求",
+   "ko": "卸载请求",
+   "note": "Uninstallation Request / 삭제 요청 → 卸载请求；ko 12B≤13B ✓"
+  },
+  "ui.Loading.Text": {
+   "en": "加载中...",
+   "ko": "加载中",
+   "note": "Loading... → 加载中；ko 原文 10B 装不下「加载中...」12B，短译「加载中」9B"
+  },
+  "titleflow.taptostart": {
+   "en": "点击开始",
+   "ko": "点击开始",
+   "note": "TAP TO START → 点击开始；ko 12B≤12B ✓"
+  },
+  "titleflow.predownload.preceding": {
+   "en": "预下载",
+   "ko": "预下载",
+   "note": "PREDOWNLOAD / PRECEDING DOWNLOAD → 预下载；ko 9B≤18B ✓"
+  }
+ },
+ "length_rule": "EN 段无约束；ko 段 len(new)<=len(old) 硬约束，超长短译已记录",
+ "files": {
+  "assets/bin/Data/a1e9ec10c664743ac927859dda597701": {
+   "label": "ui(en)",
+   "segment": "en",
+   "sha256_before": "9c34a7c4c98294f405cce34f4b6055393cc900261bdc6c6442ad440ee48489f2",
+   "sha256_after": "6ade40f6227472ed0b68cb532d0aac54d30c6eab9411a48041e2c92f665f9b2f",
+   "changed": true,
+   "changed_count": 6,
+   "skipped_count": 0,
+   "log": [
+    {
+     "asset": "ui",
+     "label": "ui(en)",
+     "changed": [
+      {
+       "key": "ui.Outgame.Common.Ok",
+       "old": "OK",
+       "new": "确认",
+       "old_bytes": 2,
+       "new_bytes": 6
+      },
+      {
+       "key": "ui.Outgame.Common.Yes",
+       "old": "Yes",
+       "new": "是",
+       "old_bytes": 3,
+       "new_bytes": 3
+      },
+      {
+       "key": "ui.Outgame.Common.No",
+       "old": "No",
+       "new": "否",
+       "old_bytes": 2,
+       "new_bytes": 3
+      },
+      {
+       "key": "ui.Outgame.Menu.DataLinkage.TransferCompletedTitle",
+       "old": "Success",
+       "new": "成功",
+       "old_bytes": 7,
+       "new_bytes": 6
+      },
+      {
+       "key": "ui.Outgame.Menu.DataLinkage.TransferCompletedDescription",
+       "old": "Transfer completed.",
+       "new": "传输完成。",
+       "old_bytes": 19,
+       "new_bytes": 15
+      },
+      {
+       "key": "ui.Loading.Text",
+       "old": "Loading...",
+       "new": "加载中...",
+       "old_bytes": 10,
+       "new_bytes": 12
+      }
+     ],
+     "skipped": [],
+     "changed_count": 6,
+     "skipped_count": 0
+    }
+   ]
+  },
+  "assets/bin/Data/6c88814b67ea44496a219083a723a1e5": {
+   "label": "titleflow(en)",
+   "segment": "en",
+   "sha256_before": "91c8f7e70311d735f9dd9815a0dea0f0a3478c8cdd2c4a9717101e2825281957",
+   "sha256_after": "1e6006e1e16bda8f70251def15ad64367aff70e413f25c4953b7b3e2dd5f2451",
+   "changed": true,
+   "changed_count": 7,
+   "skipped_count": 0,
+   "log": [
+    {
+     "asset": "titleflow",
+     "label": "titleflow(en)",
+     "changed": [
+      {
+       "key": "titleflow.dialog.ageverification.title",
+       "old": "Confirm Age",
+       "new": "年龄确认",
+       "old_bytes": 11,
+       "new_bytes": 12
+      },
+      {
+       "key": "titleflow.dialog.personalizeadd.title",
+       "old": "Ad Tracking",
+       "new": "广告",
+       "old_bytes": 11,
+       "new_bytes": 6
+      },
+      {
+       "key": "titleflow.dialog.ageverification.text",
+       "old": "Is your age 16 years or over?",
+       "new": "您的年龄是否满16岁？",
+       "old_bytes": 29,
+       "new_bytes": 29
+      },
+      {
+       "key": "titleflow.dialog.personalizeadd.text",
+       "old": "Would you like to share your personal\\ninformation to see ads tailored to your interests?\\nYou can change your answer at any\\ntime in the [Setting] menu.\\nDetails of the data collected and the third party\\nad tech vendors' policies can be viewed <link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>here</u></color></link>.",
+       "new": "是否愿意共享您的个人信息\\n以查看符合您兴趣的广告？\\n您可随时在[设置]菜单中\\n更改您的选择。\\n收集的数据详情及第三方广告\\n供应商的政策可<link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>在此</u></color></link>查看。",
+       "old_bytes": 335,
+       "new_bytes": 294
+      },
+      {
+       "key": "titleflow.dialog.confirm.ban.cbt.title",
+       "old": "Uninstallation Request",
+       "new": "卸载请求",
+       "old_bytes": 22,
+       "new_bytes": 12
+      },
+      {
+       "key": "titleflow.taptostart",
+       "old": "TAP TO START",
+       "new": "点击开始",
+       "old_bytes": 12,
+       "new_bytes": 12
+      },
+      {
+       "key": "titleflow.predownload.preceding",
+       "old": "PREDOWNLOAD",
+       "new": "预下载",
+       "old_bytes": 11,
+       "new_bytes": 9
+      }
+     ],
+     "skipped": [],
+     "changed_count": 7,
+     "skipped_count": 0
+    }
+   ]
+  },
+  "assets/bin/Data/311a825b7b4ba4b7b854ee567c51d486": {
+   "label": "ui(ko)",
+   "segment": "ko",
+   "sha256_before": "59cd1d6eb3337b9bafeef104cc4d6c50572f64bf581c71605407c81ea2d983ff",
+   "sha256_after": "d2d1b8c0b89c9720f3a30a5ff32220256647d38b6ad8d3eec67ad9792d196461",
+   "changed": true,
+   "changed_count": 6,
+   "skipped_count": 0,
+   "log": [
+    {
+     "asset": "ui",
+     "label": "ui(ko)",
+     "changed": [
+      {
+       "key": "ui.Outgame.Common.Ok",
+       "old": "확인",
+       "new": "确认",
+       "old_bytes": 6,
+       "new_bytes": 6
+      },
+      {
+       "key": "ui.Outgame.Common.Yes",
+       "old": "예",
+       "new": "是",
+       "old_bytes": 3,
+       "new_bytes": 3
+      },
+      {
+       "key": "ui.Outgame.Common.No",
+       "old": "아니오",
+       "new": "否",
+       "old_bytes": 9,
+       "new_bytes": 3
+      },
+      {
+       "key": "ui.Outgame.Menu.DataLinkage.TransferCompletedTitle",
+       "old": "성공",
+       "new": "成功",
+       "old_bytes": 6,
+       "new_bytes": 6
+      },
+      {
+       "key": "ui.Outgame.Menu.DataLinkage.TransferCompletedDescription",
+       "old": "전송이 완료되었습니다.",
+       "new": "传输完成。",
+       "old_bytes": 32,
+       "new_bytes": 15
+      },
+      {
+       "key": "ui.Loading.Text",
+       "old": "Loading...",
+       "new": "加载中",
+       "old_bytes": 10,
+       "new_bytes": 9
+      }
+     ],
+     "skipped": [],
+     "changed_count": 6,
+     "skipped_count": 0
+    }
+   ]
+  },
+  "assets/bin/Data/3286caf719be04314bd3208e16bc0e0e": {
+   "label": "titleflow(ko)",
+   "segment": "ko",
+   "sha256_before": "8b529605576488c6a3d7d7aba757727907179d15d95e014b38d500155297aa71",
+   "sha256_after": "94e7a7fd527699424d65d582265ee1de19e02e23e8334328253cb3abb2a3f290",
+   "changed": true,
+   "changed_count": 7,
+   "skipped_count": 0,
+   "log": [
+    {
+     "asset": "titleflow",
+     "label": "titleflow(ko)",
+     "changed": [
+      {
+       "key": "titleflow.dialog.ageverification.title",
+       "old": "연령 확인",
+       "new": "年龄确认",
+       "old_bytes": 13,
+       "new_bytes": 12
+      },
+      {
+       "key": "titleflow.dialog.personalizeadd.title",
+       "old": "광고",
+       "new": "广告",
+       "old_bytes": 6,
+       "new_bytes": 6
+      },
+      {
+       "key": "titleflow.dialog.ageverification.text",
+       "old": "16세 이상입니까?",
+       "new": "是否满16岁？",
+       "old_bytes": 22,
+       "new_bytes": 17
+      },
+      {
+       "key": "titleflow.dialog.personalizeadd.text",
+       "old": "맞춤형 광고를 위해 고객님의 개인 정보를\\n공유하시겠습니까?\\n[설정] 메뉴에서 언제든지 설정을\\n변강할 수 있습니다.\\n수집된 데이터 및 제 3차 광고 공급업체의 정책은\\n<link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>여기</u></color></link>에서 확인할 수 있습니다.",
+       "new": "是否愿意共享您的个人信息\\n以查看符合您兴趣的广告？\\n您可随时在[设置]菜单中\\n更改您的选择。\\n收集的数据详情及第三方广告\\n供应商的政策可<link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>在此</u></color></link>查看。",
+       "old_bytes": 351,
+       "new_bytes": 294
+      },
+      {
+       "key": "titleflow.dialog.confirm.ban.cbt.title",
+       "old": "삭제 요청",
+       "new": "卸载请求",
+       "old_bytes": 13,
+       "new_bytes": 12
+      },
+      {
+       "key": "titleflow.taptostart",
+       "old": "TAP TO START",
+       "new": "点击开始",
+       "old_bytes": 12,
+       "new_bytes": 12
+      },
+      {
+       "key": "titleflow.predownload.preceding",
+       "old": "PRECEDING DOWNLOAD",
+       "new": "预下载",
+       "old_bytes": 18,
+       "new_bytes": 9
+      }
+     ],
+     "skipped": [],
+     "changed_count": 7,
+     "skipped_count": 0
+    }
+   ]
+  }
+ },
+ "ok": true,
+ "old_values": {
+  "en:ui.Outgame.Common.Ok": "OK",
+  "en:ui.Outgame.Common.Yes": "Yes",
+  "en:ui.Outgame.Common.No": "No",
+  "en:ui.Outgame.Menu.DataLinkage.TransferCompletedTitle": "Success",
+  "en:ui.Outgame.Menu.DataLinkage.TransferCompletedDescription": "Transfer completed.",
+  "en:ui.Loading.Text": "Loading...",
+  "en:titleflow.dialog.ageverification.title": "Confirm Age",
+  "en:titleflow.dialog.personalizeadd.title": "Ad Tracking",
+  "en:titleflow.dialog.ageverification.text": "Is your age 16 years or over?",
+  "en:titleflow.dialog.personalizeadd.text": "Would you like to share your personal\\ninformation to see ads tailored to your interests?\\nYou can change your answer at any\\ntime in the [Setting] menu.\\nDetails of the data collected and the third party\\nad tech vendors' policies can be viewed <link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>here</u></color></link>.",
+  "en:titleflow.dialog.confirm.ban.cbt.title": "Uninstallation Request",
+  "en:titleflow.taptostart": "TAP TO START",
+  "en:titleflow.predownload.preceding": "PREDOWNLOAD",
+  "ko:ui.Outgame.Common.Ok": "확인",
+  "ko:ui.Outgame.Common.Yes": "예",
+  "ko:ui.Outgame.Common.No": "아니오",
+  "ko:ui.Outgame.Menu.DataLinkage.TransferCompletedTitle": "성공",
+  "ko:ui.Outgame.Menu.DataLinkage.TransferCompletedDescription": "전송이 완료되었습니다.",
+  "ko:ui.Loading.Text": "Loading...",
+  "ko:titleflow.dialog.ageverification.title": "연령 확인",
+  "ko:titleflow.dialog.personalizeadd.title": "광고",
+  "ko:titleflow.dialog.ageverification.text": "16세 이상입니까?",
+  "ko:titleflow.dialog.personalizeadd.text": "맞춤형 광고를 위해 고객님의 개인 정보를\\n공유하시겠습니까?\\n[설정] 메뉴에서 언제든지 설정을\\n변강할 수 있습니다.\\n수집된 데이터 및 제 3차 광고 공급업체의 정책은\\n<link=\"https://nierreincarnation.com/adpolicy\"><color=#DD8888><u>여기</u></color></link>에서 확인할 수 있습니다.",
+  "ko:titleflow.dialog.confirm.ban.cbt.title": "삭제 요청",
+  "ko:titleflow.taptostart": "TAP TO START",
+  "ko:titleflow.predownload.preceding": "PRECEDING DOWNLOAD"
+ },
+ "changed_total": 26
+}

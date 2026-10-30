@@ -1,0 +1,9 @@
+title_id	ja	en	ko	webview_mission_id	mission_group_id	label_mission_text_id	text_pack_key	text_pack_ja	text_pack_en	text_pack_ko	coverage	text_pack_match	note
+1	挿話：星	Anecdote: Stars	삽화: 별	1	101	1000001	mission.label.1000001	「挿話：星」	Anecdote: Stars	‘삽화: 별’	text_pack+masterdata	match	文本包与主数据同标题（仅括号形态不同：文本包带「」/引号）
+2	挿話：塔	Anecdote: Tower	삽화: 탑	2	102	1000002	mission.label.1000002				masterdata_only	n/a	文本包三语均无 mission.label.1000002；标题仅存于主数据（塔/女帝即此情况）
+3	挿話：女帝	Anecdote: Empress	삽화: 여제	3	103	1000003	mission.label.1000003				masterdata_only	n/a	文本包三语均无 mission.label.1000003；标题仅存于主数据（塔/女帝即此情况）
+4	挿話：月	Anecdote: The Moon	삽화: 달	4	104	1000004	mission.label.1000004	「挿話：月」	Anecdote: The Moon	삽화: 달	text_pack+masterdata	match	文本包与主数据同标题（仅括号形态不同：文本包带「」/引号）
+5	挿話：世界	Anecdote: The World	삽화: 세계	5	105	1000005	mission.label.1000005	「挿話：世界」	Anecdote: The World	삽화: 세계	text_pack+masterdata	match	文本包与主数据同标题（仅括号形态不同：文本包带「」/引号）
+6	挿話：皇帝	Anecdote: Emperor	삽화: 황제	6	107	1000007	mission.label.1000007	「挿話：皇帝」	Anecdote: Emperor	삽화: 황제	text_pack+masterdata	match	文本包与主数据同标题（仅括号形态不同：文本包带「」/引号）
+7	挿話：審判	Anecdote: Judgment	삽화: 심판	7	109	1000009	mission.label.1000009	「挿話：審判」	Anecdote: Judgment	삽화: 심판	text_pack+masterdata	match	文本包与主数据同标题（仅括号形态不同：文本包带「」/引号）
+8	挿話：人形	Anecdote: Doll	삽화: 인형	8	110	1000010	mission.label.1000010	「挿話：人形」	Anecdote: Doll	삽화: 인형	text_pack+masterdata	match	文本包与主数据同标题（仅括号形态不同：文本包带「」/引号）

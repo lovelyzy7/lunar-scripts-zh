@@ -1,0 +1,647 @@
+{
+  "generated_at": "2026-10-30T02:26:04+0800",
+  "description": "jp-client/ 权威副本 + 自撰文件清单（来源=本机只读素材或 authored；构建前校验 sha256）",
+  "counts": {
+    "files": 76,
+    "copies": 58,
+    "authored": 18,
+    "bytes": 29973122
+  },
+  "reference_facts": {
+    "original_apk": {
+      "path": "resources/NieR Re[in]carnation_3.7.1_JP.apk",
+      "sha256": "25b6326c610290dd1f581fc3b41e60efb1126172aae45804d5345caa0b653609",
+      "bytes": 254131762
+    },
+    "baseline_fix3c_apk": {
+      "path": "zh-l10n/work/apk/nier-mod-menu-jp-font-fix3c.apk",
+      "sha256": "2f363f7988b8c241028a2084ee6b2ecd1ee0a158d58dd39c31f95f29a151cc8e",
+      "bytes": 273436239
+    },
+    "expected_cert_sha256": "eec23be0cb205c401791be3d4b82e8851560f5c2aed3ec644166093d3d98a2fe",
+    "fix3c_verify_expectations": {
+      "fix3_entries_checked": 62,
+      "fix3_entries_ok": 62,
+      "fix3_textasset_hits": 68,
+      "fix3_metadata_hits": 7,
+      "private_ip_total_hits": 10,
+      "private_ip_in_metadata": true,
+      "fonts": {
+        "6f937efa0660c47f59d5215d276b1cbb": "c97a431931099addbc4203606d48f03f151f4350b2bceac5a9ce72ea10026f3d",
+        "7089ac60979c94824ac549baab08cfa7": "5ed20794fd7d8dacda0b05726c8a41828bb8a89330be01bde42c3d45944dee4e",
+        "ad1489eb70ff840d19d7d0841bcdd3a9": "ad690f4b1a51d77a398935bf83d2bfc288f69dd7dead21f9d7904ec6160b0e34",
+        "550e0743a6b6344cfa3380b9a07f58b6": "853ac67aacddd480b3a6f29f97171d431ce78fc6fa3b12e6dbb8039226ccb85b"
+      }
+    }
+  },
+  "items": [
+    {
+      "path": "fix3/builtin_strings.json",
+      "bytes": 33396,
+      "sha256": "a006d592833fa64486a93c03a31ade66d70694b21b7dee5b805131c0390221ed",
+      "source": "zh-l10n/work/apk/fix3/builtin_strings.json",
+      "source_sha256": "a006d592833fa64486a93c03a31ade66d70694b21b7dee5b805131c0390221ed",
+      "identical_to_source": true
+    },
+    {
+      "path": "fix3/builtin_strings.tsv",
+      "bytes": 13800,
+      "sha256": "7122c5295ee62a39eb80663b2cfe5e25c7030cb870d3fa8e8bb83c35c574e64d",
+      "source": "zh-l10n/work/apk/fix3/builtin_strings.tsv",
+      "source_sha256": "7122c5295ee62a39eb80663b2cfe5e25c7030cb870d3fa8e8bb83c35c574e64d",
+      "identical_to_source": true
+    },
+    {
+      "path": "fix3/patch_fix3.py",
+      "bytes": 23424,
+      "sha256": "df9b8b2e659eb219b12650a18d2b559298abb1fb53c53d355fd383224ed4bda4",
+      "source": "zh-l10n/work/apk/fix3/patch_fix3.py",
+      "source_sha256": "df9b8b2e659eb219b12650a18d2b559298abb1fb53c53d355fd383224ed4bda4",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/build_fix4_charset.py",
+      "bytes": 16127,
+      "sha256": "344b8c7a9f0942c7742989e5f73152b08bfc05b08489650719964975baaf3246",
+      "source": "zh-l10n/work/fonts-fix4/build_fix4_charset.py",
+      "source_sha256": "344b8c7a9f0942c7742989e5f73152b08bfc05b08489650719964975baaf3246",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/build_fix4b_fonts.py",
+      "bytes": 13425,
+      "sha256": "643ec4037c2cb143a4435cecf4076daf00db8068d19cbca1be656bdda7758569",
+      "source": "zh-l10n/work/fonts-fix4/build_fix4b_fonts.py",
+      "source_sha256": "643ec4037c2cb143a4435cecf4076daf00db8068d19cbca1be656bdda7758569",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/payload/assets/bin/Data/550e0743a6b6344cfa3380b9a07f58b6",
+      "bytes": 7959792,
+      "sha256": "853ac67aacddd480b3a6f29f97171d431ce78fc6fa3b12e6dbb8039226ccb85b",
+      "source": "zh-l10n/work/fonts-fix4/out2/payload2/assets/bin/Data/550e0743a6b6344cfa3380b9a07f58b6",
+      "source_sha256": "853ac67aacddd480b3a6f29f97171d431ce78fc6fa3b12e6dbb8039226ccb85b",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/payload/assets/bin/Data/6f937efa0660c47f59d5215d276b1cbb",
+      "bytes": 7959552,
+      "sha256": "c97a431931099addbc4203606d48f03f151f4350b2bceac5a9ce72ea10026f3d",
+      "source": "zh-l10n/work/fonts-fix4/out2/payload2/assets/bin/Data/6f937efa0660c47f59d5215d276b1cbb",
+      "source_sha256": "c97a431931099addbc4203606d48f03f151f4350b2bceac5a9ce72ea10026f3d",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/payload/assets/bin/Data/7089ac60979c94824ac549baab08cfa7",
+      "bytes": 6052448,
+      "sha256": "5ed20794fd7d8dacda0b05726c8a41828bb8a89330be01bde42c3d45944dee4e",
+      "source": "zh-l10n/work/fonts-fix4/out2/payload2/assets/bin/Data/7089ac60979c94824ac549baab08cfa7",
+      "source_sha256": "5ed20794fd7d8dacda0b05726c8a41828bb8a89330be01bde42c3d45944dee4e",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/payload/assets/bin/Data/ad1489eb70ff840d19d7d0841bcdd3a9",
+      "bytes": 6054488,
+      "sha256": "ad690f4b1a51d77a398935bf83d2bfc288f69dd7dead21f9d7904ec6160b0e34",
+      "source": "zh-l10n/work/fonts-fix4/out2/payload2/assets/bin/Data/ad1489eb70ff840d19d7d0841bcdd3a9",
+      "source_sha256": "ad690f4b1a51d77a398935bf83d2bfc288f69dd7dead21f9d7904ec6160b0e34",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/verify_fix4b.py",
+      "bytes": 7899,
+      "sha256": "41f2bd777e40e005c5f20c7d735fa77764b0dfdd6f41e34bf8aca0c34465d383",
+      "source": "zh-l10n/work/fonts-fix4/verify_fix4b.py",
+      "source_sha256": "41f2bd777e40e005c5f20c7d735fa77764b0dfdd6f41e34bf8aca0c34465d383",
+      "identical_to_source": true
+    },
+    {
+      "path": "keys/nier-jp.keystore",
+      "bytes": 2246,
+      "sha256": "4c5cf2d4bab5f8791cecd418169a29e04a69340a155d109c33e6651af16346f8",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/keys/nier-jp.keystore",
+      "source_sha256": "4c5cf2d4bab5f8791cecd418169a29e04a69340a155d109c33e6651af16346f8",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/lib/arm64-v8a/libniermenu.so",
+      "bytes": 1132344,
+      "sha256": "adfcd35df46b64f247722a0fc356d0a346b6a4bb80e05fb3f450dc75014c30ac",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/lib/arm64-v8a/libniermenu.so",
+      "source_sha256": "adfcd35df46b64f247722a0fc356d0a346b6a4bb80e05fb3f450dc75014c30ac",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali/com/android/support/R$color.smali",
+      "bytes": 633,
+      "sha256": "073250700c7414a5548e38a0660f83191dab78102a596f3ebc3956241e265b6d",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali/com/android/support/R$color.smali",
+      "source_sha256": "073250700c7414a5548e38a0660f83191dab78102a596f3ebc3956241e265b6d",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali/com/android/support/R$drawable.smali",
+      "bytes": 578,
+      "sha256": "0e2265e44618ed836e34012e20a189134e730b5d1266e2935a6e9fedde103ce9",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali/com/android/support/R$drawable.smali",
+      "source_sha256": "0e2265e44618ed836e34012e20a189134e730b5d1266e2935a6e9fedde103ce9",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali/com/android/support/R$layout.smali",
+      "bytes": 565,
+      "sha256": "ffb5bfe5f5021bf4c96a8d5c9b69fb5e066da1526e12571639e177a64cbae48a",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali/com/android/support/R$layout.smali",
+      "source_sha256": "ffb5bfe5f5021bf4c96a8d5c9b69fb5e066da1526e12571639e177a64cbae48a",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali/com/android/support/R$mipmap.smali",
+      "bytes": 626,
+      "sha256": "5d65322ec6e04409539602b807b45c367a91c04bb73815dc5d369d969700a292",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali/com/android/support/R$mipmap.smali",
+      "source_sha256": "5d65322ec6e04409539602b807b45c367a91c04bb73815dc5d369d969700a292",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali/com/android/support/R$string.smali",
+      "bytes": 560,
+      "sha256": "3236e7d58944e62c60e22b1afd111c53a1cc4c1f7ddf1a6005da5ddb042c3a56",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali/com/android/support/R$string.smali",
+      "source_sha256": "3236e7d58944e62c60e22b1afd111c53a1cc4c1f7ddf1a6005da5ddb042c3a56",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali/com/android/support/R$style.smali",
+      "bytes": 558,
+      "sha256": "80ce393a0557ef3f203e993540d94f67a7642c6b00eed0af6139464175ba3dcf",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali/com/android/support/R$style.smali",
+      "source_sha256": "80ce393a0557ef3f203e993540d94f67a7642c6b00eed0af6139464175ba3dcf",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali/com/android/support/R.smali",
+      "bytes": 594,
+      "sha256": "087f28d0cb573d733731e92529b344d062dc0b56a2f2769b73fc5aa12284d530",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali/com/android/support/R.smali",
+      "source_sha256": "087f28d0cb573d733731e92529b344d062dc0b56a2f2769b73fc5aa12284d530",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/BuildConfig.smali",
+      "bytes": 927,
+      "sha256": "40e9575fbc09ea4075aab3a64682baee90fd16261d9ec3286ecb85afd5316a7a",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/BuildConfig.smali",
+      "source_sha256": "40e9575fbc09ea4075aab3a64682baee90fd16261d9ec3286ecb85afd5316a7a",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/CrashHandler$1.smali",
+      "bytes": 16367,
+      "sha256": "7a07d40ce778c0fce7118b743de8ac1068325801a968ed0069e9529b38b36503",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/CrashHandler$1.smali",
+      "source_sha256": "7a07d40ce778c0fce7118b743de8ac1068325801a968ed0069e9529b38b36503",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/CrashHandler.smali",
+      "bytes": 1335,
+      "sha256": "1b7f5d15c722fbcfd9a0de2e17c79ad8a7ca93d619a7a80c5bcf39edc679fc04",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/CrashHandler.smali",
+      "source_sha256": "1b7f5d15c722fbcfd9a0de2e17c79ad8a7ca93d619a7a80c5bcf39edc679fc04",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Launcher$1.smali",
+      "bytes": 1933,
+      "sha256": "1aa3c6ad512bfdeb14cb61a16a9f9e3d13b4502b348105ee8d620147ba3605d0",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Launcher$1.smali",
+      "source_sha256": "1aa3c6ad512bfdeb14cb61a16a9f9e3d13b4502b348105ee8d620147ba3605d0",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Launcher.smali",
+      "bytes": 4990,
+      "sha256": "fbc0bf1d12396d146228e31c89c432fb900772680eea010b9c416e8f97827c22",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Launcher.smali",
+      "source_sha256": "fbc0bf1d12396d146228e31c89c432fb900772680eea010b9c416e8f97827c22",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Main.smali",
+      "bytes": 2264,
+      "sha256": "1656bda7150992dbbf7f164c01eae34dd14a9c1d71ea357b0d9254c02d470a79",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Main.smali",
+      "source_sha256": "1656bda7150992dbbf7f164c01eae34dd14a9c1d71ea357b0d9254c02d470a79",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/MainActivity.smali",
+      "bytes": 2462,
+      "sha256": "d3a6ccb9dc1b104f66d97db1179ad6c96202cd1de5fe399541c3a78a202bd3f7",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/MainActivity.smali",
+      "source_sha256": "d3a6ccb9dc1b104f66d97db1179ad6c96202cd1de5fe399541c3a78a202bd3f7",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$1.smali",
+      "bytes": 1836,
+      "sha256": "3f3e1ba7e21f6e3ab5140c2aa74c12bd90d0b5ecf180c295d7e5dde08df0e5cc",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$1.smali",
+      "source_sha256": "3f3e1ba7e21f6e3ab5140c2aa74c12bd90d0b5ecf180c295d7e5dde08df0e5cc",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$10.smali",
+      "bytes": 9096,
+      "sha256": "5f34e2f11accbf3b3ea2ae742c274e99d098325ed4cfe73de232460a5f2c6d73",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$10.smali",
+      "source_sha256": "5f34e2f11accbf3b3ea2ae742c274e99d098325ed4cfe73de232460a5f2c6d73",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$11.smali",
+      "bytes": 2607,
+      "sha256": "e0e2811670615b307da642f62bb6266e8e2cebd5829f7c4d639e8e855169ac4d",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$11.smali",
+      "source_sha256": "e0e2811670615b307da642f62bb6266e8e2cebd5829f7c4d639e8e855169ac4d",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$12.smali",
+      "bytes": 5593,
+      "sha256": "fb80c0e0b54d1f264a895489de6f4c49e94229800759b4d95bc7c834de4b47c6",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$12.smali",
+      "source_sha256": "fb80c0e0b54d1f264a895489de6f4c49e94229800759b4d95bc7c834de4b47c6",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$13.smali",
+      "bytes": 4216,
+      "sha256": "8aae8eafe857bd547748fb4d4c0bb48f15690282ba6d57bc8b50453f3695b799",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$13.smali",
+      "source_sha256": "8aae8eafe857bd547748fb4d4c0bb48f15690282ba6d57bc8b50453f3695b799",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$14$1.smali",
+      "bytes": 2569,
+      "sha256": "7072044a8670af6da7d9b3b46ea99e4b0ad7ab522056ae15a5e032a964061fad",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$14$1.smali",
+      "source_sha256": "7072044a8670af6da7d9b3b46ea99e4b0ad7ab522056ae15a5e032a964061fad",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$14$2.smali",
+      "bytes": 6718,
+      "sha256": "aebf4a181d7e9cf5d42a9712e076c0407438fc11c25c77890936d921ed1f12de",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$14$2.smali",
+      "source_sha256": "aebf4a181d7e9cf5d42a9712e076c0407438fc11c25c77890936d921ed1f12de",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$14$3.smali",
+      "bytes": 2378,
+      "sha256": "453bff9ba7ecd21eada7b576e9f39ae8fda4160e062a8a809f70ded875f7680a",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$14$3.smali",
+      "source_sha256": "453bff9ba7ecd21eada7b576e9f39ae8fda4160e062a8a809f70ded875f7680a",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$14.smali",
+      "bytes": 8101,
+      "sha256": "4a58e18122bcaccb91e7dd6b6434636e12ff85f34dcf6258ac5ce25429396230",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$14.smali",
+      "source_sha256": "4a58e18122bcaccb91e7dd6b6434636e12ff85f34dcf6258ac5ce25429396230",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$15$1.smali",
+      "bytes": 2571,
+      "sha256": "d11281e84671ad3f1192979e8e8a43c3eebd1469c7d0af89ea86b71892d7b339",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$15$1.smali",
+      "source_sha256": "d11281e84671ad3f1192979e8e8a43c3eebd1469c7d0af89ea86b71892d7b339",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$15$2.smali",
+      "bytes": 6895,
+      "sha256": "65af7c49ab62ee6dc09ff1fdd0b9a62b1120a0c9dfedad9746b5616d2fdef288",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$15$2.smali",
+      "source_sha256": "65af7c49ab62ee6dc09ff1fdd0b9a62b1120a0c9dfedad9746b5616d2fdef288",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$15$3.smali",
+      "bytes": 2382,
+      "sha256": "da647f86303cf4e33890b443ce1474409245979672becd2eb6c4d9a6eb840fcd",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$15$3.smali",
+      "source_sha256": "da647f86303cf4e33890b443ce1474409245979672becd2eb6c4d9a6eb840fcd",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$15.smali",
+      "bytes": 8194,
+      "sha256": "116188e18db050223d9e85f099bd5111620d28bfb9567dd665b283b56f62be6e",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$15.smali",
+      "source_sha256": "116188e18db050223d9e85f099bd5111620d28bfb9567dd665b283b56f62be6e",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$16$1.smali",
+      "bytes": 2575,
+      "sha256": "e19f5e47b5f2bd1341c5f2a2f40c09fe947c7746e0b876c8adcfd58665f37e0b",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$16$1.smali",
+      "source_sha256": "e19f5e47b5f2bd1341c5f2a2f40c09fe947c7746e0b876c8adcfd58665f37e0b",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$16$2.smali",
+      "bytes": 4828,
+      "sha256": "6b69646bb3851bd225518c3349887d52934991ce59ea8bee38d52e2b9f5022aa",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$16$2.smali",
+      "source_sha256": "6b69646bb3851bd225518c3349887d52934991ce59ea8bee38d52e2b9f5022aa",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$16$3.smali",
+      "bytes": 2382,
+      "sha256": "e5c98950d734edae6d2cc6170343a076ed14219a78ebaf11b5fc31d46f1ab9e2",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$16$3.smali",
+      "source_sha256": "e5c98950d734edae6d2cc6170343a076ed14219a78ebaf11b5fc31d46f1ab9e2",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$16.smali",
+      "bytes": 6223,
+      "sha256": "5909bdbbb83948dccbf11197b8542727799c8ba64d0ec55031bdbe52a877b4b5",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$16.smali",
+      "source_sha256": "5909bdbbb83948dccbf11197b8542727799c8ba64d0ec55031bdbe52a877b4b5",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$17.smali",
+      "bytes": 2889,
+      "sha256": "6fea0e2876047d931bf4eea66823b891603aac3b1006995484296d712f21fafe",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$17.smali",
+      "source_sha256": "6fea0e2876047d931bf4eea66823b891603aac3b1006995484296d712f21fafe",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$18.smali",
+      "bytes": 4964,
+      "sha256": "2730db73cedbf5e755d3d34254d140ed7d2e28fb104dae67ef766293bbdffd24",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$18.smali",
+      "source_sha256": "2730db73cedbf5e755d3d34254d140ed7d2e28fb104dae67ef766293bbdffd24",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$19.smali",
+      "bytes": 5164,
+      "sha256": "33a32e3e6e8daa437077d986d96ae1f05872ba5325da65659ce366e5421a1057",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$19.smali",
+      "source_sha256": "33a32e3e6e8daa437077d986d96ae1f05872ba5325da65659ce366e5421a1057",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$2.smali",
+      "bytes": 4107,
+      "sha256": "5416f9e5cd8d70db73490113cb7501da569e6285291cd4ddf098b08d615a659a",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$2.smali",
+      "source_sha256": "5416f9e5cd8d70db73490113cb7501da569e6285291cd4ddf098b08d615a659a",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$20.smali",
+      "bytes": 4097,
+      "sha256": "c7b8442c9849f2772e387100ef3f15e98e20a6cded3836efca70f0b39fb98db3",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$20.smali",
+      "source_sha256": "c7b8442c9849f2772e387100ef3f15e98e20a6cded3836efca70f0b39fb98db3",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$3.smali",
+      "bytes": 2599,
+      "sha256": "b54c505b5eb7eb01026dc6c0c5879f2acfab272c8ad98dffd976ba7ef2125a35",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$3.smali",
+      "source_sha256": "b54c505b5eb7eb01026dc6c0c5879f2acfab272c8ad98dffd976ba7ef2125a35",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$4.smali",
+      "bytes": 2647,
+      "sha256": "0c412352283cb9ecff297d50c1186fb726b9da311ed71cd3d74135cdf534c509",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$4.smali",
+      "source_sha256": "0c412352283cb9ecff297d50c1186fb726b9da311ed71cd3d74135cdf534c509",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$5.smali",
+      "bytes": 2270,
+      "sha256": "50fda2b1dbdb677307cc3c9fb91ed5c972018d36a76dc45ec702b31389e44dac",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$5.smali",
+      "source_sha256": "50fda2b1dbdb677307cc3c9fb91ed5c972018d36a76dc45ec702b31389e44dac",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$6.smali",
+      "bytes": 5209,
+      "sha256": "34eebb3de0928520b30ddaaf55d722b6660a21ba1b95ca55b5eb1c28bd0abb5a",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$6.smali",
+      "source_sha256": "34eebb3de0928520b30ddaaf55d722b6660a21ba1b95ca55b5eb1c28bd0abb5a",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$7.smali",
+      "bytes": 8232,
+      "sha256": "caa4c314867308088edbc1278f081ecdfa23fcb9adf9af9275b611a19229319d",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$7.smali",
+      "source_sha256": "caa4c314867308088edbc1278f081ecdfa23fcb9adf9af9275b611a19229319d",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$8.smali",
+      "bytes": 4456,
+      "sha256": "0d7ef55ebe258bd59827fdd7c0ccc318cf2829161233556ad52e440cba82f54b",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$8.smali",
+      "source_sha256": "0d7ef55ebe258bd59827fdd7c0ccc318cf2829161233556ad52e440cba82f54b",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu$9.smali",
+      "bytes": 5301,
+      "sha256": "c338bd31393e7c75c512ceaf4440de58304fda0b49b12cb4e64e0a8d3090a219",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu$9.smali",
+      "source_sha256": "c338bd31393e7c75c512ceaf4440de58304fda0b49b12cb4e64e0a8d3090a219",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Menu.smali",
+      "bytes": 169573,
+      "sha256": "ddbedbc746e5792ff5b258ed7664dffa182a343ca82b3ce914f623bf9d338ab5",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Menu.smali",
+      "source_sha256": "ddbedbc746e5792ff5b258ed7664dffa182a343ca82b3ce914f623bf9d338ab5",
+      "identical_to_source": true
+    },
+    {
+      "path": "modmenu-payload/smali_classes2/com/android/support/Preferences.smali",
+      "bytes": 47882,
+      "sha256": "d870ebb0fd547ff86f45cab85b8631ca038cb26f76687b40eda2952164a12117",
+      "source": "NieR-Re-In-Carnation-Mod_Menu/jp-client/build/menu_apktool/smali_classes2/com/android/support/Preferences.smali",
+      "source_sha256": "d870ebb0fd547ff86f45cab85b8631ca038cb26f76687b40eda2952164a12117",
+      "identical_to_source": true
+    },
+    {
+      "path": "patches/patch_apk_jp.py",
+      "bytes": 61121,
+      "sha256": "5117cab7a78af61ef4d830ed354c6ba124796ccca5f67c5d3aae8b5555ab184c",
+      "source": "lunar-scripts-jp/android/patch_apk_jp.py",
+      "source_sha256": "5117cab7a78af61ef4d830ed354c6ba124796ccca5f67c5d3aae8b5555ab184c",
+      "identical_to_source": true
+    },
+    {
+      "path": "../shared/__init__.py",
+      "bytes": 290,
+      "sha256": "b2f9cd4c9324539133959a3206f271023e625a77cbeeb4ea322836f5d8be7ee8",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/detect_client.py",
+      "bytes": 14720,
+      "sha256": "157dfd8474cd6e4da06cc6ff53ad34ac570289027259c2785ea439d312351623",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/gate_defs.py",
+      "bytes": 12137,
+      "sha256": "f3ffcf7dcd9b406b257558b98225546660aedfa139706f3e65f5bad249eee02c",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/manifest_sidecar.py",
+      "bytes": 6518,
+      "sha256": "f70b18f0e1c43ada91a11609fd0ff3afbde802bbba44f631cad328f35e6338e8",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/test_detect_client.py",
+      "bytes": 7281,
+      "sha256": "947e9975dfb4a3ddf4fe583da8108a9451c4f932549fdd807208a80bc3c57c97",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "../shared/verify_gate.py",
+      "bytes": 23662,
+      "sha256": "7c588349d2974585b6fe08a712b54e3fc3df57ae92b6521950e76c7ea8dead64",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "README.md",
+      "bytes": 5390,
+      "sha256": "e0e6e8b861eb129c43f33530cfa935a92f9fd59b1bfb550fcc4dc5b95c900e19",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "_gen_manifest.py",
+      "bytes": 6251,
+      "sha256": "24edcb60b4ede9aca3f6770fde8cc092c9d4fbeac9b88624704a583d121bf18f",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "bin-edit.default.json",
+      "bytes": 427,
+      "sha256": "4931004f05267a95043b0282c370bf24a11b714b81b8c5eaecdaa67a16359920",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "build_bin_e.py",
+      "bytes": 38636,
+      "sha256": "a60c1ac65c33f70463668ee3b901a837292aa41387270935e654db8dd502dbd0",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "build_jp_client.py",
+      "bytes": 44998,
+      "sha256": "5253c7ec0f0c445ffe2c95019cf6c5166e3b6714bc873df4c7fed396134f5c18",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "colab/android_lunar_zh.ipynb",
+      "bytes": 29104,
+      "sha256": "13c4d41a3bf1f9b8a52c804847b71fae900a009da3dd6fc79a61cf7039d4bbcf",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "colab/gen_android_lunar_zh.py",
+      "bytes": 26007,
+      "sha256": "e2ec6b0bef9ce6da51c7e3af3c7e76aee3452e056d16bada24b9d1d27a3e99fa",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "colab/make_payload_zip.ps1",
+      "bytes": 3083,
+      "sha256": "a526b4538f96c1c83da56eae809d12df4fa4d26f740bceb266623269e15cc7ad",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "colab/test_colab_functions.py",
+      "bytes": 13349,
+      "sha256": "301e7242c91e301e15de73eafe2fd545380d0efcdde73669fcb3d6fe127c00fb",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "runbook.ps1",
+      "bytes": 2682,
+      "sha256": "e7d65cbc359a8bec1fafa7d490ccc4ddd119b5e905f58c78864e2d14b20d64e0",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "toolpaths.json",
+      "bytes": 535,
+      "sha256": "ffb2dfc97e49974150b702ab832654f653cf88f1beccf8a25290de24f85e1129",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    },
+    {
+      "path": "verify_jp_client.py",
+      "bytes": 25044,
+      "sha256": "e72d52c8d7e26c024a587f89ed6fa397881c414064af33753ab972aa6b43e470",
+      "source": "authored",
+      "source_sha256": null,
+      "identical_to_source": null
+    }
+  ]
+}

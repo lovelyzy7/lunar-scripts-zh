@@ -1,0 +1,68 @@
+id	tier	family	source_ja	target_zh	expected_textasset	expected_metadata	expected_total	keys	note
+T01	apply	title-menu	お知らせ	公告	1	1	2	ui.Outgame.Menu.Notice	
+T02	apply	title-menu	お問い合わせ	联系我们	1	0	1	ui.Outgame.Menu.Contact	另有 4 处长句内子串（nt 网络错误×2、ui 删除数据完成提示×1、titleflow BAN 提示問い合わせる 等）不在值级替换范围，本轮不动
+T03	apply	title-menu	データ引継ぎ	数据继承	1	0	1	ui.Outgame.Menu.DataLinkage	ui.Outgame.DeleteData.Confirm.Attention 长句内含「データ引継ぎ」子串，本轮不动
+T04	apply	title-menu	データ修復	数据修复	2	0	2	ui.Outgame.Menu.DataRecovery|ui.Outgame.Menu.Top.Repair	
+T05	apply	title-menu	各種情報	其他信息	2	0	2	ui.Outgame.Menu.VariousInformation|ui.Outgame.Menu.Top.Information	
+T06	apply	title-menu	データ削除	删除数据	2	0	2	ui.Outgame.Menu.DataRemove|ui.Outgame.DeleteData.Title	
+T07	apply	button	閉じる	关闭	1	1	2	ui.Outgame.Common.Close	stringliteral 0x7978C78 同值 1 条一并替换（全局内置）
+T08	apply	download-dialog	ダウンロード確認	下载确认	2	0	2	ui.Loading.Confirm.Title|titleflow.dialog.confirm.download.title	两张表各 1 次
+T09	apply	download-dialog	約{0}MBのデータダウンロードを開始します\nデータサイズが大きいため、Wi-Fi接続でのダウンロードをお勧めします	将开始约{0}MB的数据下载\n数据较大，建议使用 Wi-Fi 下载	1	0	1	titleflow.dialog.confirm.description	原文含字面 \n 与 {0}（数字占位）；任务模板中的 65 为运行时 {0} 值、空格为 \n 渲染
+T10	apply	download-dialog	{0}のデータをダウンロードします	将下载 {0} 数据	1	0	1	ui.Loading.Confirm.WithSize	任务模板写作「{n} MBのデータ…」；实测 ja 无 MB 字面，{0} 为含单位尺寸串（EN: Downloading {0} of data.），故译文不重复 MB，保留 {0} 占位形态
+T11	apply	player-name	プレイヤー名 登録	注册玩家名	1	0	1	titleflow.dialog.enter.user.name.title	原文含半角空格
+T12	apply	player-name	プレイヤー名を入力してください	请输入玩家名	1	0	1	titleflow.dialog.enter.user.name.description	
+T13	apply	player-name	※10文字以内で入力してください\n　名前は後からでも変更する事ができます	请输入10个字符以内\n　名称可随时更改	1	0	1	titleflow.dialog.enter.user.name.annotation	任务中两条短句在表内实为同一 key 的一个值（字面 \n + 全角空格 U+3000 分隔）；两段都译，分隔符保留
+T14	apply	player-name	登録する	注册	1	0	1	titleflow.dialog.enter.user.name.registry	
+T15	apply	button	キャンセル	取消	1	1	2	ui.Outgame.Common.Cancel	stringliteral 0x78F0D38 同值 1 条一并替换（全局内置）
+K01	keep	legal-music	本作は美しい音楽が流れます\nぜひ音を出してお楽しみください		1	0	1	ui.Title.Splash.Note.Sound	图片1/2 音乐告知——按用户要求保持日文不动
+K02	keep	legal-music	利用規約		1	0	1	ui.Outgame.Menu.Information.TermOfService	法律告知——保持日文
+K03	keep	legal-music	プライバシーポリシー		1	0	1	ui.Outgame.Menu.Information.PrivacyPolicy	法律告知——保持日文
+K04	keep	legal-music	ライセンス		1	0	1	ui.Outgame.Menu.Information.License	法律/授权告知——保持日文
+K05	keep	legal-music	titleflow.dialog.termofservice.*		2	0	2	titleflow.dialog.termofservice.title|titleflow.dialog.termofservice.text	用户規約弹窗——保持日文（含链接富文本）
+S01	supplement	download-setting	約{0}MBのデータダウンロードを開始します	将开始约{0}MB的数据下载	1	0	1	titleflow.dialog.download.setting.description.subtitle	下载设置弹窗（与 T09 首句同短语）；建议下轮同批应用
+S02	supplement	download-setting	データサイズが大きいためWi-Fi環境でのダウンロードをお勧めします	数据较大，建议在 Wi-Fi 环境下下载	1	0	1	titleflow.dialog.download.setting.description.description	下载设置弹窗正文（无 、 与 T09 次句略有差异）
+S03	supplement	download-setting	ダウンロード設定	下载设置	1	0	1	titleflow.dialog.download.setting.title	
+S04	supplement	dialog-misc	データ修復をします。よろしいですか？	将进行数据修复。确定吗？	1	0	1	ui.Outgame.Menu.Top.Repair.Description	数据修复确认弹窗（标题菜单流程内）
+S05	supplement	dialog-misc	データ修復が完了しました	数据修复已完成	1	0	1	ui.Outgame.Menu.Top.Repair.Result	
+S06	supplement	dialog-misc	メニュー	菜单	1	0	1	ui.Title.Menu.Button	标题 MENU 按钮
+S07	supplement	dialog-misc	削除する	删除	1	0	1	ui.Outgame.DeleteData.Delete	删除数据弹窗按钮
+S08	supplement	dialog-misc	同意する	同意	1	0	1	ui.Outgame.Service.Agree	服务错误重试按钮
+S09	supplement	quit-dialog	ゲーム終了	结束游戏	1	0	1	ui.Outgame.Menu.Title.Quit.Title	标题画面「游戏终了」弹窗标题（任务点名漏译）
+S10	supplement	quit-dialog	ゲームを終了しますか？	要结束游戏吗？	1	0	1	ui.Outgame.Menu.Title.Quit.Description	标题画面「游戏终了」弹窗正文（任务点名漏译；按钮 取消/OK 已由 T15/keep 覆盖）
+S11	supplement	button	タイトルへ	返回标题	3	0	3	ui.Outgame.Menu.Title.Jump.Title|titleflow.dialog.maintenance.to.title|titleflow.dialog.network.error.to.title	「前往标题」按钮，值级全局 3 处：ui 跳转 + titleflow 维护/网络错误弹窗各 1
+S12	supplement	error-dialog	エラー	错误	2	0	2	ui.Outgame.Service.error.title|nt.Network.Error.Title	服务错误弹窗标题；值级全局另命中 nt.Network.Error.Title 1 处（nt 表本轮不在扫描范围，仅此同值顺带）
+S13	supplement	error-dialog	通信に失敗しました。\nタイトルへ戻ります。	通信失败。\n将返回标题画面。	1	0	1	ui.Outgame.Service.error.description	服务错误弹窗正文（字面 \n 分隔）
+S14	supplement	maintenance	メンテナンス中	维护中	2	0	2	ui.Outgame.Common.Maintenance.Parts|titleflow.dialog.maintenance.title	维护状态/维护弹窗标题，值级全局 2 处
+S15	supplement	maintenance	※メンテナンスの最新情報については公式ツイッターよりご確認ください。	※维护的最新信息请通过官方推特确认。	2	0	2	ui.Outgame.Common.Maintenance.Twitter|ui.Outgame.Common.Maintenance.Twitter_2	维护提示（ui 表内 Twitter/Twitter_2 同值 2 处）
+S16	supplement	loading-dialog	ロードするデータがありませんでした	没有可加载的数据	1	0	1	ui.Loading.Confirm.Message.NoneLoadData	加载确认弹窗空数据提示
+S17	supplement	warning	<color=#D29797>※通信状況により時間がかかる場合があります。Wi-Fi環境でのダウンロードをお勧めします</color>	<color=#D29797>※根据通信状况可能需要较长时间。建议在 Wi-Fi 环境下下载</color>	1	0	1	ui.Loading.Warning.Wifi	下载确认弹窗 Wi-Fi 警告（保留 <color=#D29797> 富文本标记）
+S18	supplement	delete-dialog	データ削除機能は、ご使用のアカウント機能および\nゲームデータを削除する機能です。\n現在のデータを削除しますか？	数据删除功能可删除您使用的账号功能及\n游戏数据。\n要删除当前数据吗？	1	0	1	ui.Outgame.DeleteData.Confirm.Message	删除数据确认弹窗正文（含 现在的データを削除しますか？ 确认问句）
+S19	supplement	delete-dialog	※削除後に再度現在のデータでプレイをご希望の場合は事前にゲーム内メニュー「データ引継ぎ」から引継ぎ設定を行ってください。\n※アカウント連携を行っていない場合は、削除後のデータ復元、データ引継ぎはできません。	※删除后若仍希望使用当前数据继续游戏，请事先在游戏内菜单「数据继承」中完成继承设置。\n※未关联账号的情况下，删除后无法恢复数据或进行数据继承。	1	0	1	ui.Outgame.DeleteData.Confirm.Attention	删除数据确认弹窗注意段（含「データ引継ぎ」菜单名引用，按 T03 译作「数据继承」）
+S20	supplement	ban-dialog	利用停止の案内	使用停止通知	1	0	1	titleflow.dialog.confirm.ban.title	BAN/停用通知弹窗标题
+S21	supplement	button	問い合わせる	咨询	1	0	1	titleflow.dialog.confirm.ban.inquiry	BAN 弹窗咨询按钮（按钮 2 字；不与 T02 译文 联系我们 重复，避免值级命中计数串扰）
+S22	supplement	maintenance	現在メンテナンス中のため、ご利用いただけません\n\n終了予定時刻\n{0}\n\n※メンテナンスの最新情報については公式ツイッターよりご確認ください	目前正在维护中，无法使用\n\n预定结束时间\n{0}\n\n※维护的最新信息请通过官方推特确认	1	0	1	titleflow.dialog.maintenance.description	维护弹窗正文（含 {0} 结束时刻占位；字面 \n 分隔）
+S23	supplement	button	ツイッターへ	前往推特	1	0	1	titleflow.dialog.maintenance.to.twitter	维护弹窗「前往推特」按钮
+S24	supplement	quest-suspend	中断から再開	从中断处继续	1	0	1	titleflow.dialog.confirm.suspended.quest.title	任务中断继续确认弹窗标题
+S25	supplement	quest-suspend	中断したデータから再開しますか？\n※諦めると途中で獲得したアイテムなどは失われます	要从中断的数据继续吗？\n※若放弃，途中获得的道具等将会丢失	1	0	1	titleflow.dialog.confirm.suspended.quest.description	任务中断继续确认弹窗正文
+S26	supplement	button	続ける	继续	1	0	1	titleflow.dialog.confirm.suspended.quest.continue	中断继续按钮
+S27	supplement	button	諦める	放弃	1	0	1	titleflow.dialog.confirm.suspended.quest.giveup	中断放弃按钮
+S28	supplement	network-error	ネットワークエラー	网络错误	1	0	1	titleflow.dialog.network.error.title	网络错误弹窗标题
+S29	supplement	network-error	ネットワーク接続エラーが発生しました	发生网络连接错误	1	0	1	titleflow.dialog.network.error.description	网络错误弹窗正文
+S30	supplement	button	リトライ	重试	1	0	1	titleflow.dialog.network.error.retry	网络错误重试按钮
+S31	supplement	update-dialog	アプリ更新	应用更新	1	0	1	titleflow.dialog.update.application.title	应用更新弹窗标题
+S32	supplement	update-dialog	新しいバージョンのアプリが配信されています\nストアから最新のアプリに更新してください	已发布新版本的应用\n请从商店更新至最新应用	1	0	1	titleflow.dialog.update.application.description	应用更新弹窗正文
+S33	supplement	button	ストアへ	前往商店	1	0	1	titleflow.dialog.update.application.to.store	应用更新「前往商店」按钮
+S34	supplement	download-setting	ボイスのダウンロード	语音下载	1	0	1	titleflow.dialog.download.setting.voice.subtitle	下载设置弹窗语音区标题
+S35	supplement	download-setting	フルボイスによるストーリーをお楽しみいただけます。#ON/OFF設定はゲーム開始後にも再設定可能です	可体验全语音剧情。#ON/OFF设置可在游戏开始后重新设定	1	0	1	titleflow.dialog.download.setting.voice.description	下载设置弹窗语音说明（保留 #ON/OFF 字面，原文即含 # 前缀、无 \n）
+S36	supplement	download-setting	ON(約{0}MB)	ON(约{0}MB)	1	0	1	titleflow.dialog.download.setting.voice.toggle.on	语音下载开关键标签（ON(約{0}MB) → ON(约{0}MB)，仅 約→约）
+S37	supplement	serial-dialog	シリアルコード	序列号	1	0	1	titleflow.dialog.serial.title	序列号弹窗标题
+S38	supplement	button	送信	发送	1	0	1	titleflow.dialog.serial.send	序列号发送按钮
+S39	supplement	serial-dialog	シリアルコードを入力してください	请输入序列号	1	0	1	titleflow.dialog.serial.description	序列号输入提示
+S40	supplement	serial-dialog	シリアルコードが入力されていません	未输入序列号	1	0	1	titleflow.dialog.serial.empty	序列号空值提示
+S41	supplement	serial-dialog	シリアルコードが正しくありません	序列号不正确	1	0	1	titleflow.dialog.serial.error	序列号错误提示
+S42	supplement	serial-dialog	入力されたシリアルコードは使用済みです	输入的序列号已被使用	1	0	1	titleflow.dialog.serial.used	序列号已使用提示
+S43	supplement	movie-button	ムービー再生	播放影片	1	1	2	titleflow.predownload.playmovie	影片播放按钮（titleflow 预下载界面 + metadata stringLiteral #20419 各 1）
+S44	supplement	movie-button	ムービー再生中	播放影片中	0	1	1	metadata.stringLiteral#20420	影片播放中状态（仅 metadata stringLiteral #20420；与 #20419 同 UI 串簇）
+S45	supplement	button	おしらせを開く	打开公告	0	1	1	metadata.stringLiteral#20422	打开公告按钮（仅 metadata stringLiteral #20422；与 お知らせ/閉じる/キャンセル 同簇 #20411-20424）
+S46	supplement	button	ツイッターを開く	打开推特	0	1	1	metadata.stringLiteral#20424	打开推特按钮（仅 metadata stringLiteral #20424；同上簇）
+S47	supplement	delete-dialog	削除が完了いたしました。\nアプリを再起動します。\n\n個人情報削除をご要望の場合は、お問い合わせからご連絡ください。	删除已完成。\n应用将重新启动。\n\n如需删除个人信息，请通过「联系我们」与我们联系。	1	0	1	ui.Outgame.DeleteData.Complete.Message	删除完成弹窗正文（关闭删除数据弹窗族最后一处漏译）

@@ -1,0 +1,13 @@
+{
+    "java_home":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.11.10-hotspot",
+    "java":  "",
+    "apktool_jar":  "E:\\NieRReincarnation\\jp\\apktool.jar",
+    "android_home":  "C:\\Users\\Yu\\AppData\\Local\\Android\\Sdk",
+    "zipalign":  "",
+    "apksigner_jar":  "",
+    "keystore":  "",
+    "ks_alias":  "nier",
+    "ks_pass":  "lunar-jp",
+    "unitypy_site_packages":  "E:\\NieRReincarnation\\zh-l10n\\.venv\\Lib\\site-packages",
+    "bin_e_site_packages":  "E:\\NieRReincarnation\\lunar-base\\.venv\\Lib\\site-packages"
+}
