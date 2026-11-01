@@ -58,6 +58,9 @@ SUBSET_OPTS = dict(
     layout_features=[], drop_tables=["vhea", "vmtx", "VORG", "GSUB", "GPOS", "GDEF", "BASE"],
 )
 
+# 子集可丢的控制符码位（U+0000-001F / U+007F-009F）；其余源字形全保。
+CONTROL_CODEPOINTS = set(range(0x00, 0x20)) | set(range(0x7F, 0xA0))
+
 
 def sha256_file(path: Path) -> str:
     h = hashlib.sha256()
@@ -89,7 +92,9 @@ def build_subset(source: Path, codepoints: set[int], out: Path) -> dict:
     for t in src_font["cmap"].tables:
         src_cmap.update(int(cp) for cp in t.cmap.keys())
     src_font.close()
-    available = codepoints & src_cmap
+    # 恢复原样口径：子集码位集 = 源字体完整 cmap ∪ 请求集（一个字形不丢、只增不减）；
+    # 仅丢控制符 U+0000-001F/007F-009F，其余全保（含韩文）。
+    available = (src_cmap | codepoints) - CONTROL_CODEPOINTS
 
     font = TTFont(str(source))
     options = subset.Options()

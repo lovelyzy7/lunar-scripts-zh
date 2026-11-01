@@ -106,6 +106,20 @@ def render(text: str, font_path: Path, out_png: Path, size: int = 44) -> None:
 
 
 def main() -> int:
+    import argparse  # noqa: PLC0415
+
+    global PAYLOAD2, OUT2  # noqa: PLW0603
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--payload-dir", default=str(PAYLOAD2), help="四条目 payload 目录")
+    ap.add_argument("--out-dir", default=str(OUT2), help="报告/渲染输出目录")
+    args = ap.parse_args()
+    PAYLOAD2 = Path(args.payload_dir)
+    OUT2 = Path(args.out_dir)
+    OUT2.mkdir(parents=True, exist_ok=True)
+    return run_verify()
+
+
+def run_verify() -> int:
     inv = json.loads((INV / "inventory_summary.json").read_text(encoding="utf-8"))
     union = set(inv["carriers"]["union"]["chars_sorted"])
     print(f"union={len(union)}")
