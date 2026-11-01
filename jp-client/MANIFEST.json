@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T02:26:04+0800",
+  "generated_at": "2026-11-01T17:31:20+0800",
   "description": "jp-client/ 权威副本 + 自撰文件清单（来源=本机只读素材或 authored；构建前校验 sha256）",
   "counts": {
     "files": 76,
     "copies": 58,
     "authored": 18,
-    "bytes": 29973122
+    "bytes": 44286979
   },
   "reference_facts": {
     "original_apk": {
@@ -72,39 +72,39 @@
       "bytes": 13425,
       "sha256": "643ec4037c2cb143a4435cecf4076daf00db8068d19cbca1be656bdda7758569",
       "source": "zh-l10n/work/fonts-fix4/build_fix4b_fonts.py",
-      "source_sha256": "643ec4037c2cb143a4435cecf4076daf00db8068d19cbca1be656bdda7758569",
-      "identical_to_source": true
+      "source_sha256": "d69bc0c9498c212b5f6389b0fccede49b678cc05f67d6e087dd542e218b2dd10",
+      "identical_to_source": false
     },
     {
       "path": "fonts/payload/assets/bin/Data/550e0743a6b6344cfa3380b9a07f58b6",
-      "bytes": 7959792,
-      "sha256": "8373ebe8bd949d4011a30b2c94efc091c003b7f7c9521629c429650a5d36d285",
-      "source": "zh-l10n/work/fonts-fix4/out2/payload2/assets/bin/Data/550e0743a6b6344cfa3380b9a07f58b6",
-      "source_sha256": "853ac67aacddd480b3a6f29f97171d431ce78fc6fa3b12e6dbb8039226ccb85b",
+      "bytes": 10596520,
+      "sha256": "3d55fa0f9713973cb03dff729a94922484ad92105d335f4f632d519cbd858cf6",
+      "source": "zh-l10n/work/fonts-fix4/out4/payload-jp/assets/bin/Data/550e0743a6b6344cfa3380b9a07f58b6",
+      "source_sha256": "d9d07de35b10ba1534207d714875c2f8c4253f9510e7c6fdd4a0cdfb8581dcc2",
       "identical_to_source": true
     },
     {
       "path": "fonts/payload/assets/bin/Data/6f937efa0660c47f59d5215d276b1cbb",
-      "bytes": 7959552,
-      "sha256": "adc6ae89210df2d48d9ab5d894923a82b4533a31a9d3612cd76886003105b2fb",
-      "source": "zh-l10n/work/fonts-fix4/out2/payload2/assets/bin/Data/6f937efa0660c47f59d5215d276b1cbb",
-      "source_sha256": "c97a431931099addbc4203606d48f03f151f4350b2bceac5a9ce72ea10026f3d",
+      "bytes": 10596280,
+      "sha256": "de9331aa5887fc00fe39402b4fe030a6405ed1c7808ad5b34c29483aa39e0df9",
+      "source": "zh-l10n/work/fonts-fix4/out4/payload-jp/assets/bin/Data/6f937efa0660c47f59d5215d276b1cbb",
+      "source_sha256": "f098ca358fcaaa6df8f3e32de5993f326853b601157a4a54b17a1d19d83aabfc",
       "identical_to_source": true
     },
     {
       "path": "fonts/payload/assets/bin/Data/7089ac60979c94824ac549baab08cfa7",
-      "bytes": 6052448,
-      "sha256": "4188ccafd10748d9fee17fc192f1bf734e215e8af53622862dbaaafad6222692",
-      "source": "zh-l10n/work/fonts-fix4/out2/payload2/assets/bin/Data/7089ac60979c94824ac549baab08cfa7",
-      "source_sha256": "5ed20794fd7d8dacda0b05726c8a41828bb8a89330be01bde42c3d45944dee4e",
+      "bytes": 10571504,
+      "sha256": "8610f10928d6c9d626f8fa3ea1de4725c8f12a8e08561f215beeac646a986392",
+      "source": "zh-l10n/work/fonts-fix4/out4/payload-jp/assets/bin/Data/7089ac60979c94824ac549baab08cfa7",
+      "source_sha256": "9156d8825132a0123a42874587c8d39e9cd9a5dfc5eeb490aa354ff543e7a6cd",
       "identical_to_source": true
     },
     {
       "path": "fonts/payload/assets/bin/Data/ad1489eb70ff840d19d7d0841bcdd3a9",
-      "bytes": 6054488,
-      "sha256": "e3645f25f31a4a597cdd7a3918f16d0b2cfe472767ffc0fa5b5bdd161e80a37d",
-      "source": "zh-l10n/work/fonts-fix4/out2/payload2/assets/bin/Data/ad1489eb70ff840d19d7d0841bcdd3a9",
-      "source_sha256": "ad690f4b1a51d77a398935bf83d2bfc288f69dd7dead21f9d7904ec6160b0e34",
+      "bytes": 10573544,
+      "sha256": "a5458b00b1c4ce6b4ee01abf2f05c4a7db60a8604479f2e04d082e8e23507a64",
+      "source": "zh-l10n/work/fonts-fix4/out4/payload-jp/assets/bin/Data/ad1489eb70ff840d19d7d0841bcdd3a9",
+      "source_sha256": "b9e640c53dedcb0844bf3b18558896a333452049677280e4f4fe60404792e049",
       "identical_to_source": true
     },
     {
@@ -112,8 +112,8 @@
       "bytes": 7899,
       "sha256": "41f2bd777e40e005c5f20c7d735fa77764b0dfdd6f41e34bf8aca0c34465d383",
       "source": "zh-l10n/work/fonts-fix4/verify_fix4b.py",
-      "source_sha256": "41f2bd777e40e005c5f20c7d735fa77764b0dfdd6f41e34bf8aca0c34465d383",
-      "identical_to_source": true
+      "source_sha256": "b0a7dd9b0fd93577a857d238b92bab5f3e1d40c77c3767f712e48c50b269cd62",
+      "identical_to_source": false
     },
     {
       "path": "keys/nier-jp.keystore",
@@ -517,8 +517,8 @@
     },
     {
       "path": "../shared/gate_defs.py",
-      "bytes": 12137,
-      "sha256": "f3ffcf7dcd9b406b257558b98225546660aedfa139706f3e65f5bad249eee02c",
+      "bytes": 12245,
+      "sha256": "a520e332f06742bd08f3cf5e09b22e62a819f93bdfc707a9f5ff1c5774326ee7",
       "source": "authored",
       "source_sha256": null,
       "identical_to_source": null
@@ -541,7 +541,7 @@
     },
     {
       "path": "../shared/verify_gate.py",
-      "bytes": 23662,
+      "bytes": 23886,
       "sha256": "beda1424d3500dfa653cfb50404abd9e1d2b31dd93c9debf717bf86b28d65714",
       "source": "authored",
       "source_sha256": null,
@@ -605,7 +605,7 @@
     },
     {
       "path": "colab/make_payload_zip.ps1",
-      "bytes": 3083,
+      "bytes": 5040,
       "sha256": "eebdffb544b4ae0077ea82f9592fc3962ee9f425142f268494ae455d5bec2785",
       "source": "authored",
       "source_sha256": null,

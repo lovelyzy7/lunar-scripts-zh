@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T02:26:04+0800",
+  "generated_at": "2026-11-01T17:31:21+0800",
   "description": "en-client/ 权威副本 + 自撰文件清单（来源=本机只读素材或 authored；构建前校验 sha256；镜像 jp-client/MANIFEST.json 口径）",
   "counts": {
-    "files": 24,
-    "copies": 4,
+    "files": 28,
+    "copies": 8,
     "authored": 20,
-    "bytes": 319128
+    "bytes": 42657308
   },
   "reference_facts": {
     "original_apk": {
@@ -56,6 +56,38 @@
       "identical_to_source": true
     },
     {
+      "path": "fonts/payload/assets/bin/Data/550e0743a6b6344cfa3380b9a07f58b6",
+      "bytes": 10596520,
+      "sha256": "3d55fa0f9713973cb03dff729a94922484ad92105d335f4f632d519cbd858cf6",
+      "source": "zh-l10n/work/fonts-fix4/out4/payload-en/assets/bin/Data/550e0743a6b6344cfa3380b9a07f58b6",
+      "source_sha256": "d9d07de35b10ba1534207d714875c2f8c4253f9510e7c6fdd4a0cdfb8581dcc2",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/payload/assets/bin/Data/6f937efa0660c47f59d5215d276b1cbb",
+      "bytes": 10596280,
+      "sha256": "de9331aa5887fc00fe39402b4fe030a6405ed1c7808ad5b34c29483aa39e0df9",
+      "source": "zh-l10n/work/fonts-fix4/out4/payload-en/assets/bin/Data/6f937efa0660c47f59d5215d276b1cbb",
+      "source_sha256": "f098ca358fcaaa6df8f3e32de5993f326853b601157a4a54b17a1d19d83aabfc",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/payload/assets/bin/Data/7089ac60979c94824ac549baab08cfa7",
+      "bytes": 10571504,
+      "sha256": "8610f10928d6c9d626f8fa3ea1de4725c8f12a8e08561f215beeac646a986392",
+      "source": "zh-l10n/work/fonts-fix4/out4/payload-en/assets/bin/Data/7089ac60979c94824ac549baab08cfa7",
+      "source_sha256": "9156d8825132a0123a42874587c8d39e9cd9a5dfc5eeb490aa354ff543e7a6cd",
+      "identical_to_source": true
+    },
+    {
+      "path": "fonts/payload/assets/bin/Data/ad1489eb70ff840d19d7d0841bcdd3a9",
+      "bytes": 10573544,
+      "sha256": "a5458b00b1c4ce6b4ee01abf2f05c4a7db60a8604479f2e04d082e8e23507a64",
+      "source": "zh-l10n/work/fonts-fix4/out4/payload-en/assets/bin/Data/ad1489eb70ff840d19d7d0841bcdd3a9",
+      "source_sha256": "b9e640c53dedcb0844bf3b18558896a333452049677280e4f4fe60404792e049",
+      "identical_to_source": true
+    },
+    {
       "path": "../shared/__init__.py",
       "bytes": 290,
       "sha256": "b2f9cd4c9324539133959a3206f271023e625a77cbeeb4ea322836f5d8be7ee8",
@@ -73,8 +105,8 @@
     },
     {
       "path": "../shared/gate_defs.py",
-      "bytes": 12137,
-      "sha256": "f3ffcf7dcd9b406b257558b98225546660aedfa139706f3e65f5bad249eee02c",
+      "bytes": 12245,
+      "sha256": "a520e332f06742bd08f3cf5e09b22e62a819f93bdfc707a9f5ff1c5774326ee7",
       "source": "authored",
       "source_sha256": null,
       "identical_to_source": null
@@ -97,7 +129,7 @@
     },
     {
       "path": "../shared/verify_gate.py",
-      "bytes": 23662,
+      "bytes": 23886,
       "sha256": "beda1424d3500dfa653cfb50404abd9e1d2b31dd93c9debf717bf86b28d65714",
       "source": "authored",
       "source_sha256": null,
